@@ -8,6 +8,472 @@
                     "@Status": "Publisher",
                     "PMID": {
                         "@Version": "1",
+                        "#text": "38704790"
+                    },
+                    "DateRevised": {
+                        "Year": "2024",
+                        "Month": "05",
+                        "Day": "05"
+                    },
+                    "Article": {
+                        "@PubModel": "Print-Electronic",
+                        "Journal": {
+                            "ISSN": {
+                                "@IssnType": "Electronic",
+                                "#text": "1481-8043"
+                            },
+                            "JournalIssue": {
+                                "@CitedMedium": "Internet",
+                                "PubDate": {
+                                    "Year": "2024",
+                                    "Month": "May",
+                                    "Day": "05"
+                                }
+                            },
+                            "Title": "CJEM",
+                            "ISOAbbreviation": "CJEM"
+                        },
+                        "ArticleTitle": "Using quality improvement approaches to increase emergency department provider engagement in research participant enrollment during COVID-19 and opioid overdose public health emergencies.",
+                        "ELocationID": {
+                            "@EIdType": "doi",
+                            "@ValidYN": "Y",
+                            "#text": "10.1007/s43678-024-00691-7"
+                        },
+                        "Abstract": {
+                            "AbstractText": [
+                                {
+                                    "@Label": "PURPOSE",
+                                    "@NlmCategory": "OBJECTIVE",
+                                    "#text": "We utilized quality improvement (QI) approaches to increase emergency department (ED) provider engagement with research participant enrollment during the opioid crisis and coronavirus disease (COVID-19) pandemic. The context of this work is the Evaluating Microdosing in the Emergency Department (EMED) study, a randomized trial offering buprenorphine/naloxone to ED patients through randomization to standard or microdosing induction. Engaging providers is crucial for participant recruitment to our study. Anticipating challenges sustaining long-term engagement after a 63% decline in provider referrals four months into enrollments, we applied Plan-Do-Study-Act (PDSA) cycles to develop and implement an engagement strategy to increase and sustain provider engagement by 50% from baseline within 9\u00a0months."
+                                },
+                                {
+                                    "@Label": "METHODS",
+                                    "@NlmCategory": "METHODS",
+                                    "#text": "Our engagement strategy was centered on Coffee Carts rounds: 5-min study-related educational presentations for providers on shift; and a secondary initiative, a Suboxone Champions program, to engage interested providers as study-related peer educators. We used provider referrals to our team as a proxy for study engagement and report the percent change in mean weekly referrals across two PDSA cycles relative to our established referral baseline."
+                                },
+                                {
+                                    "@Label": "RESULTS",
+                                    "@NlmCategory": "RESULTS",
+                                    "#text": "A QI approach afforded real-time review of interventions based on research and provider priorities, increasing engagement via mean weekly provider referrals by 14.5% and 49% across two PDSA cycles relative to baseline, respectively."
+                                },
+                                {
+                                    "@Label": "CONCLUSIONS",
+                                    "@NlmCategory": "CONCLUSIONS",
+                                    "#text": "Our Coffee Carts and Suboxone Champions program are efficient, low-barrier, educational initiatives to convey study-related information to providers. This work supported our efforts to maximally engage providers, minimize burden, and provide life-saving buprenorphine/naloxone to patients at risk of fatal overdose."
+                                }
+                            ],
+                            "CopyrightInformation": "\u00a9 2024. The Author(s), under exclusive licence to the Canadian Association of Emergency Physicians (CAEP)/ Association Canadienne de M\u00e9decine d'Urgence (ACMU)."
+                        },
+                        "AuthorList": {
+                            "@CompleteYN": "Y",
+                            "Author": [
+                                {
+                                    "@ValidYN": "Y",
+                                    "LastName": "Hussey",
+                                    "ForeName": "Alisha",
+                                    "Initials": "A",
+                                    "Identifier": {
+                                        "@Source": "ORCID",
+                                        "#text": "0000-0003-2143-8397"
+                                    },
+                                    "AffiliationInfo": [
+                                        {
+                                            "Affiliation": "Department of Emergency Medicine, University of British Columbia, Vancouver, BC, Canada."
+                                        },
+                                        {
+                                            "Affiliation": "Faculty of Medicine, University of British Columbia, Vancouver, BC, Canada."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@ValidYN": "Y",
+                                    "LastName": "Pozsgay",
+                                    "ForeName": "Kaela",
+                                    "Initials": "K",
+                                    "AffiliationInfo": {
+                                        "Affiliation": "Department of Emergency Medicine, Vancouver General Hospital, Vancouver, BC, Canada."
+                                    }
+                                },
+                                {
+                                    "@ValidYN": "Y",
+                                    "LastName": "Crawford",
+                                    "ForeName": "Carolyn M L",
+                                    "Initials": "CML",
+                                    "AffiliationInfo": {
+                                        "Affiliation": "Faculty of Psychology, University of British Columbia, Kelowna, BC, Canada."
+                                    }
+                                },
+                                {
+                                    "@ValidYN": "Y",
+                                    "LastName": "Wang",
+                                    "ForeName": "Yueqiao Elle",
+                                    "Initials": "YE",
+                                    "Identifier": {
+                                        "@Source": "ORCID",
+                                        "#text": "0009-0000-1022-8752"
+                                    },
+                                    "AffiliationInfo": {
+                                        "Affiliation": "Department of Emergency Medicine, University of British Columbia, Vancouver, BC, Canada."
+                                    }
+                                },
+                                {
+                                    "@ValidYN": "Y",
+                                    "LastName": "Lau",
+                                    "ForeName": "Anthony",
+                                    "Initials": "A",
+                                    "Identifier": {
+                                        "@Source": "ORCID",
+                                        "#text": "0000-0001-7643-9405"
+                                    },
+                                    "AffiliationInfo": [
+                                        {
+                                            "Affiliation": "Department of Emergency Medicine, Vancouver General Hospital, Vancouver, BC, Canada."
+                                        },
+                                        {
+                                            "Affiliation": "Faculty of Pharmaceutical Sciences, University of British Columbia, Vancouver, BC, Canada."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@ValidYN": "Y",
+                                    "LastName": "Kestler",
+                                    "ForeName": "Andrew",
+                                    "Initials": "A",
+                                    "Identifier": {
+                                        "@Source": "ORCID",
+                                        "#text": "0000-0002-9358-0272"
+                                    },
+                                    "AffiliationInfo": [
+                                        {
+                                            "Affiliation": "Department of Emergency Medicine, University of British Columbia, Vancouver, BC, Canada."
+                                        },
+                                        {
+                                            "Affiliation": "Department of Emergency Medicine, St. Paul's Hospital, Vancouver, BC, Canada."
+                                        }
+                                    ]
+                                },
+                                {
+                                    "@ValidYN": "Y",
+                                    "LastName": "Moe",
+                                    "ForeName": "Jessica",
+                                    "Initials": "J",
+                                    "Identifier": {
+                                        "@Source": "ORCID",
+                                        "#text": "0000-0001-9557-1671"
+                                    },
+                                    "AffiliationInfo": [
+                                        {
+                                            "Affiliation": "Department of Emergency Medicine, University of British Columbia, Vancouver, BC, Canada. jessica.moe@ubc.ca."
+                                        },
+                                        {
+                                            "Affiliation": "Department of Emergency Medicine, Vancouver General Hospital, Vancouver, BC, Canada. jessica.moe@ubc.ca."
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        "Language": "eng",
+                        "GrantList": {
+                            "@CompleteYN": "Y",
+                            "Grant": {
+                                "GrantID": "PJT-178119",
+                                "Acronym": "CAPMC",
+                                "Agency": "CIHR",
+                                "Country": "Canada"
+                            }
+                        },
+                        "PublicationTypeList": {
+                            "PublicationType": {
+                                "@UI": "D016428",
+                                "#text": "Journal Article"
+                            }
+                        },
+                        "ArticleDate": {
+                            "@DateType": "Electronic",
+                            "Year": "2024",
+                            "Month": "05",
+                            "Day": "05"
+                        }
+                    },
+                    "MedlineJournalInfo": {
+                        "Country": "England",
+                        "MedlineTA": "CJEM",
+                        "NlmUniqueID": "100893237",
+                        "ISSNLinking": "1481-8035"
+                    },
+                    "CitationSubset": "IM",
+                    "OtherAbstract": {
+                        "@Language": "fre",
+                        "@Type": "Publisher",
+                        "AbstractText": "R\u00e9SUM\u00e9: BUT: Nous avons utilis\u00e9 des approches d\u2019am\u00e9lioration de la qualit\u00e9 (AQ) pour accro\u00eetre l\u2019engagement des fournisseurs des services d\u2019urgence (SU) avec l\u2019inscription des participants \u00e0 la recherche pendant la crise des opio\u00efdes et la pand\u00e9mie de maladie \u00e0 coronavirus (COVID-19). Le contexte de ce travail est l\u2019\u00e9tude Evaluating Microdosing in the Emergency Department (EMED), un essai randomis\u00e9 offrant de la bupr\u00e9norphine/naloxone aux patients aux urgences par randomisation \u00e0 l\u2019induction standard ou au microdosage. L\u2019engagement des fournisseurs est crucial pour le recrutement des participants \u00e0 notre \u00e9tude. En anticipant les difficult\u00e9s \u00e0 maintenir un engagement \u00e0 long terme apr\u00e8s une baisse de 63 % des recommandations de fournisseurs quatre mois apr\u00e8s les inscriptions, nous avons appliqu\u00e9 le Plan-Do-Study-Act (PDSA) cycles d\u2019\u00e9laboration et de mise en \u0153uvre d\u2019une strat\u00e9gie d\u2019engagement visant \u00e0 accro\u00eetre et \u00e0 maintenir l\u2019engagement des fournisseurs de 50 % par rapport au niveau de r\u00e9f\u00e9rence dans les neuf mois. M\u00e9THODES: Notre strat\u00e9gie de mobilisation \u00e9tait ax\u00e9e sur les tourn\u00e9es de Coffee Carts : des pr\u00e9sentations \u00e9ducatives de cinq minutes sur l\u2019\u00e9tude pour les fournisseurs sur le quart de travail; et une initiative secondaire, un programme Suboxone Champions, pour mobiliser les fournisseurs int\u00e9ress\u00e9s en tant que pairs \u00e9ducateurs li\u00e9s \u00e0 l\u2019\u00e9tude. Nous avons utilis\u00e9 les recommandations des fournisseurs \u00e0 notre \u00e9quipe comme indicateur de la participation \u00e0 l\u2019\u00e9tude et nous avons signal\u00e9 le pourcentage de changement dans les recommandations hebdomadaires moyennes pour deux cycles PDSA par rapport \u00e0 notre base de r\u00e9f\u00e9rence \u00e9tablie. R\u00e9SULTATS: Une approche d\u2019AQ a permis d\u2019examiner en temps r\u00e9el les interventions en fonction des priorit\u00e9s de la recherche et des fournisseurs, ce qui a augment\u00e9 l\u2019engagement par l\u2019interm\u00e9diaire des recommandations hebdomadaires moyennes des fournisseurs de 14,5 % et de 49 % au cours de deux cycles de PDSA par rapport au niveau de r\u00e9f\u00e9rence, respectivement. CONCLUSION: Notre programme Coffee Carts and Suboxone Champions est une initiative \u00e9ducative efficace et peu contraignante qui permet de transmettre aux fournisseurs des renseignements sur les \u00e9tudes. Ce travail a appuy\u00e9 nos efforts visant \u00e0 mobiliser au maximum les fournisseurs, \u00e0 r\u00e9duire au minimum le fardeau et \u00e0 fournir de la bupr\u00e9norphine/naloxone vitale aux patients \u00e0 risque de surdose mortelle.",
+                        "CopyrightInformation": "\u00a9 2024. The Author(s), under exclusive licence to the Canadian Association of Emergency Physicians (CAEP)/ Association Canadienne de M\u00e9decine d'Urgence (ACMU)."
+                    },
+                    "KeywordList": {
+                        "@Owner": "NOTNLM",
+                        "Keyword": [
+                            {
+                                "@MajorTopicYN": "N",
+                                "#text": "COVID-19 pandemic"
+                            },
+                            {
+                                "@MajorTopicYN": "N",
+                                "#text": "Emergency medicine"
+                            },
+                            {
+                                "@MajorTopicYN": "N",
+                                "#text": "Healthcare research"
+                            },
+                            {
+                                "@MajorTopicYN": "N",
+                                "#text": "Opioid crisis"
+                            },
+                            {
+                                "@MajorTopicYN": "N",
+                                "#text": "Quality improvement"
+                            },
+                            {
+                                "@MajorTopicYN": "N",
+                                "#text": "Stakeholder engagement"
+                            }
+                        ]
+                    }
+                },
+                "PubmedData": {
+                    "History": {
+                        "PubMedPubDate": [
+                            {
+                                "@PubStatus": "medline",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "14",
+                                "Minute": "19"
+                            },
+                            {
+                                "@PubStatus": "pubmed",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "14",
+                                "Minute": "19"
+                            },
+                            {
+                                "@PubStatus": "received",
+                                "Year": "2023",
+                                "Month": "8",
+                                "Day": "8"
+                            },
+                            {
+                                "@PubStatus": "accepted",
+                                "Year": "2024",
+                                "Month": "3",
+                                "Day": "28"
+                            },
+                            {
+                                "@PubStatus": "entrez",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "11",
+                                "Minute": "4"
+                            }
+                        ]
+                    },
+                    "PublicationStatus": "aheadofprint",
+                    "ArticleIdList": {
+                        "ArticleId": [
+                            {
+                                "@IdType": "pubmed",
+                                "#text": "38704790"
+                            },
+                            {
+                                "@IdType": "doi",
+                                "#text": "10.1007/s43678-024-00691-7"
+                            },
+                            {
+                                "@IdType": "pii",
+                                "#text": "10.1007/s43678-024-00691-7"
+                            }
+                        ]
+                    },
+                    "ReferenceList": {
+                        "Reference": [
+                            {
+                                "Citation": "Mcrae AD, Perry JJ, Brehaut J, Brown E, Curran J, Emond M, et al. Engaging emergency clinicians in emergency department clinical research. CJEM. 2018;20(3):443\u20137.",
+                                "ArticleIdList": {
+                                    "ArticleId": [
+                                        {
+                                            "@IdType": "doi",
+                                            "#text": "10.1017/cem.2017.434"
+                                        },
+                                        {
+                                            "@IdType": "pubmed",
+                                            "#text": "29378670"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Citation": "Brown SG, Isbister GK. Clinical research is a priority for emergency medicine but how do we make it happen, and do it well? Emerg Med Australas. 2014;26(1):14\u20138.",
+                                "ArticleIdList": {
+                                    "ArticleId": [
+                                        {
+                                            "@IdType": "doi",
+                                            "#text": "10.1111/1742-6723.12179"
+                                        },
+                                        {
+                                            "@IdType": "pubmed",
+                                            "#text": "24495057"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Citation": "Limkakeng AT Jr, de Oliveira LLH, Moreira T, Phadtare A, Rodrigues CG, Hocker MB, et al. Systematic review and metasummary of attitudes toward research in emergency medical conditions. J Med Ethics. 2014;40:401\u20138.",
+                                "ArticleIdList": {
+                                    "ArticleId": [
+                                        {
+                                            "@IdType": "doi",
+                                            "#text": "10.1136/medethics-2012-101147"
+                                        },
+                                        {
+                                            "@IdType": "pubmed",
+                                            "#text": "23665997"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Citation": "Gualano M, Sinigaglia T, Lo Moro G, Rousset S, Cremona A, Bert F, et al. The burden of burnout among healthcare professionals of intensive care units and emergency departments during the COVID-19 pandemic: as systematic review. Int J Environ Res Public Health. 2021;18(15):1\u201317.",
+                                "ArticleIdList": {
+                                    "ArticleId": {
+                                        "@IdType": "doi",
+                                        "#text": "10.3390/ijerph18158172"
+                                    }
+                                }
+                            },
+                            {
+                                "Citation": "BC Centre for Disease Control. Overdose response indictator report, March 2022. Provincial Health Services Authority. 2022. Accessed 27 Nov 2022."
+                            },
+                            {
+                                "Citation": "Ehrlich H, McKenney M, Elkbuli A. The impact of COVID-19 pandemic on conducting emergency medicine clinical research. Am J Emerg Med. 2021;1(46):783\u20134.",
+                                "ArticleIdList": {
+                                    "ArticleId": {
+                                        "@IdType": "doi",
+                                        "#text": "10.1016/j.ajem.2020.09.001"
+                                    }
+                                }
+                            },
+                            {
+                                "Citation": "Select Standing Committee on Health. Closing gaps, reducing barriers: Expanding the response to the toxic drug and overdose crisis Victoria: Legislative Assembly of British Columbia. 2022."
+                            },
+                            {
+                                "Citation": "Moe J, Badke K, Pratt M, Cho RY, Azar P, Flemming H, et al. Microdosing and standard-dosing take-home buprenorphine from the emergency department: a feasibility study. J Am Coll Emerg Phys Open. 2020;1(6):1712\u201322."
+                            },
+                            {
+                                "Citation": "Ogrinc G, Davies L, Goodman D, Batalden PB, Davidoff F, Stevens D. SQUIRE 2.0 (Standards for quality improvement reporting excellence): revised publication guidelines from a detailed consensus process. BMJ Qual Saf. 2016;25:986\u201392.",
+                                "ArticleIdList": {
+                                    "ArticleId": [
+                                        {
+                                            "@IdType": "doi",
+                                            "#text": "10.1136/bmjqs-2015-004411"
+                                        },
+                                        {
+                                            "@IdType": "pubmed",
+                                            "#text": "26369893"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Citation": "Leis JA, Shojania KG. A primer on PDSA: executing plan-do-study-act cycles in practice, not just in name. BMJ Qual Saf. 2017;26(7):572\u20137.",
+                                "ArticleIdList": {
+                                    "ArticleId": [
+                                        {
+                                            "@IdType": "doi",
+                                            "#text": "10.1136/bmjqs-2016-006245"
+                                        },
+                                        {
+                                            "@IdType": "pubmed",
+                                            "#text": "27986900"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Citation": "Reed JE, Card AJ. The problem with plan-do-study-act cycles. BMJ Qual Saf. 2016;25(3):147\u201352.",
+                                "ArticleIdList": {
+                                    "ArticleId": [
+                                        {
+                                            "@IdType": "doi",
+                                            "#text": "10.1136/bmjqs-2015-005076"
+                                        },
+                                        {
+                                            "@IdType": "pubmed",
+                                            "#text": "26700542"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Citation": "Dearing JW, Cox JG. Diffusion of innovations theory, principles, and practice. Health Aff. 2018;37(2):183\u201390.",
+                                "ArticleIdList": {
+                                    "ArticleId": {
+                                        "@IdType": "doi",
+                                        "#text": "10.1377/hlthaff.2017.1104"
+                                    }
+                                }
+                            },
+                            {
+                                "Citation": "Cullen L, Hanrahan K, Farrington M, Anderson R, Dimmer E, Miner R, et al. Evidence-based practice change champion program improves quality care. J Nurs Adm. 2020;50(3):128\u201334.",
+                                "ArticleIdList": {
+                                    "ArticleId": [
+                                        {
+                                            "@IdType": "doi",
+                                            "#text": "10.1097/NNA.0000000000000856"
+                                        },
+                                        {
+                                            "@IdType": "pubmed",
+                                            "#text": "32049700"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Citation": "Provost LP, Muray SK. The health care data guide: learning from data for improvement, 2nd edition. 2022."
+                            },
+                            {
+                                "Citation": "American Addictions Centers. How does suboxone work [web streaming video]. YouTube; December 21, 2018. [April 2, 2023]. Video: 2:24 min. Available from: https://www.youtube.com/watch?v=4hwtsd5RikQ"
+                            },
+                            {
+                                "Citation": "Snihur A, Mullin A, Haller A, Wiley R, Clifford P, Roposa K, et al. Fostering clinical research in the community hospital: opportunities and best practices. Healthc Q. 2020;23(2):30\u20136.",
+                                "ArticleIdList": {
+                                    "ArticleId": [
+                                        {
+                                            "@IdType": "doi",
+                                            "#text": "10.12927/hcq.2020.26277"
+                                        },
+                                        {
+                                            "@IdType": "pubmed",
+                                            "#text": "32762818"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "Citation": "Moe J, Chong M, Scheuermeyer FX, Purssell R, Slaunwhite A. Death after emergency department visits for opioid overdose in British Columbia: a retrospective cohort analysis. hcq. 2021;9(1):E242\u201351."
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "MedlineCitation": {
+                    "@IndexingMethod": "Automated",
+                    "@Owner": "NLM",
+                    "@Status": "Publisher",
+                    "PMID": {
+                        "@Version": "1",
                         "#text": "38704616"
                     },
                     "DateRevised": {
@@ -526,6 +992,18 @@
                     "History": {
                         "PubMedPubDate": [
                             {
+                                "@PubStatus": "received",
+                                "Year": "2023",
+                                "Month": "2",
+                                "Day": "12"
+                            },
+                            {
+                                "@PubStatus": "accepted",
+                                "Year": "2024",
+                                "Month": "4",
+                                "Day": "23"
+                            },
+                            {
                                 "@PubStatus": "medline",
                                 "Year": "2024",
                                 "Month": "5",
@@ -540,18 +1018,6 @@
                                 "Day": "5",
                                 "Hour": "7",
                                 "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "received",
-                                "Year": "2023",
-                                "Month": "2",
-                                "Day": "12"
-                            },
-                            {
-                                "@PubStatus": "accepted",
-                                "Year": "2024",
-                                "Month": "4",
-                                "Day": "23"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -1331,6 +1797,18 @@
                     "History": {
                         "PubMedPubDate": [
                             {
+                                "@PubStatus": "received",
+                                "Year": "2023",
+                                "Month": "8",
+                                "Day": "7"
+                            },
+                            {
+                                "@PubStatus": "accepted",
+                                "Year": "2024",
+                                "Month": "4",
+                                "Day": "17"
+                            },
+                            {
                                 "@PubStatus": "medline",
                                 "Year": "2024",
                                 "Month": "5",
@@ -1345,18 +1823,6 @@
                                 "Day": "5",
                                 "Hour": "7",
                                 "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "received",
-                                "Year": "2023",
-                                "Month": "8",
-                                "Day": "7"
-                            },
-                            {
-                                "@PubStatus": "accepted",
-                                "Year": "2024",
-                                "Month": "4",
-                                "Day": "17"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -2392,6 +2858,18 @@
                     "History": {
                         "PubMedPubDate": [
                             {
+                                "@PubStatus": "received",
+                                "Year": "2023",
+                                "Month": "12",
+                                "Day": "20"
+                            },
+                            {
+                                "@PubStatus": "accepted",
+                                "Year": "2024",
+                                "Month": "4",
+                                "Day": "5"
+                            },
+                            {
                                 "@PubStatus": "medline",
                                 "Year": "2024",
                                 "Month": "5",
@@ -2406,18 +2884,6 @@
                                 "Day": "5",
                                 "Hour": "7",
                                 "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "received",
-                                "Year": "2023",
-                                "Month": "12",
-                                "Day": "20"
-                            },
-                            {
-                                "@PubStatus": "accepted",
-                                "Year": "2024",
-                                "Month": "4",
-                                "Day": "5"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -3664,6 +4130,18 @@
                     "History": {
                         "PubMedPubDate": [
                             {
+                                "@PubStatus": "received",
+                                "Year": "2023",
+                                "Month": "6",
+                                "Day": "13"
+                            },
+                            {
+                                "@PubStatus": "accepted",
+                                "Year": "2024",
+                                "Month": "4",
+                                "Day": "23"
+                            },
+                            {
                                 "@PubStatus": "medline",
                                 "Year": "2024",
                                 "Month": "5",
@@ -3678,18 +4156,6 @@
                                 "Day": "5",
                                 "Hour": "7",
                                 "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "received",
-                                "Year": "2023",
-                                "Month": "6",
-                                "Day": "13"
-                            },
-                            {
-                                "@PubStatus": "accepted",
-                                "Year": "2024",
-                                "Month": "4",
-                                "Day": "23"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -4759,6 +5225,18 @@
                     "History": {
                         "PubMedPubDate": [
                             {
+                                "@PubStatus": "received",
+                                "Year": "2023",
+                                "Month": "10",
+                                "Day": "31"
+                            },
+                            {
+                                "@PubStatus": "accepted",
+                                "Year": "2024",
+                                "Month": "4",
+                                "Day": "17"
+                            },
+                            {
                                 "@PubStatus": "medline",
                                 "Year": "2024",
                                 "Month": "5",
@@ -4773,18 +5251,6 @@
                                 "Day": "5",
                                 "Hour": "7",
                                 "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "received",
-                                "Year": "2023",
-                                "Month": "10",
-                                "Day": "31"
-                            },
-                            {
-                                "@PubStatus": "accepted",
-                                "Year": "2024",
-                                "Month": "4",
-                                "Day": "17"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -5716,22 +6182,6 @@
                     "History": {
                         "PubMedPubDate": [
                             {
-                                "@PubStatus": "medline",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "pubmed",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
                                 "@PubStatus": "received",
                                 "Year": "2024",
                                 "Month": "3",
@@ -5748,6 +6198,22 @@
                                 "Year": "2024",
                                 "Month": "4",
                                 "Day": "11"
+                            },
+                            {
+                                "@PubStatus": "medline",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
+                            },
+                            {
+                                "@PubStatus": "pubmed",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -6329,22 +6795,6 @@
                     "History": {
                         "PubMedPubDate": [
                             {
-                                "@PubStatus": "medline",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "pubmed",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
                                 "@PubStatus": "received",
                                 "Year": "2023",
                                 "Month": "11",
@@ -6361,6 +6811,22 @@
                                 "Year": "2024",
                                 "Month": "4",
                                 "Day": "12"
+                            },
+                            {
+                                "@PubStatus": "medline",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
+                            },
+                            {
+                                "@PubStatus": "pubmed",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -7597,6 +8063,18 @@
                     "History": {
                         "PubMedPubDate": [
                             {
+                                "@PubStatus": "received",
+                                "Year": "2023",
+                                "Month": "11",
+                                "Day": "13"
+                            },
+                            {
+                                "@PubStatus": "accepted",
+                                "Year": "2024",
+                                "Month": "4",
+                                "Day": "30"
+                            },
+                            {
                                 "@PubStatus": "medline",
                                 "Year": "2024",
                                 "Month": "5",
@@ -7611,18 +8089,6 @@
                                 "Day": "5",
                                 "Hour": "7",
                                 "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "received",
-                                "Year": "2023",
-                                "Month": "11",
-                                "Day": "13"
-                            },
-                            {
-                                "@PubStatus": "accepted",
-                                "Year": "2024",
-                                "Month": "4",
-                                "Day": "30"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -9842,6 +10308,18 @@
                     "History": {
                         "PubMedPubDate": [
                             {
+                                "@PubStatus": "received",
+                                "Year": "2024",
+                                "Month": "2",
+                                "Day": "29"
+                            },
+                            {
+                                "@PubStatus": "accepted",
+                                "Year": "2024",
+                                "Month": "4",
+                                "Day": "15"
+                            },
+                            {
                                 "@PubStatus": "medline",
                                 "Year": "2024",
                                 "Month": "5",
@@ -9856,18 +10334,6 @@
                                 "Day": "5",
                                 "Hour": "7",
                                 "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "received",
-                                "Year": "2024",
-                                "Month": "2",
-                                "Day": "29"
-                            },
-                            {
-                                "@PubStatus": "accepted",
-                                "Year": "2024",
-                                "Month": "4",
-                                "Day": "15"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -10303,6 +10769,18 @@
                     "History": {
                         "PubMedPubDate": [
                             {
+                                "@PubStatus": "received",
+                                "Year": "2024",
+                                "Month": "4",
+                                "Day": "1"
+                            },
+                            {
+                                "@PubStatus": "accepted",
+                                "Year": "2024",
+                                "Month": "4",
+                                "Day": "14"
+                            },
+                            {
                                 "@PubStatus": "medline",
                                 "Year": "2024",
                                 "Month": "5",
@@ -10317,18 +10795,6 @@
                                 "Day": "5",
                                 "Hour": "7",
                                 "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "received",
-                                "Year": "2024",
-                                "Month": "4",
-                                "Day": "1"
-                            },
-                            {
-                                "@PubStatus": "accepted",
-                                "Year": "2024",
-                                "Month": "4",
-                                "Day": "14"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -10581,22 +11047,6 @@
                     "History": {
                         "PubMedPubDate": [
                             {
-                                "@PubStatus": "medline",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "pubmed",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
                                 "@PubStatus": "received",
                                 "Year": "2024",
                                 "Month": "2",
@@ -10613,6 +11063,22 @@
                                 "Year": "2024",
                                 "Month": "3",
                                 "Day": "24"
+                            },
+                            {
+                                "@PubStatus": "medline",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
+                            },
+                            {
+                                "@PubStatus": "pubmed",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -10776,22 +11242,6 @@
                     "History": {
                         "PubMedPubDate": [
                             {
-                                "@PubStatus": "medline",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "pubmed",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
                                 "@PubStatus": "received",
                                 "Year": "2023",
                                 "Month": "11",
@@ -10808,6 +11258,22 @@
                                 "Year": "2024",
                                 "Month": "4",
                                 "Day": "23"
+                            },
+                            {
+                                "@PubStatus": "medline",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
+                            },
+                            {
+                                "@PubStatus": "pubmed",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -10971,22 +11437,6 @@
                     "History": {
                         "PubMedPubDate": [
                             {
-                                "@PubStatus": "medline",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "pubmed",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
                                 "@PubStatus": "received",
                                 "Year": "2023",
                                 "Month": "5",
@@ -11003,6 +11453,22 @@
                                 "Year": "2024",
                                 "Month": "4",
                                 "Day": "23"
+                            },
+                            {
+                                "@PubStatus": "medline",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
+                            },
+                            {
+                                "@PubStatus": "pubmed",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -11223,22 +11689,6 @@
                     "History": {
                         "PubMedPubDate": [
                             {
-                                "@PubStatus": "medline",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "pubmed",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
                                 "@PubStatus": "received",
                                 "Year": "2024",
                                 "Month": "3",
@@ -11255,6 +11705,22 @@
                                 "Year": "2024",
                                 "Month": "4",
                                 "Day": "23"
+                            },
+                            {
+                                "@PubStatus": "medline",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
+                            },
+                            {
+                                "@PubStatus": "pubmed",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -11500,22 +11966,6 @@
                     "History": {
                         "PubMedPubDate": [
                             {
-                                "@PubStatus": "medline",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "pubmed",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
                                 "@PubStatus": "received",
                                 "Year": "2023",
                                 "Month": "12",
@@ -11532,6 +11982,22 @@
                                 "Year": "2024",
                                 "Month": "4",
                                 "Day": "23"
+                            },
+                            {
+                                "@PubStatus": "medline",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
+                            },
+                            {
+                                "@PubStatus": "pubmed",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -11708,22 +12174,6 @@
                     "History": {
                         "PubMedPubDate": [
                             {
-                                "@PubStatus": "medline",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "pubmed",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
                                 "@PubStatus": "received",
                                 "Year": "2023",
                                 "Month": "5",
@@ -11740,6 +12190,22 @@
                                 "Year": "2024",
                                 "Month": "4",
                                 "Day": "23"
+                            },
+                            {
+                                "@PubStatus": "medline",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
+                            },
+                            {
+                                "@PubStatus": "pubmed",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -11983,22 +12449,6 @@
                     "History": {
                         "PubMedPubDate": [
                             {
-                                "@PubStatus": "medline",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "pubmed",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
                                 "@PubStatus": "received",
                                 "Year": "2023",
                                 "Month": "12",
@@ -12015,6 +12465,22 @@
                                 "Year": "2024",
                                 "Month": "4",
                                 "Day": "19"
+                            },
+                            {
+                                "@PubStatus": "medline",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
+                            },
+                            {
+                                "@PubStatus": "pubmed",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -12286,6 +12752,18 @@
                     "History": {
                         "PubMedPubDate": [
                             {
+                                "@PubStatus": "received",
+                                "Year": "2024",
+                                "Month": "4",
+                                "Day": "19"
+                            },
+                            {
+                                "@PubStatus": "accepted",
+                                "Year": "2024",
+                                "Month": "4",
+                                "Day": "19"
+                            },
+                            {
                                 "@PubStatus": "medline",
                                 "Year": "2024",
                                 "Month": "5",
@@ -12300,18 +12778,6 @@
                                 "Day": "5",
                                 "Hour": "7",
                                 "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "received",
-                                "Year": "2024",
-                                "Month": "4",
-                                "Day": "19"
-                            },
-                            {
-                                "@PubStatus": "accepted",
-                                "Year": "2024",
-                                "Month": "4",
-                                "Day": "19"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -12696,6 +13162,18 @@
                     "History": {
                         "PubMedPubDate": [
                             {
+                                "@PubStatus": "received",
+                                "Year": "2023",
+                                "Month": "10",
+                                "Day": "19"
+                            },
+                            {
+                                "@PubStatus": "accepted",
+                                "Year": "2024",
+                                "Month": "3",
+                                "Day": "1"
+                            },
+                            {
                                 "@PubStatus": "medline",
                                 "Year": "2024",
                                 "Month": "5",
@@ -12710,18 +13188,6 @@
                                 "Day": "5",
                                 "Hour": "7",
                                 "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "received",
-                                "Year": "2023",
-                                "Month": "10",
-                                "Day": "19"
-                            },
-                            {
-                                "@PubStatus": "accepted",
-                                "Year": "2024",
-                                "Month": "3",
-                                "Day": "1"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -12901,22 +13367,6 @@
                     "History": {
                         "PubMedPubDate": [
                             {
-                                "@PubStatus": "medline",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "pubmed",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
                                 "@PubStatus": "received",
                                 "Year": "2023",
                                 "Month": "11",
@@ -12933,6 +13383,22 @@
                                 "Year": "2024",
                                 "Month": "4",
                                 "Day": "16"
+                            },
+                            {
+                                "@PubStatus": "medline",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
+                            },
+                            {
+                                "@PubStatus": "pubmed",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -13051,6 +13517,18 @@
                     "History": {
                         "PubMedPubDate": [
                             {
+                                "@PubStatus": "received",
+                                "Year": "2023",
+                                "Month": "9",
+                                "Day": "15"
+                            },
+                            {
+                                "@PubStatus": "accepted",
+                                "Year": "2024",
+                                "Month": "4",
+                                "Day": "8"
+                            },
+                            {
                                 "@PubStatus": "medline",
                                 "Year": "2024",
                                 "Month": "5",
@@ -13065,18 +13543,6 @@
                                 "Day": "5",
                                 "Hour": "7",
                                 "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "received",
-                                "Year": "2023",
-                                "Month": "9",
-                                "Day": "15"
-                            },
-                            {
-                                "@PubStatus": "accepted",
-                                "Year": "2024",
-                                "Month": "4",
-                                "Day": "8"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -13219,6 +13685,18 @@
                     "History": {
                         "PubMedPubDate": [
                             {
+                                "@PubStatus": "received",
+                                "Year": "2023",
+                                "Month": "12",
+                                "Day": "29"
+                            },
+                            {
+                                "@PubStatus": "accepted",
+                                "Year": "2024",
+                                "Month": "3",
+                                "Day": "15"
+                            },
+                            {
                                 "@PubStatus": "medline",
                                 "Year": "2024",
                                 "Month": "5",
@@ -13233,18 +13711,6 @@
                                 "Day": "5",
                                 "Hour": "7",
                                 "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "received",
-                                "Year": "2023",
-                                "Month": "12",
-                                "Day": "29"
-                            },
-                            {
-                                "@PubStatus": "accepted",
-                                "Year": "2024",
-                                "Month": "3",
-                                "Day": "15"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -13678,22 +14144,6 @@
                     "History": {
                         "PubMedPubDate": [
                             {
-                                "@PubStatus": "medline",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "pubmed",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
                                 "@PubStatus": "received",
                                 "Year": "2023",
                                 "Month": "10",
@@ -13710,6 +14160,22 @@
                                 "Year": "2024",
                                 "Month": "4",
                                 "Day": "30"
+                            },
+                            {
+                                "@PubStatus": "medline",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
+                            },
+                            {
+                                "@PubStatus": "pubmed",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -13882,22 +14348,6 @@
                     "History": {
                         "PubMedPubDate": [
                             {
-                                "@PubStatus": "medline",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "pubmed",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
                                 "@PubStatus": "received",
                                 "Year": "2024",
                                 "Month": "1",
@@ -13914,6 +14364,22 @@
                                 "Year": "2024",
                                 "Month": "4",
                                 "Day": "26"
+                            },
+                            {
+                                "@PubStatus": "medline",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
+                            },
+                            {
+                                "@PubStatus": "pubmed",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -14098,22 +14564,6 @@
                     "History": {
                         "PubMedPubDate": [
                             {
-                                "@PubStatus": "medline",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "pubmed",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
                                 "@PubStatus": "received",
                                 "Year": "2024",
                                 "Month": "2",
@@ -14130,6 +14580,22 @@
                                 "Year": "2024",
                                 "Month": "4",
                                 "Day": "30"
+                            },
+                            {
+                                "@PubStatus": "medline",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
+                            },
+                            {
+                                "@PubStatus": "pubmed",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -14372,22 +14838,6 @@
                     "History": {
                         "PubMedPubDate": [
                             {
-                                "@PubStatus": "medline",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "pubmed",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
                                 "@PubStatus": "received",
                                 "Year": "2023",
                                 "Month": "10",
@@ -14404,6 +14854,22 @@
                                 "Year": "2024",
                                 "Month": "4",
                                 "Day": "29"
+                            },
+                            {
+                                "@PubStatus": "medline",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
+                            },
+                            {
+                                "@PubStatus": "pubmed",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -14653,22 +15119,6 @@
                     "History": {
                         "PubMedPubDate": [
                             {
-                                "@PubStatus": "medline",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "pubmed",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
                                 "@PubStatus": "received",
                                 "Year": "2024",
                                 "Month": "1",
@@ -14685,6 +15135,22 @@
                                 "Year": "2024",
                                 "Month": "4",
                                 "Day": "16"
+                            },
+                            {
+                                "@PubStatus": "medline",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
+                            },
+                            {
+                                "@PubStatus": "pubmed",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -15311,22 +15777,6 @@
                     "History": {
                         "PubMedPubDate": [
                             {
-                                "@PubStatus": "medline",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "pubmed",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
                                 "@PubStatus": "received",
                                 "Year": "2023",
                                 "Month": "6",
@@ -15343,6 +15793,22 @@
                                 "Year": "2024",
                                 "Month": "1",
                                 "Day": "18"
+                            },
+                            {
+                                "@PubStatus": "medline",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
+                            },
+                            {
+                                "@PubStatus": "pubmed",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -15524,22 +15990,6 @@
                     "History": {
                         "PubMedPubDate": [
                             {
-                                "@PubStatus": "medline",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "pubmed",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
                                 "@PubStatus": "received",
                                 "Year": "2023",
                                 "Month": "10",
@@ -15556,6 +16006,22 @@
                                 "Year": "2024",
                                 "Month": "3",
                                 "Day": "25"
+                            },
+                            {
+                                "@PubStatus": "medline",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
+                            },
+                            {
+                                "@PubStatus": "pubmed",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -15766,22 +16232,6 @@
                     "History": {
                         "PubMedPubDate": [
                             {
-                                "@PubStatus": "medline",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "pubmed",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
                                 "@PubStatus": "received",
                                 "Year": "2024",
                                 "Month": "1",
@@ -15798,6 +16248,22 @@
                                 "Year": "2024",
                                 "Month": "4",
                                 "Day": "22"
+                            },
+                            {
+                                "@PubStatus": "medline",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
+                            },
+                            {
+                                "@PubStatus": "pubmed",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -16025,22 +16491,6 @@
                     "History": {
                         "PubMedPubDate": [
                             {
-                                "@PubStatus": "medline",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "pubmed",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
                                 "@PubStatus": "received",
                                 "Year": "2024",
                                 "Month": "2",
@@ -16057,6 +16507,22 @@
                                 "Year": "2024",
                                 "Month": "4",
                                 "Day": "22"
+                            },
+                            {
+                                "@PubStatus": "medline",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
+                            },
+                            {
+                                "@PubStatus": "pubmed",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -16252,22 +16718,6 @@
                     "History": {
                         "PubMedPubDate": [
                             {
-                                "@PubStatus": "medline",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "pubmed",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
                                 "@PubStatus": "received",
                                 "Year": "2024",
                                 "Month": "2",
@@ -16284,6 +16734,22 @@
                                 "Year": "2024",
                                 "Month": "4",
                                 "Day": "29"
+                            },
+                            {
+                                "@PubStatus": "medline",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
+                            },
+                            {
+                                "@PubStatus": "pubmed",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -16505,22 +16971,6 @@
                     "History": {
                         "PubMedPubDate": [
                             {
-                                "@PubStatus": "medline",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "pubmed",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
                                 "@PubStatus": "received",
                                 "Year": "2023",
                                 "Month": "12",
@@ -16537,6 +16987,22 @@
                                 "Year": "2024",
                                 "Month": "3",
                                 "Day": "20"
+                            },
+                            {
+                                "@PubStatus": "medline",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
+                            },
+                            {
+                                "@PubStatus": "pubmed",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -16765,22 +17231,6 @@
                     "History": {
                         "PubMedPubDate": [
                             {
-                                "@PubStatus": "medline",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "pubmed",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
                                 "@PubStatus": "received",
                                 "Year": "2024",
                                 "Month": "1",
@@ -16797,6 +17247,22 @@
                                 "Year": "2024",
                                 "Month": "4",
                                 "Day": "24"
+                            },
+                            {
+                                "@PubStatus": "medline",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
+                            },
+                            {
+                                "@PubStatus": "pubmed",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -17014,22 +17480,6 @@
                     "History": {
                         "PubMedPubDate": [
                             {
-                                "@PubStatus": "medline",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "pubmed",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
                                 "@PubStatus": "received",
                                 "Year": "2024",
                                 "Month": "1",
@@ -17046,6 +17496,22 @@
                                 "Year": "2024",
                                 "Month": "4",
                                 "Day": "22"
+                            },
+                            {
+                                "@PubStatus": "medline",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
+                            },
+                            {
+                                "@PubStatus": "pubmed",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -17262,22 +17728,6 @@
                     "History": {
                         "PubMedPubDate": [
                             {
-                                "@PubStatus": "medline",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "pubmed",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
                                 "@PubStatus": "received",
                                 "Year": "2023",
                                 "Month": "11",
@@ -17294,6 +17744,22 @@
                                 "Year": "2024",
                                 "Month": "4",
                                 "Day": "28"
+                            },
+                            {
+                                "@PubStatus": "medline",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
+                            },
+                            {
+                                "@PubStatus": "pubmed",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -17542,22 +18008,6 @@
                     "History": {
                         "PubMedPubDate": [
                             {
-                                "@PubStatus": "medline",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "pubmed",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "47"
-                            },
-                            {
                                 "@PubStatus": "received",
                                 "Year": "2024",
                                 "Month": "2",
@@ -17574,6 +18024,22 @@
                                 "Year": "2024",
                                 "Month": "4",
                                 "Day": "19"
+                            },
+                            {
+                                "@PubStatus": "medline",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
+                            },
+                            {
+                                "@PubStatus": "pubmed",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "47"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -17855,22 +18321,6 @@
                     "History": {
                         "PubMedPubDate": [
                             {
-                                "@PubStatus": "medline",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "46"
-                            },
-                            {
-                                "@PubStatus": "pubmed",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "46"
-                            },
-                            {
                                 "@PubStatus": "revised",
                                 "Year": "2024",
                                 "Month": "3",
@@ -17887,6 +18337,22 @@
                                 "Year": "2024",
                                 "Month": "3",
                                 "Day": "28"
+                            },
+                            {
+                                "@PubStatus": "medline",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "46"
+                            },
+                            {
+                                "@PubStatus": "pubmed",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "46"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -18337,6 +18803,18 @@
                     "History": {
                         "PubMedPubDate": [
                             {
+                                "@PubStatus": "received",
+                                "Year": "2023",
+                                "Month": "12",
+                                "Day": "11"
+                            },
+                            {
+                                "@PubStatus": "accepted",
+                                "Year": "2024",
+                                "Month": "3",
+                                "Day": "28"
+                            },
+                            {
                                 "@PubStatus": "medline",
                                 "Year": "2024",
                                 "Month": "5",
@@ -18351,18 +18829,6 @@
                                 "Day": "5",
                                 "Hour": "7",
                                 "Minute": "45"
-                            },
-                            {
-                                "@PubStatus": "received",
-                                "Year": "2023",
-                                "Month": "12",
-                                "Day": "11"
-                            },
-                            {
-                                "@PubStatus": "accepted",
-                                "Year": "2024",
-                                "Month": "3",
-                                "Day": "28"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -18822,6 +19288,18 @@
                     "History": {
                         "PubMedPubDate": [
                             {
+                                "@PubStatus": "received",
+                                "Year": "2024",
+                                "Month": "1",
+                                "Day": "16"
+                            },
+                            {
+                                "@PubStatus": "accepted",
+                                "Year": "2024",
+                                "Month": "3",
+                                "Day": "26"
+                            },
+                            {
                                 "@PubStatus": "medline",
                                 "Year": "2024",
                                 "Month": "5",
@@ -18836,18 +19314,6 @@
                                 "Day": "5",
                                 "Hour": "7",
                                 "Minute": "45"
-                            },
-                            {
-                                "@PubStatus": "received",
-                                "Year": "2024",
-                                "Month": "1",
-                                "Day": "16"
-                            },
-                            {
-                                "@PubStatus": "accepted",
-                                "Year": "2024",
-                                "Month": "3",
-                                "Day": "26"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -22124,6 +22590,18 @@
                     "History": {
                         "PubMedPubDate": [
                             {
+                                "@PubStatus": "received",
+                                "Year": "2024",
+                                "Month": "3",
+                                "Day": "1"
+                            },
+                            {
+                                "@PubStatus": "accepted",
+                                "Year": "2024",
+                                "Month": "4",
+                                "Day": "12"
+                            },
+                            {
                                 "@PubStatus": "medline",
                                 "Year": "2024",
                                 "Month": "5",
@@ -22138,18 +22616,6 @@
                                 "Day": "5",
                                 "Hour": "7",
                                 "Minute": "45"
-                            },
-                            {
-                                "@PubStatus": "received",
-                                "Year": "2024",
-                                "Month": "3",
-                                "Day": "1"
-                            },
-                            {
-                                "@PubStatus": "accepted",
-                                "Year": "2024",
-                                "Month": "4",
-                                "Day": "12"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -22944,6 +23410,18 @@
                     "History": {
                         "PubMedPubDate": [
                             {
+                                "@PubStatus": "received",
+                                "Year": "2024",
+                                "Month": "1",
+                                "Day": "30"
+                            },
+                            {
+                                "@PubStatus": "accepted",
+                                "Year": "2024",
+                                "Month": "4",
+                                "Day": "15"
+                            },
+                            {
                                 "@PubStatus": "medline",
                                 "Year": "2024",
                                 "Month": "5",
@@ -22958,18 +23436,6 @@
                                 "Day": "5",
                                 "Hour": "7",
                                 "Minute": "45"
-                            },
-                            {
-                                "@PubStatus": "received",
-                                "Year": "2024",
-                                "Month": "1",
-                                "Day": "30"
-                            },
-                            {
-                                "@PubStatus": "accepted",
-                                "Year": "2024",
-                                "Month": "4",
-                                "Day": "15"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -23845,22 +24311,6 @@
                     "History": {
                         "PubMedPubDate": [
                             {
-                                "@PubStatus": "medline",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "46"
-                            },
-                            {
-                                "@PubStatus": "pubmed",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "5",
-                                "Hour": "7",
-                                "Minute": "46"
-                            },
-                            {
                                 "@PubStatus": "revised",
                                 "Year": "2024",
                                 "Month": "3",
@@ -23877,6 +24327,22 @@
                                 "Year": "2024",
                                 "Month": "4",
                                 "Day": "28"
+                            },
+                            {
+                                "@PubStatus": "medline",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "46"
+                            },
+                            {
+                                "@PubStatus": "pubmed",
+                                "Year": "2024",
+                                "Month": "5",
+                                "Day": "5",
+                                "Hour": "7",
+                                "Minute": "46"
                             },
                             {
                                 "@PubStatus": "entrez",
@@ -59076,180 +59542,6 @@
                             {
                                 "@IdType": "pii",
                                 "#text": "S1808-8694(24)00052-1"
-                            }
-                        ]
-                    }
-                }
-            },
-            {
-                "MedlineCitation": {
-                    "@IndexingMethod": "Automated",
-                    "@Owner": "NLM",
-                    "@Status": "Publisher",
-                    "PMID": {
-                        "@Version": "1",
-                        "#text": "38701491"
-                    },
-                    "DateRevised": {
-                        "Year": "2024",
-                        "Month": "05",
-                        "Day": "03"
-                    },
-                    "Article": {
-                        "@PubModel": "Print-Electronic",
-                        "Journal": {
-                            "ISSN": {
-                                "@IssnType": "Electronic",
-                                "#text": "1535-4970"
-                            },
-                            "JournalIssue": {
-                                "@CitedMedium": "Internet",
-                                "PubDate": {
-                                    "Year": "2024",
-                                    "Month": "May",
-                                    "Day": "03"
-                                }
-                            },
-                            "Title": "American journal of respiratory and critical care medicine",
-                            "ISOAbbreviation": "Am J Respir Crit Care Med"
-                        },
-                        "ArticleTitle": "Reply to Zijlstra: Resilience and Stress Are Heterogenic Too, We Should Act Accordingly.",
-                        "ELocationID": {
-                            "@EIdType": "doi",
-                            "@ValidYN": "Y",
-                            "#text": "10.1164/rccm.202404-0790LE"
-                        },
-                        "AuthorList": {
-                            "@CompleteYN": "Y",
-                            "Author": [
-                                {
-                                    "@ValidYN": "Y",
-                                    "LastName": "Azoulay",
-                                    "ForeName": "Elie",
-                                    "Initials": "E",
-                                    "Identifier": {
-                                        "@Source": "ORCID",
-                                        "#text": "0000-0002-8162-1508"
-                                    },
-                                    "AffiliationInfo": {
-                                        "Affiliation": "St Louis Hospital, Paris, Paris, France; elie.azoulay@aphp.fr."
-                                    }
-                                },
-                                {
-                                    "@ValidYN": "Y",
-                                    "LastName": "Pochard",
-                                    "ForeName": "Fr\u00e9d\u00e9ric",
-                                    "Initials": "F",
-                                    "AffiliationInfo": {
-                                        "Affiliation": "trocadero, Paris, \u00cele-de-France, France."
-                                    }
-                                },
-                                {
-                                    "@ValidYN": "Y",
-                                    "LastName": "Argaud",
-                                    "ForeName": "Laurent",
-                                    "Initials": "L",
-                                    "AffiliationInfo": {
-                                        "Affiliation": "Groupement Hospitalier Edouard Herriot, Service de R\u00e9animation M\u00e9dicale, Lyon, France."
-                                    }
-                                },
-                                {
-                                    "@ValidYN": "Y",
-                                    "LastName": "Kentish-Barnes",
-                                    "ForeName": "Nancy",
-                                    "Initials": "N",
-                                    "Identifier": {
-                                        "@Source": "ORCID",
-                                        "#text": "0000-0003-0024-0429"
-                                    },
-                                    "AffiliationInfo": {
-                                        "Affiliation": "Hopital Saint-Louis, 55663, ICU, Paris, France."
-                                    }
-                                }
-                            ]
-                        },
-                        "Language": "eng",
-                        "PublicationTypeList": {
-                            "PublicationType": {
-                                "@UI": "D016428",
-                                "#text": "Journal Article"
-                            }
-                        },
-                        "ArticleDate": {
-                            "@DateType": "Electronic",
-                            "Year": "2024",
-                            "Month": "05",
-                            "Day": "03"
-                        }
-                    },
-                    "MedlineJournalInfo": {
-                        "Country": "United States",
-                        "MedlineTA": "Am J Respir Crit Care Med",
-                        "NlmUniqueID": "9421642",
-                        "ISSNLinking": "1073-449X"
-                    },
-                    "CitationSubset": "IM",
-                    "KeywordList": {
-                        "@Owner": "NOTNLM",
-                        "Keyword": [
-                            {
-                                "@MajorTopicYN": "N",
-                                "#text": "COVID-19"
-                            },
-                            {
-                                "@MajorTopicYN": "N",
-                                "#text": "PTSD"
-                            },
-                            {
-                                "@MajorTopicYN": "N",
-                                "#text": "burnout"
-                            },
-                            {
-                                "@MajorTopicYN": "N",
-                                "#text": "resilience"
-                            }
-                        ]
-                    }
-                },
-                "PubmedData": {
-                    "History": {
-                        "PubMedPubDate": [
-                            {
-                                "@PubStatus": "medline",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "3",
-                                "Hour": "18",
-                                "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "pubmed",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "3",
-                                "Hour": "18",
-                                "Minute": "47"
-                            },
-                            {
-                                "@PubStatus": "entrez",
-                                "Year": "2024",
-                                "Month": "5",
-                                "Day": "3",
-                                "Hour": "17",
-                                "Minute": "12"
-                            }
-                        ]
-                    },
-                    "PublicationStatus": "aheadofprint",
-                    "ArticleIdList": {
-                        "ArticleId": [
-                            {
-                                "@IdType": "pubmed",
-                                "#text": "38701491"
-                            },
-                            {
-                                "@IdType": "doi",
-                                "#text": "10.1164/rccm.202404-0790LE"
                             }
                         ]
                     }

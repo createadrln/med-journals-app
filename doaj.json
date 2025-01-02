@@ -1,8 +1,8 @@
 {
-    "total": 218069,
+    "total": 229848,
     "page": 1,
     "pageSize": 100,
-    "timestamp": "2024-05-06T11:44:34.781351Z",
+    "timestamp": "2024-11-20T18:19:23.683765Z",
     "query": "COVID-19",
     "results": [
         {
@@ -794,6 +794,90 @@
             "id": "0001ced378a74d0bafa9e4bb577f6252"
         },
         {
+            "last_updated": "2024-05-09T10:13:48Z",
+            "bibjson": {
+                "identifier": [
+                    {
+                        "id": "10.21009/jtp.v23i1.20203",
+                        "type": "doi"
+                    },
+                    {
+                        "id": "1411-2744",
+                        "type": "pissn"
+                    },
+                    {
+                        "id": "2620-3081",
+                        "type": "eissn"
+                    }
+                ],
+                "journal": {
+                    "volume": "23",
+                    "number": "1",
+                    "country": "ID",
+                    "issns": [
+                        "1411-2744",
+                        "2620-3081"
+                    ],
+                    "publisher": "Universitas Negeri Jakarta",
+                    "language": [
+                        "EN"
+                    ],
+                    "title": "Jurnal Teknologi Pendidikan"
+                },
+                "month": "June",
+                "keywords": [
+                    "E-learning",
+                    "Virtual Reality",
+                    "Augmented Reality",
+                    "Elementary School",
+                    "NNatural Science Lessons",
+                    "Covid-19"
+                ],
+                "year": "2021",
+                "subject": [
+                    {
+                        "code": "L7-991",
+                        "scheme": "LCC",
+                        "term": "Education (General)"
+                    },
+                    {
+                        "code": "LB5-3640",
+                        "scheme": "LCC",
+                        "term": "Theory and practice of education"
+                    }
+                ],
+                "author": [
+                    {
+                        "affiliation": "Gunadarma University",
+                        "name": "Risan Putra Anggara"
+                    },
+                    {
+                        "affiliation": "Gunadarma University",
+                        "name": "Purnawarman Musa"
+                    },
+                    {
+                        "affiliation": "Gunadarma University",
+                        "name": "Sri Lestari"
+                    },
+                    {
+                        "affiliation": "Gunadarma University",
+                        "name": "Suryarini Widodo"
+                    }
+                ],
+                "link": [
+                    {
+                        "content_type": "HTML",
+                        "type": "fulltext",
+                        "url": "https://journal.unj.ac.id/unj/index.php/jtp/article/view/20203"
+                    }
+                ],
+                "abstract": "\nCorona Virus Disease 2019 (Covid-19) has stopped all aspects of human life, including the world of education. The Ministry of Education of the Republic of Indonesia has stopped face-to-face teaching and learning activities in schools, replacing them with online methods. Work from Home (WFH) is an adaptation of activities as applied online methods to anticipate learning activities during the Covid-19 Pandemic. Learning based on digital transformation technology utilizes network technology entirely online. The application of e-learning technology in the teaching and learning process is a choice for various educational institutions. The use of technology can maximize students 'learning time efficiency and increase students' concentration. Learning with the Virtual Reality (VR) method directs students to discoveries, motivates, encourages, and provides more curiosity for students in learning. Besides VR, Augmented Reality (AR) is a learning method for students to interact with virtual objects and real objects. The author proposes e-learning based learning in Natural Sciences (IPA) subjects in grade 3 in Elementary Schools. The research proposal develops lessons using a virtual approach from real events and provides phenomena of natural occurrences. Science lessons in Elementary Schools increase the curiosity of students scientifically. This method will help students develop the ability to ask questions and find answers to natural phenomena. The research stages carried out in application development are analysis, design, implementation, and application testing. The test results by adding e-learning to traditional learning methods impacted students' understanding of the material with an increased level of understanding by 24%.\n",
+                "title": "Application of Electronic Learning by Utilizing Virtual Reality (VR) and Augmented Reality (AR) Methods in Natural Sciences Subjects (IPA) in Elementary School Students Grade 3"
+            },
+            "id": "00021190c82a4946ac3d67c46f6a2301",
+            "created_date": "2024-05-09T10:13:48Z"
+        },
+        {
             "last_updated": "2023-11-21T18:55:22Z",
             "bibjson": {
                 "identifier": [
@@ -1068,6 +1152,110 @@
             },
             "id": "0002995bb05d407aaf0a3d841bc651a4",
             "created_date": "2021-03-30T18:32:55Z"
+        },
+        {
+            "last_updated": "2024-06-12T11:18:40Z",
+            "bibjson": {
+                "identifier": [
+                    {
+                        "id": "10.7554/eLife.95708",
+                        "type": "doi"
+                    },
+                    {
+                        "id": "2050-084X",
+                        "type": "eissn"
+                    },
+                    {
+                        "id": "RP95708",
+                        "type": "elocationid"
+                    }
+                ],
+                "journal": {
+                    "volume": "13",
+                    "country": "GB",
+                    "issns": [
+                        "2050-084X"
+                    ],
+                    "publisher": "eLife Sciences Publications Ltd",
+                    "language": [
+                        "EN"
+                    ],
+                    "title": "eLife"
+                },
+                "month": "6",
+                "keywords": [
+                    "SARS-CoV-2",
+                    "COVID-19",
+                    "glycosylation",
+                    "variants",
+                    "spike",
+                    "RBD"
+                ],
+                "year": "2024",
+                "subject": [
+                    {
+                        "code": "R",
+                        "scheme": "LCC",
+                        "term": "Medicine"
+                    },
+                    {
+                        "code": "Q",
+                        "scheme": "LCC",
+                        "term": "Science"
+                    },
+                    {
+                        "code": "QH301-705.5",
+                        "scheme": "LCC",
+                        "term": "Biology (General)"
+                    }
+                ],
+                "author": [
+                    {
+                        "affiliation": "Department of Chemistry, Maynooth University, Maynooth, Ireland",
+                        "name": "Callum M Ives"
+                    },
+                    {
+                        "affiliation": "Department of Chemistry, University of Alberta, Edmonton, Canada",
+                        "name": "Linh Nguyen"
+                    },
+                    {
+                        "affiliation": "Department of Chemistry, Maynooth University, Maynooth, Ireland",
+                        "name": "Carl A Fogarty"
+                    },
+                    {
+                        "affiliation": "Department of Chemistry, Maynooth University, Maynooth, Ireland",
+                        "name": "Aoife M Harbison"
+                    },
+                    {
+                        "affiliation": "Human Health Therapeutics Research Centre, Life Sciences Division, National Research Council Canada, Qu\u00e9bec, Canada; D\u00e9partement de Biochimie et M\u00e9decine Mol\u00e9culaire, Universit\u00e9 de Montr\u00e9al, Qu\u00e9bec, Canada",
+                        "name": "Yves Durocher"
+                    },
+                    {
+                        "orcid_id": "https://orcid.org/0000-0002-3389-7112",
+                        "affiliation": "Department of Chemistry, University of Alberta, Edmonton, Canada",
+                        "name": "John Klassen"
+                    },
+                    {
+                        "orcid_id": "https://orcid.org/0000-0002-2898-7770",
+                        "affiliation": "School of Biological Sciences, University of Southampton, Southampton, United Kingdom",
+                        "name": "Elisa Fadda"
+                    }
+                ],
+                "link": [
+                    {
+                        "content_type": "text/html",
+                        "type": "fulltext",
+                        "url": "https://elifesciences.org/articles/95708"
+                    }
+                ],
+                "abstract": "Glycosylation of the SARS-CoV-2 spike (S) protein represents a key target for viral evolution because it affects both viral evasion and fitness. Successful variations in the glycan shield are difficult to achieve though, as protein glycosylation is also critical to folding and structural stability. Within this framework, the identification of glycosylation sites that are structurally dispensable can provide insight into the evolutionary mechanisms of the shield and inform immune surveillance. In this work, we show through over 45 \u03bcs of cumulative sampling from conventional and enhanced molecular dynamics (MD) simulations, how the structure of the immunodominant S receptor binding domain (RBD) is regulated by N-glycosylation at N343 and how this glycan\u2019s structural role changes from WHu-1, alpha (B.1.1.7), and beta (B.1.351), to the delta (B.1.617.2), and omicron (BA.1 and BA.2.86) variants. More specifically, we find that the amphipathic nature of the N-glycan is instrumental to preserve the structural integrity of the RBD hydrophobic core and that loss of glycosylation at N343 triggers a specific and consistent conformational change. We show how this change allosterically regulates the conformation of the receptor binding motif (RBM) in the WHu-1, alpha, and beta RBDs, but not in the delta and omicron variants, due to mutations that reinforce the RBD architecture. In support of these findings, we show that the binding of the RBD to monosialylated ganglioside co-receptors is highly dependent on N343 glycosylation in the WHu-1, but not in the delta RBD, and that affinity changes significantly across VoCs. Ultimately, the molecular and functional insight we provide in this work reinforces our understanding of the role of glycosylation in protein structure and function and it also allows us to identify the structural constraints within which the glycosylation site at N343 can become a hotspot for mutations in the SARS-CoV-2 S glycan shield.",
+                "title": "Role of N343 glycosylation on the SARS-CoV-2 S RBD structure and co-receptor binding across variants of concern"
+            },
+            "admin": {
+                "seal": true
+            },
+            "id": "0002cdb6517c4b4284c739104f9833f0",
+            "created_date": "2024-06-12T11:18:39Z"
         },
         {
             "last_updated": "2023-09-04T09:01:12Z",
@@ -1709,6 +1897,95 @@
             "created_date": "2021-07-04T12:17:54Z"
         },
         {
+            "last_updated": "2024-10-06T11:12:53Z",
+            "bibjson": {
+                "identifier": [
+                    {
+                        "id": "10.1186/s12879-024-10023-w",
+                        "type": "doi"
+                    },
+                    {
+                        "id": "1471-2334",
+                        "type": "eissn"
+                    }
+                ],
+                "journal": {
+                    "volume": "24",
+                    "number": "1",
+                    "country": "GB",
+                    "issns": [
+                        "1471-2334"
+                    ],
+                    "publisher": "BMC",
+                    "language": [
+                        "EN"
+                    ],
+                    "title": "BMC Infectious Diseases"
+                },
+                "month": "10",
+                "end_page": "10",
+                "keywords": [
+                    "Asymptomatic GAS carriage",
+                    "COVID-19 precautions",
+                    "Schoolchildren",
+                    "Southern west bank, Palestine"
+                ],
+                "year": "2024",
+                "start_page": "1",
+                "subject": [
+                    {
+                        "code": "RC109-216",
+                        "scheme": "LCC",
+                        "term": "Infectious and parasitic diseases"
+                    }
+                ],
+                "author": [
+                    {
+                        "affiliation": "Department of Medical Laboratory Sciences, Faculty of Health Professions, Al-Quds University",
+                        "name": "Ibrahim Amer Ghannam"
+                    },
+                    {
+                        "affiliation": "Department of Medical Laboratory Sciences, Faculty of Health Professions, Al-Quds University",
+                        "name": "Rana Mahmoud Maraqa"
+                    },
+                    {
+                        "affiliation": "Department of Medical Laboratory Sciences, Faculty of Health Professions, Al-Quds University",
+                        "name": "Duha Shokri Qawasmeh"
+                    },
+                    {
+                        "affiliation": "Department of Medical Laboratory Sciences, Faculty of Health Professions, Al-Quds University",
+                        "name": "Rania Khalil Alsous"
+                    },
+                    {
+                        "affiliation": "Department of Medical Laboratory Sciences, Faculty of Health Professions, Al-Quds University",
+                        "name": "Sakra Mohammad Abu Jaber"
+                    },
+                    {
+                        "affiliation": "Department of Medical Laboratory Sciences, Faculty of Health Professions, Al-Quds University",
+                        "name": "Iman Abd Almuti Ghatasha"
+                    },
+                    {
+                        "affiliation": "Faculty of Medicine, Al-Quds University",
+                        "name": "Yahya Ibrahim Ghannam"
+                    }
+                ],
+                "link": [
+                    {
+                        "content_type": "HTML",
+                        "type": "fulltext",
+                        "url": "https://doi.org/10.1186/s12879-024-10023-w"
+                    }
+                ],
+                "abstract": "Abstract Background Streptococcus pyogenes (Group A Streptococcus, GAS) is a significant pathogen that causes diverse infections, ranging from pharyngitis to severe invasive diseases. Asymptomatic carriage in children is pivotal for transmission. The COVID-19 pandemic\u2019s health measures, including mask wearing and enhanced hand hygiene, likely influenced GAS transmission dynamics. This study evaluated the impact of these precautions on the prevalence of asymptomatic pharyngeal GAS carriage among schoolchildren in the southern West Bank, Palestine. Methods This cross-sectional study was conducted in two phases: pre-COVID-19 (November 2019\u2013January 2020) and post-COVID-19 (November 2023\u2013April 2024). Throat swabs were collected from 701 children (345 pre-COVID-19, 356 post-COVID-19) via cluster sampling. The samples were tested with the ABON Strep A rapid test and confirmed by culture. Sociodemographic, health, and household data were also collected. The statistical analyses included descriptive statistics, chi-square tests, and binary logistic regression. Results The prevalence of asymptomatic pharyngeal GAS carriage declined from 15.7% pre-COVID-19 to 10.4% post-COVID-19 (p\u2009=\u20090.038). Significant reductions were observed among urban residents (23.5\u201310.1%, p\u2009=\u20090.003) and those from medium socioeconomic backgrounds (16.0\u20139.1%, p\u2009=\u20090.008). Compared with urban residents, rural residents had lower GAS carriage rates (adjusted OR\u2009=\u20090.505, p\u2009=\u20090.023). Carriage rates also decreased among children with frequent sore throats (17.6\u20137.3%, p\u2009=\u20090.007) and those using private wells (52.5\u201314.9%, p\u2009<\u20090.001). Higher BMI was a significant risk factor (adjusted OR\u2009=\u200917.68, p\u2009<\u20090.001), whereas frequent tooth brushing (adjusted OR\u2009=\u20090.055, p\u2009<\u20090.001) and hand washing (adjusted OR\u2009=\u20090.367, p\u2009<\u20090.001) were protective factors. Conclusions COVID-19-related health precautions were correlated with a significant reduction in asymptomatic GAS carriage among Palestinian children. These findings suggest that public health measures, such as mask wearing and hand hygiene, can influence the transmission of respiratory pathogens. Ongoing surveillance and targeted interventions are essential for managing GAS infections, particularly in resource-limited settings.",
+                "title": "Impact of COVID-19 health precautions on asymptomatic Streptococcus pyogenes carriage in palestinian children: a pre- and post-pandemic study"
+            },
+            "admin": {
+                "seal": true
+            },
+            "id": "00045f3af6b14d27830442fc9435db74",
+            "created_date": "2024-10-06T11:12:53Z"
+        },
+        {
             "last_updated": "2024-01-14T12:12:22Z",
             "bibjson": {
                 "identifier": [
@@ -1798,86 +2075,6 @@
             },
             "id": "0004dc117a3049888229059bb8730119",
             "created_date": "2024-01-14T12:12:22Z"
-        },
-        {
-            "last_updated": "2023-11-24T15:12:27Z",
-            "bibjson": {
-                "identifier": [
-                    {
-                        "id": "10.3390/healthcare10122577",
-                        "type": "doi"
-                    },
-                    {
-                        "id": "2227-9032",
-                        "type": "eissn"
-                    }
-                ],
-                "journal": {
-                    "volume": "10",
-                    "number": "12",
-                    "country": "CH",
-                    "issns": [
-                        "2227-9032"
-                    ],
-                    "publisher": "MDPI AG",
-                    "language": [
-                        "EN"
-                    ],
-                    "title": "Healthcare"
-                },
-                "month": "12",
-                "keywords": [
-                    "long COVID",
-                    "physical symptoms",
-                    "mild COVID-19",
-                    "adults"
-                ],
-                "year": "2022",
-                "start_page": "2577",
-                "subject": [
-                    {
-                        "code": "R",
-                        "scheme": "LCC",
-                        "term": "Medicine"
-                    }
-                ],
-                "author": [
-                    {
-                        "affiliation": "Cohort Doctoral Studies Program, Australian Institute of Tropical Health and Medicine, James Cook University, Townsville, QLD 4811, Australia",
-                        "name": "Zoe Mass Kokolevich"
-                    },
-                    {
-                        "affiliation": "Cohort Doctoral Studies Program, Australian Institute of Tropical Health and Medicine, James Cook University, Townsville, QLD 4811, Australia",
-                        "name": "Melissa Crowe"
-                    },
-                    {
-                        "affiliation": "Cohort Doctoral Studies Program, Australian Institute of Tropical Health and Medicine & Subject Coordinator, James Cook University, Townsville, QLD 4811, Australia",
-                        "name": "Diana Mendez"
-                    },
-                    {
-                        "affiliation": "College of Medicine and Dentistry, James Cook University, Townsville, QLD 4811, Australia",
-                        "name": "Erik Biros"
-                    },
-                    {
-                        "affiliation": "Cohort Doctoral Studies Program, Australian Institute of Tropical Health and Medicine, James Cook University, Townsville, QLD 4811, Australia",
-                        "name": "Jacqueline Elise Reznik"
-                    }
-                ],
-                "link": [
-                    {
-                        "content_type": "text/html",
-                        "type": "fulltext",
-                        "url": "https://www.mdpi.com/2227-9032/10/12/2577"
-                    }
-                ],
-                "abstract": "Background: One-third of patients who recover from COVID-19 present with long COVID. Their symptoms are broad, affecting their physical functioning and, ultimately, their quality of life. Many of those individuals who develop long COVID, possibly from a mild COVID-19 infection, are in the 18\u201365 age group. This prolongation of malaise directly influences national workforce economies. Objectives: To summarise the commonly reported physical symptoms of long COVID in order to inform potential adjustments in healthcare for the employable population. Methods: The Embase, CINAHL, Medline, SCOPUS, and WHO COVID-19 databases were searched. The study selection process was based on the PRISMA guidelines. The extracted data were synthesised and presented narratively. Results: 7403 studies were accessed, comprising 60 cohort studies and 10 case series/studies, representing 289,213 patients who met our criteria. The most frequently reported physical symptoms were fatigue (92%), shortness of breath (SOB) (81.8%), muscle pain (43.6%), and joint pain (34.5%). Conclusions: The range of reported physical symptoms was broad and varied; the main ones being fatigue, breathlessness/SOB, and pain. Similarities observed between long COVID and other post-acute infection syndromes may help formulate protocols to manage and promote recovery for long COVID patients. Inconsistencies were evident, particularly with a lack of adherence to the standardised definitions of long COVID.",
-                "title": "Most Common Long COVID Physical Symptoms in Working Age Adults Who Experienced Mild COVID-19 Infection: A Scoping Review"
-            },
-            "admin": {
-                "seal": true
-            },
-            "id": "0005cb67b0e74ad68f5a3527a5ccdba1",
-            "created_date": "2022-12-22T15:38:34Z"
         },
         {
             "last_updated": "2022-12-22T04:18:50Z",
@@ -2939,151 +3136,107 @@
             "created_date": "2023-09-26T13:19:07Z"
         },
         {
-            "last_updated": "2023-11-24T11:22:06Z",
+            "last_updated": "2024-10-28T08:35:31Z",
             "bibjson": {
                 "identifier": [
                     {
-                        "id": "10.3390/jcm11237052",
+                        "id": "10.1038/s41598-024-75192-9",
                         "type": "doi"
                     },
                     {
-                        "id": "2077-0383",
+                        "id": "2045-2322",
                         "type": "eissn"
                     }
                 ],
                 "journal": {
-                    "volume": "11",
-                    "number": "23",
-                    "country": "CH",
+                    "volume": "14",
+                    "number": "1",
+                    "country": "GB",
                     "issns": [
-                        "2077-0383"
+                        "2045-2322"
                     ],
-                    "publisher": "MDPI AG",
+                    "publisher": "Nature Portfolio",
                     "language": [
                         "EN"
                     ],
-                    "title": "Journal of Clinical Medicine"
+                    "title": "Scientific Reports"
                 },
-                "month": "11",
+                "month": "10",
+                "end_page": "12",
                 "keywords": [
+                    "Paxlovid",
                     "COVID-19",
-                    "pulmonary function test",
-                    "shortness of breath",
-                    "cough",
-                    "recovery"
+                    "Adverse drug reactions"
                 ],
-                "year": "2022",
-                "start_page": "7052",
+                "year": "2024",
+                "start_page": "1",
                 "subject": [
                     {
                         "code": "R",
                         "scheme": "LCC",
                         "term": "Medicine"
+                    },
+                    {
+                        "code": "Q",
+                        "scheme": "LCC",
+                        "term": "Science"
                     }
                 ],
                 "author": [
                     {
-                        "affiliation": "2nd Department of Lung Diseases and Tuberculosis, Medical University of Bialystok, Zurawia 14, 15-540 Bialystok, Poland",
-                        "name": "Katarzyna Guziejko"
+                        "affiliation": "Department of Pharmacy, Tengku Ampuan Rahimah Hospital",
+                        "name": "Zahirah Zaharuddin"
                     },
                     {
-                        "affiliation": "Department of Infectious Diseases and Neuroinfections, Medical University of Bialystok, Zurawia 14, 15-540 Bialystok, Poland",
-                        "name": "Anna Moniuszko-Malinowska"
+                        "affiliation": "Department of Pharmacy Practice and Clinical Pharmacy, Faculty of Pharmacy, Universiti Teknologi MARA Selangor Branch",
+                        "name": "Nur Sabiha Md Hussin"
                     },
                     {
-                        "affiliation": "Department of Infectious Diseases and Neuroinfections, Medical University of Bialystok, Zurawia 14, 15-540 Bialystok, Poland",
-                        "name": "Piotr Czupryna"
-                    },
-                    {
-                        "affiliation": "Department of Population Medicine and Lifestyle Diseases Prevention, Medical University of Bialystok, ul. J. Kilinskiego 1, 15-259 Bialystok, Poland",
-                        "name": "Marlena Dubat\u00f3wka"
-                    },
-                    {
-                        "affiliation": "Department of Population Medicine and Lifestyle Diseases Prevention, Medical University of Bialystok, ul. J. Kilinskiego 1, 15-259 Bialystok, Poland",
-                        "name": "Magda \u0141api\u0144ska"
-                    },
-                    {
-                        "affiliation": "Department of Population Medicine and Lifestyle Diseases Prevention, Medical University of Bialystok, ul. J. Kilinskiego 1, 15-259 Bialystok, Poland",
-                        "name": "Andrzej Raczkowski"
-                    },
-                    {
-                        "affiliation": "Department of Population Medicine and Lifestyle Diseases Prevention, Medical University of Bialystok, ul. J. Kilinskiego 1, 15-259 Bialystok, Poland",
-                        "name": "Pawe\u0142 Sowa"
-                    },
-                    {
-                        "affiliation": "Society and Cognition Unit, University of Bialystok, 15-403 Bialystok, Poland",
-                        "name": "\u0141ukasz Kiszkiel"
-                    },
-                    {
-                        "affiliation": "2nd Department of Lung Diseases and Tuberculosis, Medical University of Bialystok, Zurawia 14, 15-540 Bialystok, Poland",
-                        "name": "\u0141ukasz Minarowski"
-                    },
-                    {
-                        "affiliation": "Department of Regenerative Medicine and Immune Regulation, Medical University of Bialystok, Waszyngtona 13, 15-269 Bialystok, Poland",
-                        "name": "Marcin Moniuszko"
-                    },
-                    {
-                        "affiliation": "Department of Infectious Diseases and Neuroinfections, Medical University of Bialystok, Zurawia 14, 15-540 Bialystok, Poland",
-                        "name": "Monika Groth"
-                    },
-                    {
-                        "affiliation": "Department of Population Medicine and Lifestyle Diseases Prevention, Medical University of Bialystok, ul. J. Kilinskiego 1, 15-259 Bialystok, Poland",
-                        "name": "Karol A. Kaminski"
+                        "affiliation": "Department of Pharmacy Practice and Clinical Pharmacy, Faculty of Pharmacy, Universiti Teknologi MARA Selangor Branch",
+                        "name": "Mahmathi Karuppannan"
                     }
                 ],
                 "link": [
                     {
-                        "content_type": "text/html",
+                        "content_type": "HTML",
                         "type": "fulltext",
-                        "url": "https://www.mdpi.com/2077-0383/11/23/7052"
+                        "url": "https://doi.org/10.1038/s41598-024-75192-9"
                     }
                 ],
-                "abstract": "Background: The aim of the study was to investigate the impact of COVID-19 on the pulmonary function tests (PFT) in COVID-19 convalescents six months after recovery. Additionally, the research question was whether PFT should be performed routinely in post-COVID-19 patients. Methods: A total of 39 patients with a history of COVID-19 6 months prior to the study were included in the study (Group I). Individuals were hospitalized or treated in the outpatients department. The control group (Group II) consisted of 39 healthy patients without a COVID-19 history. Each subject completed a questionnaire interview and underwent laboratory and pulmonary function examinations. Results: Six months after COVID-19 recovery, patients mainly complained about cough (46%, n = 18), shortness of breath (23%, n = 9), weakness (13%, n = 5), and memory/concentration disorders (8%, n = 3). In the group of patients complaining of persistent cough present 6 months after COVID-19, the following PFT parameters were decreased: FEV1, FVC, FRC, TLC, and DLCO (<i>p</i> < 0.05) in comparison with patients without this symptom. Conclusions: Persistent shortness of breath is not necessarily associated with pulmonary function impairment in patients 6 months after SARS-CoV-2 infection, and hence it requires appropriate differential diagnosis. Patients with a cough persisting 6 months after the acute phase of COVID-19 may benefit from PFT.",
-                "title": "Assessment of Pulmonary Function Tests in COVID-19 Convalescents Six Months after Infection"
+                "abstract": "Abstract This retrospective cross-sectional study aims to evaluate the safety, tolerability, and adherence of patients prescribed Nirmatrelvir-ritonavir (Paxlovid) in outpatient settings, focusing on its use in managing category 2 COVID-19 patients across three primary healthcare clinics in Selangor, Malaysia. Data were collected from the Paxlovid pharmacy registry and medical records at Klinik Kesihatan Seksyen 7, Klinik Kesihatan Seksyen 19, and Klinik Kesihatan Kelana Jaya between April 1, 2022, and November 30, 2022. This study analysed data from 415 category 2 COVID-19 patients aged\u2009\u2265\u200918\u00a0years. The primary and secondary outcomes included the assessment of patient demographics, Paxlovid dosing, current medication, changes in drug regimen, adherence, and adverse drug reactions (ADR). Pharmacists follow-ups were conducted on days 3 and 5 post-medication initiation. The majority (79.5%) of the cohort experienced ADR, predominantly dysgeusia, diarrhoea, body ache, vomiting, and nausea. Despite this, the ADRs were generally well-tolerated, with no severe impacts reported. High adherence was observed, with 96.9% of patients completing the 5-day regimen. The primary reasons for non-adherence included adverse effect intolerability, dosing ambiguity, forgetfulness, concerns about ADR, and perceived health improvement. Notable medications interacting with Paxlovid were simvastatin, amlodipine, and atorvastatin, and 21.7% of 23 concurrent medications were found not to comply with the recommended interventions by the University of Liverpool COVID-19 Drug Interaction database. Paxlovid demonstrates a high level of safety and tolerability in outpatient COVID-19 patients, with optimal adherence observed. This study underscores the vital role of healthcare professionals in managing Paxlovid within primary healthcare and highlights the need for broader research and direct patient involvement to enhance treatment strategies against COVID-19.",
+                "title": "Real-world analysis of safety, tolerability, and adherence to nirmatrelvir-ritonavir (paxlovid) in primary care COVID-19 outpatients"
             },
-            "admin": {
-                "seal": true
-            },
-            "id": "0009e623909848258164c7f4f755087f",
-            "created_date": "2022-12-09T20:38:15Z"
+            "id": "000a55cfd86b4ec5be0d4aaf2b02ed4c",
+            "created_date": "2024-10-28T08:35:30Z"
         },
         {
-            "last_updated": "2023-11-16T16:43:11Z",
+            "last_updated": "2024-05-27T17:15:31Z",
             "bibjson": {
                 "identifier": [
                     {
-                        "id": "10.3390/healthcare11030287",
-                        "type": "doi"
+                        "id": "2561-326X",
+                        "type": "eissn"
                     },
                     {
-                        "id": "2227-9032",
-                        "type": "eissn"
+                        "id": "10.2196/56218",
+                        "type": "doi"
                     }
                 ],
                 "journal": {
-                    "volume": "11",
-                    "number": "3",
-                    "country": "CH",
+                    "volume": "8",
+                    "country": "CA",
                     "issns": [
-                        "2227-9032"
+                        "2561-326X"
                     ],
-                    "publisher": "MDPI AG",
+                    "publisher": "JMIR Publications",
                     "language": [
                         "EN"
                     ],
-                    "title": "Healthcare"
+                    "title": "JMIR Formative Research"
                 },
-                "month": "01",
-                "keywords": [
-                    "eye",
-                    "intravitreal injections",
-                    "ethical",
-                    "COVID",
-                    "medico-legal",
-                    "retinal diseases"
-                ],
-                "year": "2023",
-                "start_page": "287",
+                "month": "5",
+                "year": "2024",
+                "start_page": "e56218",
                 "subject": [
                     {
                         "code": "R",
@@ -3093,93 +3246,45 @@
                 ],
                 "author": [
                     {
-                        "affiliation": "Department of Surgical and Medical Sciences, University \u2018Magna Gr\u00e6cia\u2019 of Catanzaro, Viale Europa, 88100 Catanzaro, Italy",
-                        "name": "Daniela Mazzuca"
+                        "orcid_id": "https://orcid.org/0000-0002-3121-0129",
+                        "name": "Amanda D Tran"
                     },
                     {
-                        "affiliation": "Department of Surgical Sciences, Eye Clinic, University of Cagliari, Via Ospedale 48, 09124 Cagliari, Italy",
-                        "name": "Giuseppe Demarinis"
+                        "orcid_id": "https://orcid.org/0000-0001-5496-708X",
+                        "name": "Alice E White"
                     },
                     {
-                        "affiliation": "Department of Surgical and Medical Sciences, University \u2018Magna Gr\u00e6cia\u2019 of Catanzaro, Viale Europa, 88100 Catanzaro, Italy",
-                        "name": "Marcello Della Corte"
+                        "orcid_id": "https://orcid.org/0000-0002-8825-2805",
+                        "name": "Michelle R Torok"
                     },
                     {
-                        "affiliation": "Department of Surgical and Medical Sciences, University \u2018Magna Gr\u00e6cia\u2019 of Catanzaro, Viale Europa, 88100 Catanzaro, Italy",
-                        "name": "Fiorella Caputo"
+                        "orcid_id": "https://orcid.org/0000-0002-0064-2172",
+                        "name": "Rachel H Jervis"
                     },
                     {
-                        "affiliation": "Department of Surgical and Medical Sciences, University \u2018Magna Gr\u00e6cia\u2019 of Catanzaro, Viale Europa, 88100 Catanzaro, Italy",
-                        "name": "Antonello Caruso"
+                        "orcid_id": "https://orcid.org/0009-0005-3789-7952",
+                        "name": "Bernadette A Albanese"
                     },
                     {
-                        "affiliation": "Department of Biomedicine and Prevention, University of Rome \u201cTor Vergata\u201d, Via dell\u2019Archiginnasio, 00133 Rome, Italy",
-                        "name": "Margherita Pallocci"
-                    },
-                    {
-                        "affiliation": "Department of Biomedicine and Prevention, University of Rome \u201cTor Vergata\u201d, Via dell\u2019Archiginnasio, 00133 Rome, Italy",
-                        "name": "Luigi Tonino Marsella"
-                    },
-                    {
-                        "affiliation": "Department of Surgical Sciences, Eye Clinic, University of Cagliari, Via Ospedale 48, 09124 Cagliari, Italy",
-                        "name": "Filippo Tatti"
-                    },
-                    {
-                        "affiliation": "Department of Surgical Sciences, Eye Clinic, University of Cagliari, Via Ospedale 48, 09124 Cagliari, Italy",
-                        "name": "Emanuele Siotto Pintor"
-                    },
-                    {
-                        "affiliation": "Department of Surgical Sciences, Eye Clinic, University of Cagliari, Via Ospedale 48, 09124 Cagliari, Italy",
-                        "name": "Lorenzo Mangoni"
-                    },
-                    {
-                        "affiliation": "Department of Ophthalmology, University \u2018Magna Gr\u00e6cia\u2019 of Catanzaro, Viale Europa, 88100 Catanzaro, Italy",
-                        "name": "Gabriele Piccoli"
-                    },
-                    {
-                        "affiliation": "Department of Ophthalmology, University \u2018Magna Gr\u00e6cia\u2019 of Catanzaro, Viale Europa, 88100 Catanzaro, Italy",
-                        "name": "Adriano Carnevali"
-                    },
-                    {
-                        "affiliation": "Department of Ophthalmology, University \u2018Magna Gr\u00e6cia\u2019 of Catanzaro, Viale Europa, 88100 Catanzaro, Italy",
-                        "name": "Sabrina Vaccaro"
-                    },
-                    {
-                        "affiliation": "Department of Ophthalmology, University \u2018Magna Gr\u00e6cia\u2019 of Catanzaro, Viale Europa, 88100 Catanzaro, Italy",
-                        "name": "Vincenzo Scorcia"
-                    },
-                    {
-                        "affiliation": "Department of Surgical Sciences, Eye Clinic, University of Cagliari, Via Ospedale 48, 09124 Cagliari, Italy",
-                        "name": "Enrico Peiretti"
-                    },
-                    {
-                        "affiliation": "Department of Health Sciences, University \u2018Magna Gr\u00e6cia\u2019 of Catanzaro, Viale Europa, 88100 Catanzaro, Italy",
-                        "name": "Carmelo Nobile"
-                    },
-                    {
-                        "affiliation": "Department of Law, University \u2018Magna Gr\u00e6cia\u2019 of Catanzaro, Viale Europa, 88100 Catanzaro, Italy",
-                        "name": "Nicola Gratteri"
-                    },
-                    {
-                        "affiliation": "Department of Ophthalmology, University \u2018Magna Gr\u00e6cia\u2019 of Catanzaro, Viale Europa, 88100 Catanzaro, Italy",
-                        "name": "Giuseppe Giannaccare"
+                        "orcid_id": "https://orcid.org/0000-0003-1766-0307",
+                        "name": "Elaine J Scallan Walter"
                     }
                 ],
                 "link": [
                     {
-                        "content_type": "text/html",
+                        "content_type": "{'x': 'http://www.crossref.org/schema/4.4.2', 'j': 'http://www.ncbi.nlm.nih.gov/JATS1'}",
                         "type": "fulltext",
-                        "url": "https://www.mdpi.com/2227-9032/11/3/287"
+                        "url": "https://formative.jmir.org/2024/1/e56218"
                     }
                 ],
-                "abstract": "The COVID-19 pandemic has hampered the optimum management of retinal diseases. This study examined the impact of the pandemic on the intravitreal-injection practice in two academic centers in Italy along with the related medico-legal implications. A retrospective analysis of electronic medical records from 16 March 2020 to 14 March 2021 at the ophthalmological departments of University of Cagliari (SGD) and University Magna Gr\u00e6cia of Catanzaro (UMG) was conducted. The data collected between 16 March 2020 and 14 June 2020 (lockdown), 15 June 2020 and 13 September 2020 (unlock), and 14 September 2020 and 14 March 2021 (second wave) were compared with those of the same period of the previous year. Weekly data on the administered drug and the number and type of treated disease were collected and analyzed. During the lockdown, a drop of 59% at SGD (<i>p</i> < 0.00001) and 77% at UMG (<i>p</i> < 0.00001) in intravitreal injections was found. In the first year of the pandemic, the reduction in injections was approximately of 27% (<i>p</i> < 0.0008) and 38% (<i>p</i> < 0.0001) at SGD and UMG, respectively. The COVID-19-related containment measures and the health resources redistribution have led to a delay in the treatment of chronic diseases of the retina, prioritizing the undeferrable ones. The lack of management guidelines has conceived relevant ethical and medico-legal issues that need to be considered in future measures planning.",
-                "title": "Intravitreal Injection Planning during COVID-19 Pandemic: A Retrospective Study of Two Tertiary University Centers in Italy"
+                "abstract": "\n          \n            BackgroundSequential mixed-mode surveys using both web-based surveys and telephone interviews are increasingly being used in observational studies and have been shown to have many benefits; however, the application of this survey design has not been evaluated in the context of epidemiological case-control studies.\n            ObjectiveIn this paper, we discuss the challenges, benefits, and limitations of using a sequential mixed-mode survey design for a case-control study assessing risk factors during the COVID-19 pandemic.\n            MethodsColorado adults testing positive for SARS-CoV-2 were randomly selected and matched to those with a negative SARS-CoV-2 test result from March to April 2021. Participants were first contacted by SMS text message to complete a self-administered web-based survey asking about community exposures and behaviors. Those who did not respond were contacted for a telephone interview. We evaluated the representativeness of survey participants to sample populations and compared sociodemographic characteristics, participant responses, and time and resource requirements by survey mode using descriptive statistics and logistic regression models.\n            ResultsOf enrolled case and control participants, most were interviewed by telephone (308/537, 57.4% and 342/648, 52.8%, respectively), with overall enrollment more than doubling after interviewers called nonresponders. Participants identifying as female or White non-Hispanic, residing in urban areas, and not working outside the home were more likely to complete the web-based survey. Telephone participants were more likely than web-based participants to be aged 18-39 years or 60 years and older and reside in areas with lower levels of education, more linguistic isolation, lower income, and more people of color. While there were statistically significant sociodemographic differences noted between web-based and telephone case and control participants and their respective sample pools, participants were more similar to sample pools when web-based and telephone responses were combined. Web-based participants were less likely to report close contact with an individual with COVID-19 (odds ratio [OR] 0.70, 95% CI 0.53-0.94) but more likely to report community exposures, including visiting a grocery store or retail shop (OR 1.55, 95% CI 1.13-2.12), restaurant or cafe or coffee shop (OR 1.52, 95% CI 1.20-1.92), attending a gathering (OR 1.69, 95% CI 1.34-2.15), or sport or sporting event (OR 1.05, 95% CI 1.05-1.88). The web-based survey required an average of 0.03 (SD 0) person-hours per enrolled participant and US $920 in resources, whereas the telephone interview required an average of 5.11 person-hours per enrolled participant and US $70,000 in interviewer wages.\n            ConclusionsWhile we still encountered control recruitment challenges noted in other observational studies, the sequential mixed-mode design was an efficient method for recruiting a more representative group of participants for a case-control study with limited impact on data quality and should be considered during public health emergencies when timely and accurate exposure information is needed to inform control measures.",
+                "title": "Lessons Learned From a Sequential Mixed-Mode Survey Design to Recruit and Collect Data From Case-Control Study Participants: Formative Evaluation"
             },
             "admin": {
                 "seal": true
             },
-            "id": "000a063375a14fc286a407e697fdfac1",
-            "created_date": "2023-02-10T14:41:41Z"
+            "id": "000bf93b274c429b8ef886e3cfec7b90",
+            "created_date": "2024-05-27T17:15:31Z"
         },
         {
             "last_updated": "2022-12-21T19:37:07Z",
@@ -3433,6 +3538,71 @@
             "created_date": "2022-03-02T05:52:59Z"
         },
         {
+            "last_updated": "2024-07-08T18:10:24Z",
+            "bibjson": {
+                "identifier": [
+                    {
+                        "id": "10.5540/tcam.2022.023.04.00655",
+                        "type": "doi"
+                    },
+                    {
+                        "id": "2676-0029",
+                        "type": "eissn"
+                    }
+                ],
+                "journal": {
+                    "volume": "23",
+                    "number": "4",
+                    "country": "BR",
+                    "issns": [
+                        "2676-0029"
+                    ],
+                    "publisher": "Sociedade Brasileira de Matem\u00e1tica Aplicada e Computacional",
+                    "language": [
+                        "EN",
+                        "PT"
+                    ],
+                    "title": "Trends in Computational and Applied Mathematics"
+                },
+                "month": "November",
+                "keywords": [
+                    "COVID-19",
+                    "SIRQ model",
+                    "multi-population"
+                ],
+                "year": "2022",
+                "subject": [
+                    {
+                        "code": "QA1-939",
+                        "scheme": "LCC",
+                        "term": "Mathematics"
+                    }
+                ],
+                "author": [
+                    {
+                        "affiliation": "Graduate Program in Computational Modeling,\r\nFederal University of Rio Grande, Rio Grande, RS, Brazil",
+                        "name": "A. C. F. N. Gomes"
+                    },
+                    {
+                        "orcid_id": "https://orcid.org/0000-0001-8431-9120",
+                        "affiliation": "Institute of Mathematics, Statistics, and Physics \r\nFederal University of Rio Grande",
+                        "name": "A. De Cezaro"
+                    }
+                ],
+                "link": [
+                    {
+                        "content_type": "HTML",
+                        "type": "fulltext",
+                        "url": "https://tcam.sbmac.org.br/tema/article/view/1561"
+                    }
+                ],
+                "abstract": "\nBecause of the current scenario of the SARS-CoV-2 (COVID-19) pandemic in Brazil, whose vaccination campaign is in the initial stage, government authorities have pointed out towards the complete reopening of the economy. And recently for the in-personal return of classroom teaching in schools. Given the family relationship, one of the questions that remained without an answer is: What are the consequences of the schools reopening on the dissemination of COVID-19? The purpose of this work is to analyze a variant of the compartmental SIRD (Susceptible, Infected, Recovered, social distancing) model within a structured interacting age population representing six age groups from the basic education age to the elders. We present a complete analysis of the well-posedness of the proposed mathematical model. Moreover, we discuss distinct disease spreading scenarios based on observations of the mathematical behavior of the proposed dynamics. We also present a result of existence for the stationary points in terms of the parameters of the model and the number of infected age groups. Finally, we present different numerical simulations of predicted scenarios by the model. Those numerical realizations collaborate with the conclusion that an early school reopening - that implies the departure of the youngster from social isolation - causes the infection curve to grow considerably, even for other age groups.\n",
+                "title": "A Model of Social Distancing for Interacting Age-Distributed Multi-Populations: An Analysis of Students\u2019 In-Person Return to Schools"
+            },
+            "id": "000da77171514a2a9e50763d3b9af752",
+            "created_date": "2024-07-08T18:10:24Z"
+        },
+        {
             "last_updated": "2023-11-18T07:46:36Z",
             "bibjson": {
                 "identifier": [
@@ -3504,80 +3674,88 @@
             "created_date": "2023-06-09T13:06:19Z"
         },
         {
-            "last_updated": "2023-04-10T07:22:22Z",
+            "last_updated": "2024-05-17T05:31:40Z",
             "bibjson": {
                 "identifier": [
                     {
-                        "id": "2687-3788",
-                        "type": "eissn"
+                        "id": "1935-2727",
+                        "type": "pissn"
                     },
                     {
-                        "id": "10.33902/JPSP.202218002",
-                        "type": "doi"
+                        "id": "1935-2735",
+                        "type": "eissn"
                     }
                 ],
                 "journal": {
-                    "volume": "4",
-                    "number": "2",
-                    "country": "TR",
+                    "volume": "18",
+                    "number": "5",
+                    "country": "US",
                     "issns": [
-                        "2687-3788"
+                        "1935-2727",
+                        "1935-2735"
                     ],
-                    "publisher": "Octagon Education Services",
+                    "publisher": "Public Library of Science (PLoS)",
                     "language": [
                         "EN"
                     ],
-                    "title": "Journal of Pedagogical Sociology and Psychology"
+                    "title": "PLoS Neglected Tropical Diseases"
                 },
-                "month": "12",
-                "end_page": "167",
-                "keywords": [
-                    "COVID-19",
-                    "online learning",
-                    "learning goals",
-                    "challenges",
-                    "emergency online learning",
-                    "modular learning"
-                ],
-                "year": "2022",
-                "start_page": "144",
+                "month": "5",
+                "year": "2024",
                 "subject": [
                     {
-                        "code": "L",
+                        "code": "RC955-962",
                         "scheme": "LCC",
-                        "term": "Education"
+                        "term": "Arctic medicine. Tropical medicine"
+                    },
+                    {
+                        "code": "RA1-1270",
+                        "scheme": "LCC",
+                        "term": "Public aspects of medicine"
                     }
                 ],
                 "author": [
                     {
-                        "affiliation": "College of Education, Mindanao State University, Philippines",
-                        "name": "Swen Joshryll  Acebes"
+                        "name": "Quan Wang"
                     },
                     {
-                        "affiliation": "College of Education, Mindanao State University, Philippines",
-                        "name": "Jaizele Melitante"
+                        "name": "Yanmin Cao"
                     },
                     {
-                        "affiliation": "College of Education, Mindanao State University, Philippines",
-                        "name": "Nikki Tuble"
+                        "name": "Xinyu Liu"
                     },
                     {
-                        "affiliation": "College of Education, Mindanao State University, Philippines",
-                        "name": "Cathy Mae Dabi Toquero"
+                        "name": "Yaqun Fu"
+                    },
+                    {
+                        "name": "Jiawei Zhang"
+                    },
+                    {
+                        "name": "Yeqing Zhang"
+                    },
+                    {
+                        "name": "Lanyue Zhang"
+                    },
+                    {
+                        "name": "Xiaolin Wei"
+                    },
+                    {
+                        "name": "Li Yang"
                     }
                 ],
                 "link": [
                     {
-                        "content_type": "PDF",
                         "type": "fulltext",
-                        "url": "https://www.j-psp.com/download/hopes-goals-hindrances-and-solutions-of-students-on-forced-digitalization-of-course-learning-amid-12782.pdf"
+                        "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11090343/?tool=EBI"
                     }
                 ],
-                "abstract": "The immediate sweep of COVID-19 has jolted the world's education system and propelled educators to switch to an online-based pedagogy instantly. This study examined the pre-service teachers' hopes, goals, hindrances, and solutions regarding the forced digital revolution of course learning. It encompasses strategies for students to cope with the reconceptualization and proactively manage knowledge acquisition in the face of a disease outbreak. The researchers employed a non-probability sampling technique in selecting the unit of analysis. For this qualitative investigation, the study employed summative content analysis to examine how words or passages of pre-service teachers operate within the context of their experience. Fifty learning modules from the first year of pre-service teachers were analyzed through document reviews. Based on the findings, this study enables the educational sector to visualize the configurations and problems that the students encountered during the pandemic. The pre-service teachers could hope to gain in-depth knowledge, have fun and engaging activities, and apply their learning to the real-world setting. Personal growth, becoming an effective teacher, and building connections among peers are what they have desired while embarking on their academic endeavors. As they faced multiple impediments, they became resourceful and found alternatives, asked for assistance from their peers, and reached out to their professors to gain in-depth knowledge about their pedagogy. The COVID-19 virus has substantially affected pre-service teachers' learning; however, empowering one another through online peer collaboration is a prime source of consolation for students who suffer during these rough times. The university should function as a center for students' holistic development and create a conducive, flexible learning environment that will allow students to flourish despite digital experiments. As a result, solutions conspired to alter tribulations into resolutions, and scholars' strategies aid them in confounding the detriments of distance education.&nbsp;",
-                "title": "Hopes, goals, hindrances, and solutions of students on forced digitalization of course learning amid pandemic"
+                "title": "Systematic review and meta-analysis of Tuberculosis and COVID-19 Co-infection: Prevalence, fatality, and treatment considerations"
             },
-            "id": "000dd5b1db424ccfbe00397b8cc90428",
-            "created_date": "2023-04-10T07:22:22Z"
+            "admin": {
+                "seal": true
+            },
+            "id": "000dce5c693240d1a7759e641aac87dd",
+            "created_date": "2024-05-16T05:31:36Z"
         },
         {
             "last_updated": "2022-12-22T04:30:26Z",
@@ -3754,6 +3932,81 @@
             "created_date": "2020-08-26T06:28:02Z"
         },
         {
+            "last_updated": "2024-08-24T05:18:56Z",
+            "bibjson": {
+                "identifier": [
+                    {
+                        "id": "2211-5056",
+                        "type": "pissn"
+                    },
+                    {
+                        "id": "2211-5072",
+                        "type": "eissn"
+                    },
+                    {
+                        "id": "10.4103/tjo.TJO-D-23-00124",
+                        "type": "doi"
+                    }
+                ],
+                "journal": {
+                    "volume": "14",
+                    "number": "2",
+                    "country": "IN",
+                    "issns": [
+                        "2211-5056",
+                        "2211-5072"
+                    ],
+                    "publisher": "Wolters Kluwer Medknow Publications",
+                    "language": [
+                        "EN"
+                    ],
+                    "title": "Taiwan Journal of Ophthalmology"
+                },
+                "month": "1",
+                "end_page": "270",
+                "keywords": [
+                    "coronavirus disease 2019",
+                    "encephalopathy",
+                    "multiple sclerosis",
+                    "optic neuritis"
+                ],
+                "year": "2024",
+                "start_page": "266",
+                "subject": [
+                    {
+                        "code": "RE1-994",
+                        "scheme": "LCC",
+                        "term": "Ophthalmology"
+                    }
+                ],
+                "author": [
+                    {
+                        "name": "Sheng-Yu Liu"
+                    },
+                    {
+                        "name": "Wan-Jen Hsieh"
+                    },
+                    {
+                        "name": "Hsueh-Wen Hsueh"
+                    },
+                    {
+                        "name": "Chao-Wen Lin"
+                    }
+                ],
+                "link": [
+                    {
+                        "content_type": "html",
+                        "type": "fulltext",
+                        "url": "https://journals.lww.com/10.4103/tjo.TJO-D-23-00124"
+                    }
+                ],
+                "abstract": "Numerous evidence suggests coronavirus disease 2019 (COVID-19) potentially triggers demyelinating diseases, inclusive of multiple sclerosis (MS), and acute disseminated encephalomyelitis (ADEM), and various mechanisms have been proposed. We report a 42-year-old male presented with bilateral optic neuritis and encephalopathy, 2 weeks following COVID-19 infection. He denied any history or family history of neurological and ocular diseases. Severe bilateral visual impairment (only light perception) and pain with eye movement were reported. Fundoscopy revealed bilateral optic disc swelling. Magnetic resonance imaging showed tortuous bilateral optic nerves with optic nerve and nerve sheath enhancement. Multiple hyperintense nodules in bilateral cerebral white matter were noted on fluid-attenuated inversion recovery T2-weighted imaging without diffusion restriction or gadolinium contrast enhancement. Hypointense nodules in cerebral white matter were also noted on T1-weighted imaging, which implied some old lesions. Dissemination in space and time and cerebrospinal fluid-specific oligoclonal bands confirmed the diagnosis of MS. Both serum aquaporin-4 and myelin oligodendrocyte glycoprotein antibodies were negative. He received pulse steroid therapy for 5 days, followed by slowly tapering oral prednisolone. His vision, ocular motion pain, and encephalopathy improved gradually. However, the visual outcome was still poor (bilateral 20/400), and optic atrophy was noticed during 1-year follow-up. To our knowledge, this is the first case of MS following severe acute respiratory syndrome coronavirus 2 infection presented with bilateral optic neuritis and encephalopathy. Since these manifestations are exceedingly rare in MS, we suspect acute immune reactions induced by COVID-19 could bring about the atypical ADEM-like presentations of MS.",
+                "title": "Bilateral optic neuritis and encephalopathy as the atypical presentations of multiple sclerosis following severe acute respiratory syndrome coronavirus 2 infection"
+            },
+            "id": "000e511f47c042779879622e098562a9",
+            "created_date": "2024-08-24T05:18:56Z"
+        },
+        {
             "last_updated": "2023-01-31T17:44:46Z",
             "bibjson": {
                 "identifier": [
@@ -3906,7 +4159,7 @@
             "created_date": "2022-11-17T04:42:24Z"
         },
         {
-            "last_updated": "2023-06-01T13:54:54Z",
+            "last_updated": "2024-06-02T06:08:01Z",
             "bibjson": {
                 "identifier": [
                     {
@@ -3933,8 +4186,7 @@
                     "publisher": "AOSIS",
                     "language": [
                         "AF",
-                        "EN",
-                        "NL"
+                        "EN"
                     ],
                     "title": "HTS Teologiese Studies/Theological Studies"
                 },
@@ -4114,7 +4366,7 @@
             "created_date": "2021-01-08T04:19:13Z"
         },
         {
-            "last_updated": "2024-04-22T13:07:51Z",
+            "last_updated": "2024-11-08T16:31:04Z",
             "bibjson": {
                 "identifier": [
                     {
@@ -4188,6 +4440,105 @@
             },
             "created_date": "2023-06-16T14:44:26Z",
             "id": "00103407cccd4918aa97386806154600"
+        },
+        {
+            "last_updated": "2024-07-30T07:41:07Z",
+            "bibjson": {
+                "identifier": [
+                    {
+                        "id": "1678-4464",
+                        "type": "eissn"
+                    },
+                    {
+                        "id": "10.1590/0102-311xen055023",
+                        "type": "doi"
+                    }
+                ],
+                "journal": {
+                    "volume": "40",
+                    "number": "6",
+                    "country": "BR",
+                    "issns": [
+                        "0102-311X",
+                        "1678-4464"
+                    ],
+                    "publisher": "Escola Nacional de Sa\u00fade P\u00fablica, Funda\u00e7\u00e3o Oswaldo Cruz",
+                    "language": [
+                        "EN",
+                        "ES",
+                        "PT"
+                    ],
+                    "title": "Cadernos de Sa\u00fade P\u00fablica"
+                },
+                "month": "7",
+                "keywords": [
+                    "Pandemics",
+                    "COVID-19",
+                    "Health Policies",
+                    "Federalism"
+                ],
+                "year": "2024",
+                "subject": [
+                    {
+                        "code": "R",
+                        "scheme": "LCC",
+                        "term": "Medicine"
+                    },
+                    {
+                        "code": "RA1-1270",
+                        "scheme": "LCC",
+                        "term": "Public aspects of medicine"
+                    }
+                ],
+                "author": [
+                    {
+                        "orcid_id": "https://orcid.org/0000-0002-9577-0301",
+                        "affiliation": "",
+                        "name": "Cristiani Vieira Machado"
+                    },
+                    {
+                        "orcid_id": "https://orcid.org/0000-0002-2497-9861",
+                        "affiliation": "",
+                        "name": "Adelyne Maria Mendes Pereira"
+                    },
+                    {
+                        "orcid_id": "https://orcid.org/0000-0001-6626-9908",
+                        "affiliation": "",
+                        "name": "Carlos Machado de Freitas"
+                    },
+                    {
+                        "orcid_id": "https://orcid.org/0000-0002-8014-8528",
+                        "affiliation": "",
+                        "name": "Michele Souza e Souza"
+                    },
+                    {
+                        "orcid_id": "https://orcid.org/0000-0002-2966-0219",
+                        "affiliation": "",
+                        "name": "Sebasti\u00e1n Tobar"
+                    },
+                    {
+                        "orcid_id": "https://orcid.org/0000-0002-0090-2341",
+                        "affiliation": "",
+                        "name": "Suelen Carlos de Oliveira"
+                    }
+                ],
+                "link": [
+                    {
+                        "content_type": "text/html",
+                        "type": "fulltext",
+                        "url": "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0102-311X2024000601404&lng=en&tlng=en"
+                    },
+                    {
+                        "content_type": "application/pdf",
+                        "type": "fulltext",
+                        "url": "http://www.scielo.br/pdf/csp/v40n6/1678-4464-csp-40-06-EN055023.pdf"
+                    }
+                ],
+                "abstract": "Abstract: The article analyzes the fight against COVID-19 in three Latin American countries: Argentina, Brazil, and Mexico. A multiple case study was carried out in a comparative perspective, based on a bibliographic review, documentary analysis, and secondary data, considering characteristics of the countries and the health system, evolution of COVID-19, national governance, containment and mitigation measures, health systems response, constraints, positive aspects and limits of responses. The three countries had distinct health systems but were marked by insufficient funding and inequalities when hit by the pandemic and recorded high-COVID-19 mortality. Structural, institutional, and political factors influenced national responses. In Argentina, national leadership and intergovernmental political agreements favored the initial adoption of centralized control measures, which were not sustained. In Brazil, there were limits in national coordination and leadership related to the President\u2019s denialism and federative, political, and expert conflicts, despite a universal health system with intergovernmental commissions and participatory councils, which were little used during the pandemic. In Mexico, structural difficulties were associated with the Federal Government\u2019s initial reluctance to adopt restrictive measures, limits on testing, and relative slowness in immunization. In conclusion, facing health emergencies requires strengthening public health systems associated with federative, intersectoral, and civil society coordination mechanisms and effective global solidarity mechanisms.",
+                "title": "The response to COVID-19 in Argentina, Brazil, and Mexico: challenges to national coordination of health policies"
+            },
+            "created_date": "2024-07-30T07:41:07Z",
+            "id": "0010503901ac45208559c2661106a3ec"
         },
         {
             "last_updated": "2022-12-22T01:02:17Z",
@@ -5873,269 +6224,6 @@
             "created_date": "2022-09-02T08:46:18Z"
         },
         {
-            "last_updated": "2023-11-21T13:27:14Z",
-            "bibjson": {
-                "identifier": [
-                    {
-                        "id": "10.3390/cancers13071597",
-                        "type": "doi"
-                    },
-                    {
-                        "id": "2072-6694",
-                        "type": "eissn"
-                    }
-                ],
-                "journal": {
-                    "volume": "13",
-                    "number": "7",
-                    "country": "CH",
-                    "issns": [
-                        "2072-6694"
-                    ],
-                    "publisher": "MDPI AG",
-                    "language": [
-                        "EN"
-                    ],
-                    "title": "Cancers"
-                },
-                "month": "03",
-                "keywords": [
-                    "COVID-19",
-                    "cancer surgery",
-                    "postoperative outcomes"
-                ],
-                "year": "2021",
-                "start_page": "1597",
-                "subject": [
-                    {
-                        "code": "RC254-282",
-                        "scheme": "LCC",
-                        "term": "Neoplasms. Tumors. Oncology. Including cancer and carcinogens"
-                    }
-                ],
-                "author": [
-                    {
-                        "affiliation": "Faculty of Life Sciences and Medicine, Translational Oncology & Urology Research (TOUR), King\u2019s College London, London WC2R 2LS, UK",
-                        "name": "Maria J. Monroy-Iglesias"
-                    },
-                    {
-                        "affiliation": "Division of Otolaryngology and Head and Neck Surgery, European Institute of Oncology IRCCS, 20122 Milan, Italy",
-                        "name": "Marta Tagliabue"
-                    },
-                    {
-                        "affiliation": "South East London Cancer Alliance, London SE1 9RT, UK",
-                        "name": "Harvey Dickinson"
-                    },
-                    {
-                        "affiliation": "South East London Cancer Alliance, London SE1 9RT, UK",
-                        "name": "Graham Roberts"
-                    },
-                    {
-                        "affiliation": "Division of Otolaryngology and Head and Neck Surgery, European Institute of Oncology IRCCS, 20122 Milan, Italy",
-                        "name": "Rita De Berardinis"
-                    },
-                    {
-                        "affiliation": "Faculty of Life Sciences and Medicine, Translational Oncology & Urology Research (TOUR), King\u2019s College London, London WC2R 2LS, UK",
-                        "name": "Beth Russell"
-                    },
-                    {
-                        "affiliation": "Faculty of Life Sciences and Medicine, Translational Oncology & Urology Research (TOUR), King\u2019s College London, London WC2R 2LS, UK",
-                        "name": "Charlotte Moss"
-                    },
-                    {
-                        "affiliation": "South East London Cancer Alliance, London SE1 9RT, UK",
-                        "name": "Sophie Irwin"
-                    },
-                    {
-                        "affiliation": "Department of Nephrology and Transplantation, Guy\u2019s & St Thomas\u2019 NHS Foundation Trust, London SE1 9RT, UK",
-                        "name": "Jonathon Olsburgh"
-                    },
-                    {
-                        "affiliation": "Department of Colorectal Surgery, Guy\u2019s and St Thomas\u2019 NHS Foundation Trust, London SE1 9RT, UK",
-                        "name": "Ivana Maria Francesca Cocco"
-                    },
-                    {
-                        "affiliation": "Department of Colorectal Surgery, Guy\u2019s and St Thomas\u2019 NHS Foundation Trust, London SE1 9RT, UK",
-                        "name": "Alexis Schizas"
-                    },
-                    {
-                        "affiliation": "Department of Medical Oncology, Guy\u2019s and St Thomas\u2019 NHS Foundation Trust, London SE1 9RT, UK",
-                        "name": "Sarah McCrindle"
-                    },
-                    {
-                        "affiliation": "Department of Gynaecological Oncology, Guy\u2019s and St Thomas\u2019 NHS Foundation Trust, London SE1 9RT, UK",
-                        "name": "Rahul Nath"
-                    },
-                    {
-                        "affiliation": "Department of Otorhinolaryngology Head and Neck Surgery, Guy\u2019s and St Thomas\u2019 NHS Foundation Trust, London SE1 9RT, UK",
-                        "name": "Aina Brunet"
-                    },
-                    {
-                        "affiliation": "Department of Otorhinolaryngology Head and Neck Surgery, Guy\u2019s and St Thomas\u2019 NHS Foundation Trust, London SE1 9RT, UK",
-                        "name": "Ricard Simo"
-                    },
-                    {
-                        "affiliation": "Department of Otorhinolaryngology Head and Neck Surgery, Guy\u2019s and St Thomas\u2019 NHS Foundation Trust, London SE1 9RT, UK",
-                        "name": "Chrysostomos Tornari"
-                    },
-                    {
-                        "affiliation": "Department of Liver Studies, King\u2019s College Hospital, London SE5 9RS, UK",
-                        "name": "Parthi Srinivasan"
-                    },
-                    {
-                        "affiliation": "Department of Liver Studies, King\u2019s College Hospital, London SE5 9RS, UK",
-                        "name": "Andreas Prachalias"
-                    },
-                    {
-                        "affiliation": "South East London Cancer Alliance, London SE1 9RT, UK",
-                        "name": "Andrew Davies"
-                    },
-                    {
-                        "affiliation": "Department of Plastic Surgery, Guy\u2019s and St Thomas\u2019 NHS Foundation Trust, London SE1 9RT, UK",
-                        "name": "Jenny Geh"
-                    },
-                    {
-                        "affiliation": "Department of Thoracic Surgery, Guy\u2019s and St Thomas\u2019 NHS Foundation Trust, London SE1 9RT, UK",
-                        "name": "Stephanie Fraser"
-                    },
-                    {
-                        "affiliation": "Department of Thoracic Surgery, Guy\u2019s and St Thomas\u2019 NHS Foundation Trust, London SE1 9RT, UK",
-                        "name": "Tom Routledge"
-                    },
-                    {
-                        "affiliation": "Department of Thoracic Surgery, Guy\u2019s and St Thomas\u2019 NHS Foundation Trust, London SE1 9RT, UK",
-                        "name": "RuJun Ma"
-                    },
-                    {
-                        "affiliation": "Department of Urology, Guy\u2019s and St Thomas\u2019 NHS Foundation Trust, London SE1 9RT, UK",
-                        "name": "Ella Doerge"
-                    },
-                    {
-                        "affiliation": "Department of Urology, Guy\u2019s and St Thomas\u2019 NHS Foundation Trust, London SE1 9RT, UK",
-                        "name": "Ben Challacombe"
-                    },
-                    {
-                        "affiliation": "Department of Urology, Guy\u2019s and St Thomas\u2019 NHS Foundation Trust, London SE1 9RT, UK",
-                        "name": "Raj Nair"
-                    },
-                    {
-                        "affiliation": "Department of Urology, Guy\u2019s and St Thomas\u2019 NHS Foundation Trust, London SE1 9RT, UK",
-                        "name": "Marios Hadjipavlou"
-                    },
-                    {
-                        "affiliation": "Department of Colorectal Surgery, King\u2019s College Hospital, London SE5 9RS, UK",
-                        "name": "Rosaria Scarpinata"
-                    },
-                    {
-                        "affiliation": "Department of Colorectal Surgery, Lewisham and Greenwich NHS Trust, London SE13 6LH, UK",
-                        "name": "Paolo Sorelli"
-                    },
-                    {
-                        "affiliation": "Department of Medical Oncology, Guy\u2019s and St Thomas\u2019 NHS Foundation Trust, London SE1 9RT, UK",
-                        "name": "Saoirse Dolly"
-                    },
-                    {
-                        "affiliation": "Division of Urology, European Institute of Oncology IRCCS, 20122 Milan, Italy",
-                        "name": "Francesco Alessandro Mistretta"
-                    },
-                    {
-                        "affiliation": "Division of Urology, European Institute of Oncology IRCCS, 20122 Milan, Italy",
-                        "name": "Gennaro Musi"
-                    },
-                    {
-                        "affiliation": "Division of Thoracic Surgery, European Institute of Oncology IRCCS, 20122 Milan, Italy",
-                        "name": "Monica Casiraghi"
-                    },
-                    {
-                        "affiliation": "Division of Gynaecological Surgery, European Institute of Oncology IRCCS, 20122 Milan, Italy",
-                        "name": "Alessia Aloisi"
-                    },
-                    {
-                        "affiliation": "Division of Gynaecological Surgery, European Institute of Oncology IRCCS, 20122 Milan, Italy",
-                        "name": "Andrea Dell\u2019Acqua"
-                    },
-                    {
-                        "affiliation": "Division of Data Management, European Institute of Oncology IRCCS, 20122 Milan, Italy",
-                        "name": "Donatella Scaglione"
-                    },
-                    {
-                        "affiliation": "Division of Data Management, European Institute of Oncology IRCCS, 20122 Milan, Italy",
-                        "name": "Stefania Zanoni"
-                    },
-                    {
-                        "affiliation": "Division of Data Management, European Institute of Oncology IRCCS, 20122 Milan, Italy",
-                        "name": "Daniele Rampazio Da Silva"
-                    },
-                    {
-                        "affiliation": "Division of Data Management, European Institute of Oncology IRCCS, 20122 Milan, Italy",
-                        "name": "Daniela Brambilla"
-                    },
-                    {
-                        "affiliation": "Division of Data Management, European Institute of Oncology IRCCS, 20122 Milan, Italy",
-                        "name": "Raffaella Bertolotti"
-                    },
-                    {
-                        "affiliation": "Division of Data Management, European Institute of Oncology IRCCS, 20122 Milan, Italy",
-                        "name": "Giulia Peruzzotti"
-                    },
-                    {
-                        "affiliation": "Division of Gynaecological Surgery, European Institute of Oncology IRCCS, 20122 Milan, Italy",
-                        "name": "Angelo Maggioni"
-                    },
-                    {
-                        "affiliation": "Division of Urology, European Institute of Oncology IRCCS, 20122 Milan, Italy",
-                        "name": "Ottavio de Cobelli"
-                    },
-                    {
-                        "affiliation": "Department of Oncology and Hemato-Oncology, University of Milan, 20122 Milan, Italy",
-                        "name": "Lorenzo Spaggiari"
-                    },
-                    {
-                        "affiliation": "Division of Otolaryngology and Head and Neck Surgery, European Institute of Oncology IRCCS, 20122 Milan, Italy",
-                        "name": "Mohssen Ansarin"
-                    },
-                    {
-                        "affiliation": "Medical Administration, European Institute of Oncology, IRCCS, 20122 Milan, Italy",
-                        "name": "Fabrizio Mastrilli"
-                    },
-                    {
-                        "affiliation": "Department of Experimental Oncology, European Institute of Oncology IRCCS, 20122 Milan, Italy",
-                        "name": "Sara Gandini"
-                    },
-                    {
-                        "affiliation": "Department of Breast Surgery, Guy\u2019s and St Thomas\u2019 NHS Foundation Trust, London SE1 9RT, UK",
-                        "name": "Urvashi Jain"
-                    },
-                    {
-                        "affiliation": "Department of Breast Surgery, Guy\u2019s and St Thomas\u2019 NHS Foundation Trust, London SE1 9RT, UK",
-                        "name": "Hisham Hamed"
-                    },
-                    {
-                        "affiliation": "South East London Cancer Alliance, London SE1 9RT, UK",
-                        "name": "Kate Haire"
-                    },
-                    {
-                        "affiliation": "Faculty of Life Sciences and Medicine, Translational Oncology & Urology Research (TOUR), King\u2019s College London, London WC2R 2LS, UK",
-                        "name": "Mieke Van Hemelrijck"
-                    }
-                ],
-                "link": [
-                    {
-                        "content_type": "text/html",
-                        "type": "fulltext",
-                        "url": "https://www.mdpi.com/2072-6694/13/7/1597"
-                    }
-                ],
-                "abstract": "The SARS-CoV-2 (COVID-19) pandemic is having a large effect on the management of cancer patients. This study reports on the approach and outcomes of cancer patients receiving radical surgery with curative intent between March and September 2020 (in comparison to 2019) in the European Institute of Oncology, IRCCS (IEO) in Milan and the South East London Cancer Alliance (SELCA). Both institutions implemented a COVID-19 minimal pathway where patients were required to self-isolate prior to admission and were swabbed for COVID-19 within 72 h of surgery. Positive patients had surgery deferred until a negative swab. At IEO, radical surgeries declined by 6% as compared to the same period in 2019 (<i>n</i> = 1477 vs. 1560, respectively). Readmissions were required for 3% (<i>n</i> = 41), and <1% (<i>n</i> = 9) developed COVID-19, of which only one had severe disease and died. At SELCA, radical surgeries declined by 34% (<i>n</i> = 1553 vs. 2336). Readmissions were required for 11% (<i>n</i> = 36), <1% (<i>n</i> = 7) developed COVID-19, and none died from it. Whilst a decline in number of surgeries was observed in both centres, the implemented COVID-19 minimal pathways have shown to be safe for cancer patients requiring radical treatment, with limited complications and almost no COVID-19 infections.",
-                "title": "Continuity of Cancer Care: The Surgical Experience of Two Large Cancer Hubs in London and Milan"
-            },
-            "admin": {
-                "seal": false
-            },
-            "id": "00145b2e46524d2e8e793bd2049a0224",
-            "created_date": "2021-03-31T00:04:57Z"
-        },
-        {
             "last_updated": "2022-12-22T04:14:39Z",
             "bibjson": {
                 "identifier": [
@@ -6448,6 +6536,141 @@
             "created_date": "2022-05-19T08:41:10Z"
         },
         {
+            "last_updated": "2024-07-14T11:22:48Z",
+            "bibjson": {
+                "identifier": [
+                    {
+                        "id": "10.1186/s12917-024-04150-4",
+                        "type": "doi"
+                    },
+                    {
+                        "id": "1746-6148",
+                        "type": "eissn"
+                    }
+                ],
+                "journal": {
+                    "volume": "20",
+                    "number": "1",
+                    "country": "GB",
+                    "issns": [
+                        "1746-6148"
+                    ],
+                    "publisher": "BMC",
+                    "language": [
+                        "EN"
+                    ],
+                    "title": "BMC Veterinary Research"
+                },
+                "month": "7",
+                "end_page": "12",
+                "keywords": [
+                    "Cats",
+                    "COVID-19",
+                    "Exposure",
+                    "One Health",
+                    "Prevalence",
+                    "SARS-CoV-2"
+                ],
+                "year": "2024",
+                "start_page": "1",
+                "subject": [
+                    {
+                        "code": "SF600-1100",
+                        "scheme": "LCC",
+                        "term": "Veterinary medicine"
+                    }
+                ],
+                "author": [
+                    {
+                        "affiliation": "Facult\u00e9 de m\u00e9decine v\u00e9t\u00e9rinaire, Universit\u00e9 de Montr\u00e9al",
+                        "name": "Laurence Daigle"
+                    },
+                    {
+                        "affiliation": "BC Centre for Disease Control",
+                        "name": "Hattaw Khalid"
+                    },
+                    {
+                        "affiliation": "Swine and Poultry Infectious Diseases Research Center \u2013 FRQ, Facult\u00e9 de m\u00e9decine v\u00e9t\u00e9rinaire, Universit\u00e9 de Montr\u00e9al",
+                        "name": "Carl A. Gagnon"
+                    },
+                    {
+                        "affiliation": "Facult\u00e9 de m\u00e9decine v\u00e9t\u00e9rinaire, Universit\u00e9 de Montr\u00e9al",
+                        "name": "Julie Arsenault"
+                    },
+                    {
+                        "affiliation": "Ontario Veterinary College, University of Guelph",
+                        "name": "Dorothee Bienzle"
+                    },
+                    {
+                        "affiliation": "Facult\u00e9 de m\u00e9decine v\u00e9t\u00e9rinaire, Universit\u00e9 de Montr\u00e9al",
+                        "name": "Sarah-Kim Bisson"
+                    },
+                    {
+                        "affiliation": "Facult\u00e9 de m\u00e9decine v\u00e9t\u00e9rinaire, Universit\u00e9 de Montr\u00e9al",
+                        "name": "Marie-Claude Blais"
+                    },
+                    {
+                        "affiliation": "Groupe de recherche en \u00e9pid\u00e9miologie des zoonoses et sant\u00e9 publique (GREZOSP), Facult\u00e9 de m\u00e9decine v\u00e9t\u00e9rinaire, Universit\u00e9 de Montr\u00e9al",
+                        "name": "Jos\u00e9 Denis-Robichaud"
+                    },
+                    {
+                        "affiliation": "Facult\u00e9 de m\u00e9decine v\u00e9t\u00e9rinaire, Universit\u00e9 de Montr\u00e9al",
+                        "name": "Caroline Forest"
+                    },
+                    {
+                        "affiliation": "Molecular Diagnostic Laboratory (MDL), Centre de Diagnostic V\u00e9t\u00e9rinaire de l\u2019Universit\u00e9 de Montr\u00e9al (CDVUM), Facult\u00e9 de m\u00e9decine v\u00e9t\u00e9rinaire, Universit\u00e9 de Montr\u00e9al",
+                        "name": "Val\u00e9rie Grenier St-Sauveur"
+                    },
+                    {
+                        "affiliation": "Molecular Diagnostic Laboratory (MDL), Centre de Diagnostic V\u00e9t\u00e9rinaire de l\u2019Universit\u00e9 de Montr\u00e9al (CDVUM), Facult\u00e9 de m\u00e9decine v\u00e9t\u00e9rinaire, Universit\u00e9 de Montr\u00e9al",
+                        "name": "Marika Koszegi"
+                    },
+                    {
+                        "affiliation": "Department of Pathobiology, University of Guelph",
+                        "name": "Jennifer MacNicol"
+                    },
+                    {
+                        "affiliation": "Molecular Diagnostic Laboratory (MDL), Centre de Diagnostic V\u00e9t\u00e9rinaire de l\u2019Universit\u00e9 de Montr\u00e9al (CDVUM), Facult\u00e9 de m\u00e9decine v\u00e9t\u00e9rinaire, Universit\u00e9 de Montr\u00e9al",
+                        "name": "Nicolas Nantel-Fortier"
+                    },
+                    {
+                        "affiliation": "Facult\u00e9 de m\u00e9decine v\u00e9t\u00e9rinaire, Universit\u00e9 de Montr\u00e9al",
+                        "name": "Charlotte Nury"
+                    },
+                    {
+                        "affiliation": "BC Centre for Disease Control",
+                        "name": "Natalie Prystajecky"
+                    },
+                    {
+                        "affiliation": "BC Centre for Disease Control",
+                        "name": "Erin Fraser"
+                    },
+                    {
+                        "affiliation": "Facult\u00e9 de m\u00e9decine v\u00e9t\u00e9rinaire, Universit\u00e9 de Montr\u00e9al",
+                        "name": "H\u00e9l\u00e8ne Carabin"
+                    },
+                    {
+                        "affiliation": "Facult\u00e9 de m\u00e9decine v\u00e9t\u00e9rinaire, Universit\u00e9 de Montr\u00e9al",
+                        "name": "C\u00e9cile Aenishaenslin"
+                    }
+                ],
+                "link": [
+                    {
+                        "content_type": "HTML",
+                        "type": "fulltext",
+                        "url": "https://doi.org/10.1186/s12917-024-04150-4"
+                    }
+                ],
+                "abstract": "Abstract Background The primary objective of this cross-sectional study, conducted in Qu\u00e9bec and Bristish Columbia (Canada) between February 2021 and January 2022, was to measure the prevalence of viral RNA in oronasal and rectal swabs and serum antibodies to severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) amongst cats living in households with at least one confirmed human case. Secondary objectives included a description of potential risk factors for the presence of SARS-CoV-2 antibodies and an estimation of the association between the presence of viral RNA in swabs as well as SARS-CoV-2 antibodies and clinical signs. Oronasal and rectal swabs and sera were collected from 55 cats from 40 households at most 15 days after a human case confirmation, and at up to two follow-up visits. A RT-qPCR assay and an ELISA were used to detect SARS-CoV-2 RNA in swabs and serum SARS-CoV-2 IgG antibodies, respectively. Prevalence and 95% Bayesian credibility intervals (BCI) were calculated, and associations were evaluated using prevalence ratio and 95% BCI obtained from Bayesian mixed log-binomial models. Results Nine (0.16; 95% BCI\u2009=\u20090.08\u20130.28) and 38 (0.69; 95% BCI\u2009=\u20090.56\u20130.80) cats had at least one positive RT-qPCR and at least one positive serological test result, respectively. No risk factor was associated with the prevalence of SARS-CoV-2 serum antibodies. The prevalence of clinical signs suggestive of COVID-19 in cats, mainly sneezing, was 2.12 (95% BCI\u2009=\u20091.03\u20133.98) times higher amongst cats with detectable viral RNA compared to those without. Conclusions We showed that cats develop antibodies to SARS-CoV-2 when exposed to recent human cases, but detection of viral RNA on swabs is rare, even when sampling occurs soon after confirmation of a human case. Moreover, cats with detectable levels of virus showed clinical signs more often than cats without signs, which can be useful for the management of such cases.",
+                "title": "High prevalence of SARS-CoV-2 antibodies and low prevalence of SARS-CoV-2 RNA in cats recently exposed to human cases"
+            },
+            "admin": {
+                "seal": true
+            },
+            "id": "001535711fc54255b2efe5e2e3be3240",
+            "created_date": "2024-07-14T11:22:48Z"
+        },
+        {
             "last_updated": "2022-12-22T01:53:43Z",
             "bibjson": {
                 "identifier": [
@@ -6665,80 +6888,6 @@
             },
             "id": "00165038867c4fbb8c2f8e51b4ffc965",
             "created_date": "2024-03-14T18:09:09Z"
-        },
-        {
-            "last_updated": "2023-11-30T23:16:12Z",
-            "bibjson": {
-                "identifier": [
-                    {
-                        "id": "10.3390/healthcare10071302",
-                        "type": "doi"
-                    },
-                    {
-                        "id": "2227-9032",
-                        "type": "eissn"
-                    }
-                ],
-                "journal": {
-                    "volume": "10",
-                    "number": "7",
-                    "country": "CH",
-                    "issns": [
-                        "2227-9032"
-                    ],
-                    "publisher": "MDPI AG",
-                    "language": [
-                        "EN"
-                    ],
-                    "title": "Healthcare"
-                },
-                "month": "07",
-                "keywords": [
-                    "COVID-19 vaccination",
-                    "information processing",
-                    "cognitive reflection ability",
-                    "thinking style",
-                    "rationality",
-                    "experientiality"
-                ],
-                "year": "2022",
-                "start_page": "1302",
-                "subject": [
-                    {
-                        "code": "R",
-                        "scheme": "LCC",
-                        "term": "Medicine"
-                    }
-                ],
-                "author": [
-                    {
-                        "affiliation": "Department of Psychology, West University of Timisoara, 4 Vasile P\u00e2rvan Blvd., 300223 Timisoara, Romania",
-                        "name": "Cristina Maroiu"
-                    },
-                    {
-                        "affiliation": "Department of Psychology, West University of Timisoara, 4 Vasile P\u00e2rvan Blvd., 300223 Timisoara, Romania",
-                        "name": "Andrei Rusu"
-                    },
-                    {
-                        "affiliation": "Department of Psychology, West University of Timisoara, 4 Vasile P\u00e2rvan Blvd., 300223 Timisoara, Romania",
-                        "name": "Zselyke Pap"
-                    }
-                ],
-                "link": [
-                    {
-                        "content_type": "text/html",
-                        "type": "fulltext",
-                        "url": "https://www.mdpi.com/2227-9032/10/7/1302"
-                    }
-                ],
-                "abstract": "Following the outbreak of the COVID-19 pandemic, the scientific community responded promptly by developing effective vaccines. Still, even though effective vaccines against COVID-19 became available, many people did not seem to be in a rush to become immunized. Community protection can be enhanced if more people decide to vaccinate, and thus it is necessary to identify relevant factors involved in vaccination behavior to find better ways of encouraging it. Vaccination behavior is the result of a decision process that might vary according to individual differences in information processing. We investigated the role of cognitive reflection ability and thinking styles in predicting self-reported vaccination behavior against COVID-19. A sample of 274 Romanian participants was surveyed for the present study, out of which 217 (<i>M<sub>ag</sub></i><sub>e</sub> = 24.58, <i>SD</i> = 8.31; 53% female) declared they had the possibility to become vaccinated. Results showed that a higher level of cognitive reflection ability significantly increased the odds of becoming vaccinated. A rational thinking style was not linked to vaccination behavior. However, an experiential thinking style indirectly predicted vaccination behavior by means of attitudes towards vaccination. Since individual differences in information processing are, to a certain extent, linked to vaccination behavior, the design of vaccination campaigns could consider that people have specific information needs and address them as such.",
-                "title": "I Think I Should Get Vaccinated, I Feel I Should Not. Individual Differences in Information Processing and Vaccination Behavior (COVID-19)"
-            },
-            "admin": {
-                "seal": true
-            },
-            "id": "00165528c5124160b2d24a40eedf7abe",
-            "created_date": "2022-07-25T16:54:29Z"
         },
         {
             "last_updated": "2022-12-21T23:21:21Z",
@@ -6965,7 +7114,7 @@
             "created_date": "2021-07-09T06:08:26Z"
         },
         {
-            "last_updated": "2024-04-16T16:16:14Z",
+            "last_updated": "2024-09-11T16:17:53Z",
             "bibjson": {
                 "identifier": [
                     {
@@ -7259,86 +7408,69 @@
             "created_date": "2023-03-22T11:14:33Z"
         },
         {
-            "last_updated": "2023-11-18T19:52:04Z",
+            "last_updated": "2024-07-26T12:28:47Z",
             "bibjson": {
                 "identifier": [
                     {
-                        "id": "10.3390/jcm12144659",
+                        "id": "10.3390/admsci14070135",
                         "type": "doi"
                     },
                     {
-                        "id": "2077-0383",
+                        "id": "2076-3387",
                         "type": "eissn"
                     }
                 ],
                 "journal": {
-                    "volume": "12",
-                    "number": "14",
+                    "volume": "14",
+                    "number": "7",
                     "country": "CH",
                     "issns": [
-                        "2077-0383"
+                        "2076-3387"
                     ],
                     "publisher": "MDPI AG",
                     "language": [
                         "EN"
                     ],
-                    "title": "Journal of Clinical Medicine"
+                    "title": "Administrative Sciences"
                 },
-                "month": "07",
+                "month": "06",
                 "keywords": [
-                    "statin",
-                    "COVID-19",
-                    "muscle",
-                    "rhabdomyolysis",
-                    "long-COVID",
-                    "post-COVID syndrome"
+                    "efficiency index",
+                    "teleworking",
+                    "pandemic",
+                    "diagnosis",
+                    "company"
                 ],
-                "year": "2023",
-                "start_page": "4659",
+                "year": "2024",
+                "start_page": "135",
                 "subject": [
                     {
-                        "code": "R",
+                        "code": "JF20-2112",
                         "scheme": "LCC",
-                        "term": "Medicine"
+                        "term": "Political institutions and public administration (General)"
                     }
                 ],
                 "author": [
                     {
-                        "affiliation": "Department of Medicine, University of California, San Diego, La Jolla, CA 92093, USA",
-                        "name": "Beatrice A. Golomb"
-                    },
-                    {
-                        "affiliation": "Department of Medicine, University of California, San Diego, La Jolla, CA 92093, USA",
-                        "name": "Jun Hee Han"
-                    },
-                    {
-                        "affiliation": "Langjoen Cardiology Clinic, Tyler, TX 75701, USA",
-                        "name": "Peter H. Langsjoen"
-                    },
-                    {
-                        "affiliation": "Navy and Marine Corps Public Health Center, Portsmouth, VA 23704, USA",
-                        "name": "Eero Dinkeloo"
-                    },
-                    {
-                        "affiliation": "Department of Anesthesiology, University of California, San Diego, La Jolla, CA 92093, USA",
-                        "name": "Alice E. Zemljic-Harpf"
+                        "affiliation": "Euncet Business School, Campus Terrassa, 08225 Terrassa, Spain",
+                        "name": "Gabriel Gustavo Maresca"
                     }
                 ],
                 "link": [
                     {
                         "content_type": "text/html",
                         "type": "fulltext",
-                        "url": "https://www.mdpi.com/2077-0383/12/14/4659"
+                        "url": "https://www.mdpi.com/2076-3387/14/7/135"
                     }
                 ],
-                "abstract": "Statins have been widely advocated for use in COVID-19 based on large favorable observational associations buttressed by theoretical expected benefits. However, past favorable associations of statins to pre-COVID-19 infection outcomes (also buttressed by theoretical benefits) were unsupported in meta-analysis of RCTs, RR = 1.00. Initial RCTs in COVID-19 appear to follow this trajectory. Healthy-user/tolerator effects and indication bias may explain these disparities. Moreover, cholesterol drops in proportion to infection severity, so less severely affected individuals may be selected for statin use, contributing to apparent favorable statin associations to outcomes. Cholesterol transports fat-soluble antioxidants and immune-protective vitamins. Statins impair mitochondrial function in those most reliant on coenzyme Q10 (a mevalonate pathway product also transported on cholesterol)\u2014i.e., those with existing mitochondrial compromise, whom data suggest bear increased risks from both COVID-19 and from statins. Thus, statin risks of adverse outcomes are amplified in those patients at risk of poor COVID-19 outcomes\u2014i.e., those in whom adjunctive statin therapy may most likely be given. High reported rates of rhabdomyolysis in hospitalized COVID-19 patients underscore the notion that statin-related risks as well as benefits must be considered. Advocacy for statins in COVID-19 should be suspended pending clear evidence of RCT benefits, with careful attention to risk modifiers.",
-                "title": "Statin Use in Relation to COVID-19 and Other Respiratory Infections: Muscle and Other Considerations"
+                "abstract": "Present the most significant findings that were obtained within the framework of the Support Program for Teaching Researchers \u201cPROAPI2021\u201d of the Secretariat of Research and Technological and Institutional Linkage of the National University of Avellaneda of Argentina. (1) Background: Investigate the strengths and weaknesses of companies when implementing teleworking during the COVID-19 pandemic to continue with the productive matrix; (2) Methods: The fieldwork focuses on the study of 19 companies from the five productive sectors with the greatest representation in the town of Avellaneda, Argentina, using a teleworking efficiency index as a measurement instrument; (3) Results: The main results in terms of efficiency occur with the possibility of combining work with family life at 97.05%, the enthusiasm and motivation to telework at 84.45%, and the assurance of optimal internet connection quality by 74.6%; (4) Conclusions: The study shows that the variables that present the greatest efficiency are those that are more related to the traditional work scheme, and not to the new modality offered by teleworking. We continue to think about a conventional work model.",
+                "title": "Diagnosis of Teleworking in Argentina during the Pandemic: Application of the Telework Efficiency Index"
             },
             "admin": {
                 "seal": true
             },
-            "id": "001920195d2645f2a117274112404c6d",
-            "created_date": "2023-07-28T12:48:55Z"
+            "id": "0018f6c1160a4049854520020625fc56",
+            "created_date": "2024-07-26T12:28:47Z"
         },
         {
             "last_updated": "2023-11-22T13:10:26Z",
@@ -7848,6 +7980,121 @@
             "created_date": "2022-06-24T01:09:56Z"
         },
         {
+            "last_updated": "2024-06-16T16:49:07Z",
+            "bibjson": {
+                "identifier": [
+                    {
+                        "id": "10.4322/acr.2024.491",
+                        "type": "doi"
+                    },
+                    {
+                        "id": "2236-1960",
+                        "type": "eissn"
+                    }
+                ],
+                "journal": {
+                    "volume": "14",
+                    "country": "BR",
+                    "issns": [
+                        "2236-1960"
+                    ],
+                    "publisher": "University of S\u00e3o Paulo",
+                    "language": [
+                        "EN"
+                    ],
+                    "title": "Autopsy and Case Reports"
+                },
+                "month": "June",
+                "keywords": [
+                    "COVID-19",
+                    "Pulmonary Embolism",
+                    "Vasa Vasorum",
+                    "Thromboembolism"
+                ],
+                "year": "2024",
+                "subject": [
+                    {
+                        "code": "R",
+                        "scheme": "LCC",
+                        "term": "Medicine"
+                    },
+                    {
+                        "code": "RC31-1245",
+                        "scheme": "LCC",
+                        "term": "Internal medicine"
+                    }
+                ],
+                "author": [
+                    {
+                        "orcid_id": "https://orcid.org/0000-0002-7337-8050",
+                        "affiliation": "General Hospital, San Fernando, Trinidad and Tobago",
+                        "name": "Hubert Daisley"
+                    },
+                    {
+                        "orcid_id": "https://orcid.org/0000-0003-0758-8129",
+                        "affiliation": "The University of the West Indies, Mona, Jamaica",
+                        "name": "Oneka Acco"
+                    },
+                    {
+                        "orcid_id": "https://orcid.org/0000-0001-9785-3648",
+                        "affiliation": "Princess Alexandra Hospital, The Valley, Anguilla",
+                        "name": "Martina Daisley"
+                    },
+                    {
+                        "orcid_id": "https://orcid.org/0009-0003-0905-4240",
+                        "affiliation": "Scarborough General Hospital, Signal Hill, Trinidad and Tobago",
+                        "name": "Dennecia George"
+                    },
+                    {
+                        "orcid_id": "https://orcid.org/0000-0002-9061-9565",
+                        "affiliation": "The University of the West Indies, Mona, Jamaica",
+                        "name": "Lilly  Paul"
+                    },
+                    {
+                        "orcid_id": "https://orcid.org/0000-0002-7084-612X",
+                        "affiliation": "Beacon Plastic and Cosmetic Surgery, Woodbrook, Port of Spain, Trinidad and Tobago",
+                        "name": "Errol James"
+                    },
+                    {
+                        "orcid_id": "https://orcid.org/0000-0002-4112-753X",
+                        "affiliation": "General Hospital, San Fernando, Trinidad and Tobago",
+                        "name": "Arlene Rampersad"
+                    },
+                    {
+                        "orcid_id": "https://orcid.org/0000-0002-4998-4616",
+                        "affiliation": "General Hospital, San Fernando, Trinidad and Tobago",
+                        "name": "Farhaana Narinesingh"
+                    },
+                    {
+                        "orcid_id": "https://orcid.org/0000-0001-9016-4655",
+                        "affiliation": "General Hospital, San Fernando, Trinidad and Tobago",
+                        "name": "Ornella Humphrey"
+                    },
+                    {
+                        "orcid_id": "https://orcid.org/0000-0003-2344-7991",
+                        "affiliation": "Scarborough General Hospital, Signal Hill, Trinidad and Tobago",
+                        "name": "Johann Daisley"
+                    },
+                    {
+                        "orcid_id": "https://orcid.org/0000-0002-3452-4334",
+                        "affiliation": "The University of the West Indies, St Augustine, Trinidad and Tobago",
+                        "name": "Melissa Nathan"
+                    }
+                ],
+                "link": [
+                    {
+                        "content_type": "HTML",
+                        "type": "fulltext",
+                        "url": "https://www.revistas.usp.br/autopsy/article/view/226072"
+                    }
+                ],
+                "abstract": "\nThe vasa vasorum of the large pulmonary vessels is involved in the pathology of COVID-19. This specialized microvasculature plays a major role in the biology and pathology of the pulmonary vessel walls. We have evidence that thrombosis of the vasa vasorum of the large and medium-sized pulmonary vessels during severe COVID-19 causes ischemia and subsequent death of the pulmonary vasculature endothelium. Subsequent release of thrombi from the vasa interna into the pulmonary circulation and pulmonary embolism generated at the ischemic pulmonary vascular endothelium site, are the central pathophysiological mechanisms in COVID-19 responsible for pulmonary thromboembolism. The thrombosis of the vasa vasorum of the large and medium-sized pulmonary vessels is an internal event leading to pulmonary thromboembolism in COVID-19.\n",
+                "title": "Thrombosis of the vasa vasorum of the large and medium size pulmonary artery and vein leads to pulmonary thromboembolism in COVID-19"
+            },
+            "id": "001b0332837a47d7b6d1777121e21bda",
+            "created_date": "2024-06-07T14:04:42Z"
+        },
+        {
             "last_updated": "2022-12-22T03:22:53Z",
             "bibjson": {
                 "identifier": [
@@ -8084,714 +8331,8 @@
             },
             "id": "001b61e736db405288e0684f785b17eb",
             "created_date": "2021-11-26T14:32:28Z"
-        },
-        {
-            "last_updated": "2023-06-09T14:54:27Z",
-            "bibjson": {
-                "identifier": [
-                    {
-                        "id": "0353-4790",
-                        "type": "pissn"
-                    },
-                    {
-                        "id": "1849-1383",
-                        "type": "eissn"
-                    }
-                ],
-                "journal": {
-                    "volume": "35",
-                    "number": "1",
-                    "country": "HR",
-                    "issns": [
-                        "0353-4790",
-                        "1849-1383"
-                    ],
-                    "publisher": "Faculty of Economics & Business, Zagreb, CROMAR (Croatian Union of Marketing Associations)",
-                    "language": [
-                        "EN",
-                        "HR"
-                    ],
-                    "title": "Tr\u017ei\u0161te"
-                },
-                "end_page": "92",
-                "keywords": [
-                    "information commerce usage",
-                    "purchase intention",
-                    "purchase decision",
-                    "COVID-19",
-                    "university students"
-                ],
-                "year": "2023",
-                "start_page": "77",
-                "subject": [
-                    {
-                        "code": "HF5410-5417.5",
-                        "scheme": "LCC",
-                        "term": "Marketing. Distribution of products"
-                    }
-                ],
-                "author": [
-                    {
-                        "affiliation": "Universiti Teknologi MARA",
-                        "name": "Norzaidi Mohd Daud"
-                    },
-                    {
-                        "affiliation": "Universiti Teknologi MARA",
-                        "name": "Raja Nur Hannah Fatimah Raja Mohd Hashimb"
-                    },
-                    {
-                        "affiliation": "Universiti Teknologi MARA",
-                        "name": "Anis Irdina Yang Asri"
-                    },
-                    {
-                        "affiliation": "Universiti Teknologi MARA",
-                        "name": "Nurul Haslinda Mohd Azmaruza"
-                    },
-                    {
-                        "affiliation": "Universiti Teknologi MARA",
-                        "name": "Syed Amir Zakir Syed Azizi"
-                    }
-                ],
-                "link": [
-                    {
-                        "type": "fulltext",
-                        "url": "https://hrcak.srce.hr/file/437963"
-                    }
-                ],
-                "abstract": "Purpose \u2013 The purpose of this paper is to examine the relationship between information commerce usage and purchase decisions made by university students during the COVID-19 pandemic.\r\nDesign/Methodology/Approach \u2013 Survey questionnaires were distributed to students at public and private universities through a variety of online platforms. Data was collected from 151 respondents within a two-week period and analyzed using IBM Statistical Package for the Social Sciences (SPSS) Version 26 for descriptive (i.e., mean, standard deviation, reliability test, model fit test) and inferential (i.e., correlation and regression for hypotheses testing) purposes.\r\nFindings and implications \u2013 The findings indicate that, while students engage in information commerce for its convenience, their usage of it is unrelated to the degree of trust. Nonetheless, price comparison has a sizable influence on how information commerce is used. Additionally, information commerce usage has an effect on purchase intention, while purchase intention is found to be a significant predictor of purchase decisions.\r\nLimitation \u2013 This study examined factors that influence the usage of information commerce among students in Malaysian universities, as well as their purchase intention, on a rather small sample size.\r\nOriginality \u2013 This may be the first study to define information commerce usage, with its results confirming students\u2019 purchase behavior and demonstrating that online shopping simplifies their lives. Surprisingly, the findings suggest that the degree of trust does not influence the usage of information commerce. This contradicts previous studies conducted by Anas et al. (2021) and Viktoria et al. (2021).",
-                "title": "Information Commerce (i-Commerce) Usage and Purchase Decisions Among University Students During COVID-19"
-            },
-            "id": "001bb160e1c740feb2ebb911db245aa3",
-            "created_date": "2023-06-09T14:54:27Z"
-        },
-        {
-            "last_updated": "2024-03-05T20:35:30Z",
-            "bibjson": {
-                "identifier": [
-                    {
-                        "id": "10.1186/s12889-024-17675-y",
-                        "type": "doi"
-                    },
-                    {
-                        "id": "1471-2458",
-                        "type": "eissn"
-                    }
-                ],
-                "journal": {
-                    "volume": "24",
-                    "number": "1",
-                    "country": "GB",
-                    "issns": [
-                        "1471-2458"
-                    ],
-                    "publisher": "BMC",
-                    "language": [
-                        "EN"
-                    ],
-                    "title": "BMC Public Health"
-                },
-                "month": "2",
-                "end_page": "11",
-                "keywords": [
-                    "COVID-19",
-                    "Physical activity",
-                    "Sedentary behavior",
-                    "Lockdown",
-                    "Pandemic restrictions",
-                    "Depression"
-                ],
-                "year": "2024",
-                "start_page": "1",
-                "subject": [
-                    {
-                        "code": "RA1-1270",
-                        "scheme": "LCC",
-                        "term": "Public aspects of medicine"
-                    }
-                ],
-                "author": [
-                    {
-                        "affiliation": "Division of Physical Activity, Prevention and Cancer, German Cancer Research Center (DKFZ)",
-                        "name": "Florian Herbolsheimer"
-                    },
-                    {
-                        "affiliation": "Institute of Epidemiology, Helmholtz Zentrum M\u00fcnchen \u2013 German Research Center for Environmental Health (GmbH)",
-                        "name": "Annette Peters"
-                    },
-                    {
-                        "affiliation": "Institute of Epidemiology, Helmholtz Zentrum M\u00fcnchen \u2013 German Research Center for Environmental Health (GmbH)",
-                        "name": "Sarah Wagner"
-                    },
-                    {
-                        "affiliation": "Institute of Social Medicine, Epidemiology and Health Economics, Charit\u00e9 \u2013 Universit\u00e4tsmedizin Berlin",
-                        "name": "Stefan N. Willich"
-                    },
-                    {
-                        "affiliation": "Institute of Social Medicine, Epidemiology and Health Economics, Charit\u00e9 \u2013 Universit\u00e4tsmedizin Berlin",
-                        "name": "Lilian Krist"
-                    },
-                    {
-                        "affiliation": "Molecular Epidemiology Research Group, Max Delbr\u00fcck Center for Molecular Medicine in the Helmholtz Association (MDC)",
-                        "name": "Tobias Pischon"
-                    },
-                    {
-                        "affiliation": "Molecular Epidemiology Research Group, Max Delbr\u00fcck Center for Molecular Medicine in the Helmholtz Association (MDC)",
-                        "name": "Katharina Nimptsch"
-                    },
-                    {
-                        "affiliation": "German Institute of Human Nutrition Potsdam Rehbruecke",
-                        "name": "Sylvia Gastell"
-                    },
-                    {
-                        "affiliation": "Leibniz Institute for Prevention Research and Epidemiology \u2013 BIPS",
-                        "name": "Mirko Brandes"
-                    },
-                    {
-                        "affiliation": "Leibniz Institute for Prevention Research and Epidemiology \u2013 BIPS",
-                        "name": "Berit Brandes"
-                    },
-                    {
-                        "affiliation": "IUF \u2013 Leibniz Research Institute for Environmental Medicine",
-                        "name": "Tamara Schikowski"
-                    },
-                    {
-                        "affiliation": "Institute for Medical Informatics, Biometry and Epidemiology, Essen University Hospital",
-                        "name": "B\u00f6rge Schmidt"
-                    },
-                    {
-                        "affiliation": "Institute for Prevention and Cancer Epidemiology, Faculty of Medicine and Medical Center, University of Freiburg",
-                        "name": "Karin B. Michels"
-                    },
-                    {
-                        "affiliation": "Institute for Medical Epidemiology, Biometrics, and Informatics, Interdisciplinary Center for Health Sciences , Medical Faculty of the Martin-Luther University Halle-Wittenberg",
-                        "name": "Rafael Mikolajczyk"
-                    },
-                    {
-                        "affiliation": "Institute for Occupational and Maritime Medicine Hamburg (ZfAM), University Medical Centre Hamburg-Eppendorf (UKE)",
-                        "name": "Volker Harth"
-                    },
-                    {
-                        "affiliation": "Institute for Occupational and Maritime Medicine Hamburg (ZfAM), University Medical Centre Hamburg-Eppendorf (UKE)",
-                        "name": "Nadia Obi"
-                    },
-                    {
-                        "affiliation": "Helmholtz Centre for Infection Research",
-                        "name": "Stefanie Castell"
-                    },
-                    {
-                        "affiliation": "Helmholtz Centre for Infection Research",
-                        "name": "Jana K. Heise"
-                    },
-                    {
-                        "affiliation": "Institute of Epidemiology, University of Kiel",
-                        "name": "Wolfgang Lieb"
-                    },
-                    {
-                        "affiliation": "Institute of Epidemiology, University of Kiel",
-                        "name": "Katrin Franzp\u00f6tter"
-                    },
-                    {
-                        "affiliation": "Institute of Epidemiology and Social Medicine, University of M\u00fcnster",
-                        "name": "Andr\u00e9 Karch"
-                    },
-                    {
-                        "affiliation": "Institute of Epidemiology and Social Medicine, University of M\u00fcnster",
-                        "name": "Henning Teismann"
-                    },
-                    {
-                        "affiliation": "Institute for Community Medicine, University Medicine Greifswald",
-                        "name": "Henry V\u00f6lzke"
-                    },
-                    {
-                        "affiliation": "Institute for Community Medicine, University Medicine Greifswald",
-                        "name": "Claudia Meinke-Franze"
-                    },
-                    {
-                        "affiliation": "University of Regensburg",
-                        "name": "Michael Leitzmann"
-                    },
-                    {
-                        "affiliation": "University of Regensburg",
-                        "name": "Michael J. Stein"
-                    },
-                    {
-                        "affiliation": "Division of Clinical Epidemiology and Aging Research, German Cancer Research Center (DKFZ)",
-                        "name": "Hermann Brenner"
-                    },
-                    {
-                        "affiliation": "Saarland Cancer Registry",
-                        "name": "Bernd Holleczek"
-                    },
-                    {
-                        "affiliation": "University of Regensburg",
-                        "name": "Andrea Weber"
-                    },
-                    {
-                        "affiliation": "NAKO e.V.",
-                        "name": "Barbara Bohn"
-                    },
-                    {
-                        "affiliation": "Institute for Medical Epidemiology, Biometrics, and Informatics, Interdisciplinary Center for Health Sciences , Medical Faculty of the Martin-Luther University Halle-Wittenberg",
-                        "name": "Alexander Kluttig"
-                    },
-                    {
-                        "affiliation": "Division of Physical Activity, Prevention and Cancer, German Cancer Research Center (DKFZ)",
-                        "name": "Karen Steindorf"
-                    }
-                ],
-                "link": [
-                    {
-                        "content_type": "HTML",
-                        "type": "fulltext",
-                        "url": "https://doi.org/10.1186/s12889-024-17675-y"
-                    }
-                ],
-                "abstract": "Abstract Background The COVID-19 pandemic restrictions posed challenges to maintaining healthy lifestyles and physical well-being. During the first mobility restrictions from March to mid-July 2020, the German population was advised to stay home, except for work, exercise, and essential shopping. Our objective was to comprehensively assess the impact of these restrictions on changes in physical activity and sedentary behavior to identify the most affected groups. Methods Between April 30, 2020, and May 12, 2020, we distributed a COVID-19-specific questionnaire to participants of the German National Cohort (NAKO). This questionnaire gathered information about participants\u2019 physical activity and sedentary behavior currently compared to the time before the restrictions. We integrated this new data with existing information on anxiety, depressive symptoms, and physical activity. The analyses focused on sociodemographic factors, social relationships, physical health, and working conditions. Results Out of 152,421 respondents, a significant proportion reported altered physical activity and sedentary behavioral patterns due to COVID-19 restrictions. Over a third of the participants initially meeting the WHO\u2019s physical activity recommendation could no longer meet the guidelines during the restrictions. Participants reported substantial declines in sports activities (mean change (M)\u2009=\u2009-0.38; 95%\u00a0CI: -.390; -.378; range from -2 to\u2009+\u20092) and reduced active transportation (M\u2009=\u2009-0.12; 95%\u00a0CI: -.126; -.117). However, they also increased recreational physical activities (M\u2009=\u20090.12; 95%\u00a0CI: .117; .126) while engaging in more sedentary behavior (M\u2009=\u20090.24; 95%\u00a0CI: .240; .247) compared to pre-restriction levels. Multivariable linear and log-binomial regression models indicated that younger adults were more affected by the restrictions than older adults. The shift to remote work, self-rated health, and depressive symptoms were the factors most strongly associated with changes in all physical activity domains, including sedentary behavior, and the likelihood to continue following the physical activity guidelines. Conclusions Mobility patterns shifted towards inactivity or low-intensity activities during the nationwide restrictions in the spring of 2020, potentially leading to considerable and lasting health risks.",
-                "title": "Changes in physical activity and sedentary behavior during the first COVID-19 pandemic- restrictions in Germany: a nationwide survey"
-            },
-            "admin": {
-                "seal": true
-            },
-            "id": "001bc616c4a74e9f859557b874be4078",
-            "created_date": "2024-03-05T20:35:30Z"
-        },
-        {
-            "last_updated": "2022-12-22T03:21:46Z",
-            "bibjson": {
-                "identifier": [
-                    {
-                        "id": "1664-2392",
-                        "type": "eissn"
-                    },
-                    {
-                        "id": "10.3389/fendo.2022.967995",
-                        "type": "doi"
-                    }
-                ],
-                "journal": {
-                    "volume": "13",
-                    "country": "CH",
-                    "issns": [
-                        "1664-2392"
-                    ],
-                    "publisher": "Frontiers Media S.A.",
-                    "language": [
-                        "EN"
-                    ],
-                    "title": "Frontiers in Endocrinology"
-                },
-                "month": "9",
-                "keywords": [
-                    "pheochromocytoma (PCC)",
-                    "post COVID-19",
-                    "plasma metanephrines",
-                    "complications",
-                    "diagnostic delay",
-                    "severe acute respiratory syndrome coronavirus 2"
-                ],
-                "year": "2022",
-                "subject": [
-                    {
-                        "code": "RC648-665",
-                        "scheme": "LCC",
-                        "term": "Diseases of the endocrine glands. Clinical endocrinology"
-                    }
-                ],
-                "author": [
-                    {
-                        "affiliation": "Department of Molecular Endocrinology and Diabetology, Internal Medicine III, University Hospital Carl Gustav Carus, Technische Universit\u00e4t Dresden, Dresden, Germany",
-                        "name": "Christian G. Ziegler"
-                    },
-                    {
-                        "affiliation": "Department of Visceral Surgery, University Hospital Carl Gustav Carus, Technische Universit\u00e4t Dresden, Dresden, Germany",
-                        "name": "Carina Riediger"
-                    },
-                    {
-                        "affiliation": "Department of Endocrinology, Internal Medicine III, University Hospital Carl Gustav Carus, Technische Universit\u00e4t Dresden, Dresden, Germany",
-                        "name": "Matthias Gruber"
-                    },
-                    {
-                        "affiliation": "Department of Endocrinology, Internal Medicine III, University Hospital Carl Gustav Carus, Technische Universit\u00e4t Dresden, Dresden, Germany",
-                        "name": "Carola Kunath"
-                    },
-                    {
-                        "affiliation": "Helmholtz-Zentrum Dresden-Rossendorf, Institute of Radiopharmaceutical Cancer Research, Department of Radiopharmaceutical and Chemical Biology, Dresden, Germany",
-                        "name": "Martin Ullrich"
-                    },
-                    {
-                        "affiliation": "Helmholtz-Zentrum Dresden-Rossendorf, Institute of Radiopharmaceutical Cancer Research, Department of Radiopharmaceutical and Chemical Biology, Dresden, Germany",
-                        "name": "Jens Pietzsch"
-                    },
-                    {
-                        "affiliation": "Technische Universit\u00e4t Dresden (TU) Dresden, School of Science, Faculty of Chemistry and Food Chemistry, Dresden, Germany",
-                        "name": "Jens Pietzsch"
-                    },
-                    {
-                        "affiliation": "Department of Internal Medicine IV, University Hospital, Ludwig Maximilian University of Munich, Munich, Germany",
-                        "name": "Svenja N\u00f6lting"
-                    },
-                    {
-                        "affiliation": "Department of Endocrinology, Diabetology and Clinical Nutrition, University Hospital Zurich (USZ) and University of Zurich (UZH), Zurich, Switzerland",
-                        "name": "Svenja N\u00f6lting"
-                    },
-                    {
-                        "affiliation": "Department of Neurology, University Hospital Carl Gustav Carus, Technische Universit\u00e4t Dresden, Dresden, Germany",
-                        "name": "Timo Siepmann"
-                    },
-                    {
-                        "affiliation": "Department of Molecular Endocrinology and Diabetology, Internal Medicine III, University Hospital Carl Gustav Carus, Technische Universit\u00e4t Dresden, Dresden, Germany",
-                        "name": "Stefan R. Bornstein"
-                    },
-                    {
-                        "affiliation": "Division of Endocrinology and Diabetology, Department of Internal Medicine I, University Hospital, University of W\u00fcrzburg, W\u00fcrzburg, Germany",
-                        "name": "Hanna Remde"
-                    },
-                    {
-                        "affiliation": "Department of Endocrinology, Internal Medicine III, University Hospital Carl Gustav Carus, Technische Universit\u00e4t Dresden, Dresden, Germany",
-                        "name": "Georgiana Constantinescu"
-                    }
-                ],
-                "link": [
-                    {
-                        "content_type": "HTML",
-                        "type": "fulltext",
-                        "url": "https://www.frontiersin.org/articles/10.3389/fendo.2022.967995/full"
-                    }
-                ],
-                "abstract": "Pheochromocytomas (PCCs) are rare but potentially lethal tumors that arise from the adrenal medulla. The clinical suspicion and diagnosis of PCC can be challenging due to the non-specific nature of signs and symptoms. In many patients, infection with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) could lead to long-term symptoms including fatigue, headaches, and cognitive dysfunction. Here, we present the case of a patient incidentally diagnosed with an adrenal mass that proved to be a PCC after imaging was performed due to persisting complaints after coronavirus disease 2019 (COVID-19) infection. A 37-year-old male patient was referred to our center because of a right-sided inhomogeneous adrenal mass, incidentally found during a computed tomographic scan of the thorax performed due to cough and dyspnea that persisted after COVID-19 infection. Other complaints that were present prior to COVID-19 infection included profuse sweating, dizziness, exhaustion with chronic fatigue, and concentration difficulties. The patient had no history of hypertension, his blood pressure was normal, and the 24-h ambulatory blood pressure monitoring confirmed normotension but with the absence of nocturnal dipping. Plasma normetanephrine was 5.7-fold above the upper limit (UL) of reference intervals (738 pg/ml, UL = 129 pg/ml), whereas plasma metanephrine and methoxytyramine were normal at 30 pg/ml (UL = 84 pg/ml) and &lt;4 pg/ml (UL = 16 pg/ml), respectively. Preoperative preparation with phenoxybenzamine was initiated, and a 4-cm tumor was surgically resected. Profuse sweating as well as dizziness was resolved after adrenalectomy pointing toward PCC and not COVID-19-associated patient concerns. Altogether, this case illustrates the difficulties in recognizing the possibility of PCC due to the non-specific nature of signs and symptoms of the tumor, which in this case did not include hypertension and coincided with some of the symptoms of long COVID-19.",
-                "title": "Case report: Incidentally discovered case of pheochromocytoma as a cause of long COVID-19 syndrome"
-            },
-            "admin": {
-                "seal": true
-            },
-            "id": "001cb3ad0bf5491aabe65f460321e04d",
-            "created_date": "2022-09-27T08:19:00Z"
-        },
-        {
-            "last_updated": "2022-12-22T04:32:06Z",
-            "bibjson": {
-                "identifier": [
-                    {
-                        "id": "2296-858X",
-                        "type": "eissn"
-                    },
-                    {
-                        "id": "10.3389/fmed.2022.994160",
-                        "type": "doi"
-                    }
-                ],
-                "journal": {
-                    "volume": "9",
-                    "country": "CH",
-                    "issns": [
-                        "2296-858X"
-                    ],
-                    "publisher": "Frontiers Media S.A.",
-                    "language": [
-                        "EN"
-                    ],
-                    "title": "Frontiers in Medicine"
-                },
-                "month": "10",
-                "keywords": [
-                    "COVID-19",
-                    "SARS-CoV-2",
-                    "vaccines",
-                    "antibodies",
-                    "immunity",
-                    "neutralization"
-                ],
-                "year": "2022",
-                "subject": [
-                    {
-                        "code": "R5-920",
-                        "scheme": "LCC",
-                        "term": "Medicine (General)"
-                    }
-                ],
-                "author": [
-                    {
-                        "affiliation": "Department of Infectious Diseases, Aarhus University Hospital, Aarhus, Denmark",
-                        "name": "Astrid K. Hvidt"
-                    },
-                    {
-                        "affiliation": "Department of Clinical Medicine, Aarhus University, Aarhus, Denmark",
-                        "name": "Astrid K. Hvidt"
-                    },
-                    {
-                        "affiliation": "Department of Infectious Diseases, Aarhus University Hospital, Aarhus, Denmark",
-                        "name": "Eva A. M. Baerends"
-                    },
-                    {
-                        "affiliation": "Department of Clinical Medicine, Aarhus University, Aarhus, Denmark",
-                        "name": "Eva A. M. Baerends"
-                    },
-                    {
-                        "affiliation": "Department of Infectious Diseases, Aarhus University Hospital, Aarhus, Denmark",
-                        "name": "Ole S. S\u00f8gaard"
-                    },
-                    {
-                        "affiliation": "Department of Clinical Medicine, Aarhus University, Aarhus, Denmark",
-                        "name": "Ole S. S\u00f8gaard"
-                    },
-                    {
-                        "affiliation": "Department of Infectious Diseases, Aarhus University Hospital, Aarhus, Denmark",
-                        "name": "Nina B. St\u00e6rke"
-                    },
-                    {
-                        "affiliation": "Department of Clinical Medicine, Aarhus University, Aarhus, Denmark",
-                        "name": "Nina B. St\u00e6rke"
-                    },
-                    {
-                        "affiliation": "Center of Excellence for Health, Immunity and Infections, Rigshospitalet, University of Copenhagen, Copenhagen, Denmark",
-                        "name": "Dorthe Raben"
-                    },
-                    {
-                        "affiliation": "Center of Excellence for Health, Immunity and Infections, Rigshospitalet, University of Copenhagen, Copenhagen, Denmark",
-                        "name": "Joanne Reekie"
-                    },
-                    {
-                        "affiliation": "Department of Infectious Diseases, Aalborg University Hospital, Aalborg, Denmark",
-                        "name": "Henrik Nielsen"
-                    },
-                    {
-                        "affiliation": "Department of Clinical Medicine, Aalborg University, Aalborg, Denmark",
-                        "name": "Henrik Nielsen"
-                    },
-                    {
-                        "affiliation": "Department of Infectious Diseases, Odense University Hospital, Odense, Denmark",
-                        "name": "Isik S. Johansen"
-                    },
-                    {
-                        "affiliation": "Department of Clinical Research, University of Southern Denmark, Odense, Denmark",
-                        "name": "Isik S. Johansen"
-                    },
-                    {
-                        "affiliation": "Department of Medicine, Zealand University Hospital, Roskilde, Denmark",
-                        "name": "Lothar Wiese"
-                    },
-                    {
-                        "affiliation": "Department of Infectious Diseases, Copenhagen University Hospital\u2014Amager and Hvidovre, Hvidovre, Denmark",
-                        "name": "Thomas L. Benfield"
-                    },
-                    {
-                        "affiliation": "0Department of Clinical Medicine, University of Copenhagen, Copenhagen, Denmark",
-                        "name": "Thomas L. Benfield"
-                    },
-                    {
-                        "affiliation": "0Department of Clinical Medicine, University of Copenhagen, Copenhagen, Denmark",
-                        "name": "Kasper K. Iversen"
-                    },
-                    {
-                        "affiliation": "1Deparment of Cardiology and Emergency Medicine, Herlev Hospital, Herlev, Denmark",
-                        "name": "Kasper K. Iversen"
-                    },
-                    {
-                        "affiliation": "Department of Infectious Diseases, Copenhagen University Hospital\u2014Amager and Hvidovre, Hvidovre, Denmark",
-                        "name": "Ahmed B. Mustafa"
-                    },
-                    {
-                        "affiliation": "0Department of Clinical Medicine, University of Copenhagen, Copenhagen, Denmark",
-                        "name": "Ahmed B. Mustafa"
-                    },
-                    {
-                        "affiliation": "Department of Infectious Diseases, Aalborg University Hospital, Aalborg, Denmark",
-                        "name": "Maria R. Juhl"
-                    },
-                    {
-                        "affiliation": "Department of Clinical Medicine, Aalborg University, Aalborg, Denmark",
-                        "name": "Maria R. Juhl"
-                    },
-                    {
-                        "affiliation": "Department of Infectious Diseases, Aalborg University Hospital, Aalborg, Denmark",
-                        "name": "Kristine T. Petersen"
-                    },
-                    {
-                        "affiliation": "Department of Clinical Medicine, Aalborg University, Aalborg, Denmark",
-                        "name": "Kristine T. Petersen"
-                    },
-                    {
-                        "affiliation": "0Department of Clinical Medicine, University of Copenhagen, Copenhagen, Denmark",
-                        "name": "Sisse R. Ostrowski"
-                    },
-                    {
-                        "affiliation": "2Department of Clinical Immunology, Copenhagen University Hospital\u2014Rigshospitalet, Copenhagen, Denmark",
-                        "name": "Sisse R. Ostrowski"
-                    },
-                    {
-                        "affiliation": "Department of Infectious Diseases, Odense University Hospital, Odense, Denmark",
-                        "name": "Susan O. Lindvig"
-                    },
-                    {
-                        "affiliation": "Department of Clinical Research, University of Southern Denmark, Odense, Denmark",
-                        "name": "Susan O. Lindvig"
-                    },
-                    {
-                        "affiliation": "Department of Infectious Diseases, Odense University Hospital, Odense, Denmark",
-                        "name": "Line D. Rasmussen"
-                    },
-                    {
-                        "affiliation": "Department of Clinical Research, University of Southern Denmark, Odense, Denmark",
-                        "name": "Line D. Rasmussen"
-                    },
-                    {
-                        "affiliation": "Department of Infectious Diseases, Aarhus University Hospital, Aarhus, Denmark",
-                        "name": "Marianne H. Schleimann"
-                    },
-                    {
-                        "affiliation": "Department of Clinical Medicine, Aarhus University, Aarhus, Denmark",
-                        "name": "Marianne H. Schleimann"
-                    },
-                    {
-                        "affiliation": "Department of Infectious Diseases, Aarhus University Hospital, Aarhus, Denmark",
-                        "name": "Sidsel D. Andersen"
-                    },
-                    {
-                        "affiliation": "Department of Clinical Medicine, Aarhus University, Aarhus, Denmark",
-                        "name": "Sidsel D. Andersen"
-                    },
-                    {
-                        "affiliation": "Department of Infectious Diseases, Aarhus University Hospital, Aarhus, Denmark",
-                        "name": "Anna K. Juhl"
-                    },
-                    {
-                        "affiliation": "Department of Clinical Medicine, Aarhus University, Aarhus, Denmark",
-                        "name": "Anna K. Juhl"
-                    },
-                    {
-                        "affiliation": "Department of Infectious Diseases, Aarhus University Hospital, Aarhus, Denmark",
-                        "name": "Lisa L. Dietz"
-                    },
-                    {
-                        "affiliation": "Department of Clinical Medicine, Aarhus University, Aarhus, Denmark",
-                        "name": "Lisa L. Dietz"
-                    },
-                    {
-                        "affiliation": "Department of Infectious Diseases, Aarhus University Hospital, Aarhus, Denmark",
-                        "name": "Signe R. Andreasen"
-                    },
-                    {
-                        "affiliation": "Department of Clinical Medicine, Aarhus University, Aarhus, Denmark",
-                        "name": "Signe R. Andreasen"
-                    },
-                    {
-                        "affiliation": "Center of Excellence for Health, Immunity and Infections, Rigshospitalet, University of Copenhagen, Copenhagen, Denmark",
-                        "name": "Jens Lundgren"
-                    },
-                    {
-                        "affiliation": "0Department of Clinical Medicine, University of Copenhagen, Copenhagen, Denmark",
-                        "name": "Jens Lundgren"
-                    },
-                    {
-                        "affiliation": "3Department of Infectious Diseases, Copenhagen University Hospital\u2014Rigshospitalet, Copenhagen, Denmark",
-                        "name": "Jens Lundgren"
-                    },
-                    {
-                        "affiliation": "Department of Infectious Diseases, Aarhus University Hospital, Aarhus, Denmark",
-                        "name": "Lars \u00d8stergaard"
-                    },
-                    {
-                        "affiliation": "Department of Clinical Medicine, Aarhus University, Aarhus, Denmark",
-                        "name": "Lars \u00d8stergaard"
-                    },
-                    {
-                        "affiliation": "Department of Infectious Diseases, Aarhus University Hospital, Aarhus, Denmark",
-                        "name": "Martin Tolstrup"
-                    },
-                    {
-                        "affiliation": "Department of Clinical Medicine, Aarhus University, Aarhus, Denmark",
-                        "name": "Martin Tolstrup"
-                    },
-                    {
-                        "name": "the ENFORCE Study Group"
-                    }
-                ],
-                "link": [
-                    {
-                        "content_type": "HTML",
-                        "type": "fulltext",
-                        "url": "https://www.frontiersin.org/articles/10.3389/fmed.2022.994160/full"
-                    }
-                ],
-                "abstract": "The SARS-CoV-2 pandemic has, as of July 2022, infected more than 550 million people and caused over 6 million deaths across the world. COVID-19 vaccines were quickly developed to protect against severe disease, hospitalization and death. In the present study, we performed a direct comparative analysis of four COVID-19 vaccines: BNT162b2 (Pfizer/BioNTech), mRNA-1273 (Moderna), ChAdOx1 (Oxford/AstraZeneca) and Ad26.COV2.S (Johnson &amp; Johnson/Janssen), following primary and booster vaccination. We focused on the vaccine-induced antibody-mediated immune response against multiple SARS-CoV-2 variants: wildtype, B.1.1.7 (Alpha), B.1.351 (Beta), B.1.617.2 (Delta) and B.1.1.529 (Omicron). The analysis included the quantification of total IgG levels against SARS-CoV-2 Spike, as well as the quantification of antibody neutralization titers. Furthermore, the study assessed the high-throughput ACE2 competition assay as a surrogate for the traditional pseudovirus neutralization assay. The results demonstrated marked differences in antibody-mediated immune responses. The lowest Spike-specific IgG levels and antibody neutralization titers were induced by one dose of the Ad26.COV2.S vaccine, intermediate levels by two doses of the BNT162b2 vaccine, and the highest levels by two doses of the mRNA-1273 vaccine or heterologous vaccination of one dose of the ChAdOx1 vaccine and a subsequent mRNA vaccine. The study also demonstrated that accumulation of SARS-CoV-2 Spike protein mutations was accompanied by a marked decline in antibody neutralization capacity, especially for B.1.1.529. Administration of a booster dose was shown to significantly increase Spike-specific IgG levels and antibody neutralization titers, erasing the differences between the vaccine-induced antibody-mediated immune response between the four vaccines. The findings of this study highlight the importance of booster vaccines and the potential inclusion of future heterologous vaccination strategies for broad protection against current and emerging SARS-CoV-2 variants.",
-                "title": "Comparison of vaccine-induced antibody neutralization against SARS-CoV-2 variants of concern following primary and booster doses of COVID-19 vaccines"
-            },
-            "admin": {
-                "seal": true
-            },
-            "id": "001cb90803124b8e8d8603d1f6f5649d",
-            "created_date": "2022-10-03T05:20:45Z"
-        },
-        {
-            "last_updated": "2022-12-22T02:56:39Z",
-            "bibjson": {
-                "identifier": [
-                    {
-                        "id": "10.4081/gc.2021.9895",
-                        "type": "doi"
-                    },
-                    {
-                        "id": "2465-1109",
-                        "type": "pissn"
-                    },
-                    {
-                        "id": "2465-1397",
-                        "type": "eissn"
-                    }
-                ],
-                "journal": {
-                    "volume": "7",
-                    "number": "3",
-                    "country": "IT",
-                    "issns": [
-                        "2465-1109",
-                        "2465-1397"
-                    ],
-                    "publisher": "PAGEPress Publications",
-                    "language": [
-                        "EN"
-                    ],
-                    "title": "Geriatric Care"
-                },
-                "month": "September",
-                "keywords": [
-                    "COMEPA",
-                    "COVID-19",
-                    "therapy",
-                    "internal medicine",
-                    "prognosis."
-                ],
-                "year": "2021",
-                "subject": [
-                    {
-                        "code": "RC952-954.6",
-                        "scheme": "LCC",
-                        "term": "Geriatrics"
-                    }
-                ],
-                "author": [
-                    {
-                        "affiliation": "Department of Internal Medicine and Geriatrics, University of Palermo",
-                        "name": "The COMEPA group"
-                    }
-                ],
-                "link": [
-                    {
-                        "content_type": "HTML",
-                        "type": "fulltext",
-                        "url": "https://pagepressjournals.org/index.php/gc/article/view/9895"
-                    }
-                ],
-                "abstract": "Coronavirus disease 2019 (COVID-19) has dramatically changed our lives. In the past months, hospitals were saturated of patients; therefore, it is still important to have simple and standardized prognostic factors and to evaluate the efficacy and safety of medications commonly used for COVID-19. We aimed to collect data of the patients hospitalized in Internal Medicine and Geriatrics Wards at the University Hospital (Policlinico) \u2018P. Giaccone\u2019 in Palermo, Italy (COMEPA, COVID-19 Medicina Policlinico Palermo), with the main purpose of finding prognostic tools that can be easily used in clinical practice in order to identify patients hospitalized for/with COVID-19 at higher risk of negative outcomes, such as mortality, transfer to Intensive Care Unit (ICU) and institutionalization, as well as evaluating the efficacy/safety of medications commonly used for COVID-19. For reaching these aims, the medical records of approximately 600 patients will be recorded, having data on several parameters and including as outcomes mortality, ICU placement, institutionalization. With the COMEPA study, we therefore plan to update current literature, giving new data on prognostic factors and on the efficacy/safety of some medications used for COVID-19.",
-                "title": "COMEPA (COVID-19 Medicina Policlinico Palermo): a study in hospitalized patients"
-            },
-            "admin": {
-                "seal": false
-            },
-            "id": "001d058638ac4cdfab0924982deb60ce",
-            "created_date": "2021-09-21T22:21:14Z"
         }
     ],
-    "next": "https://doaj.org/api/v3/search/articles/COVID-19?page=2&pageSize=100",
-    "last": "https://doaj.org/api/v3/search/articles/COVID-19?page=2181&pageSize=100"
+    "next": "https://doaj.org/api/v4/search/articles/COVID-19?page=2&pageSize=100",
+    "last": "https://doaj.org/api/v4/search/articles/COVID-19?page=2299&pageSize=100"
 }

@@ -19,72 +19,90 @@ app.use(bodyParser.json());
 // Define API endpoints
 
 // Get all journals
-app.get("/journals", (req, res) => {
-  const { page, pageSize, source } = req.query;
+app.get('/journals', (req, res) => {
+  const { page = 1, pageSize = 10, source, title } = req.query;
   const pageValue = parseInt(page, 10);
   const pageSizeValue = parseInt(pageSize, 10);
 
-  // Validate page and pageSize parameters
   if (isNaN(pageValue) || pageValue <= 0) {
-    return res.status(400).send({
-      error: "Invalid 'page' parameter. It must be a positive integer.",
-    });
+      return res.status(400).send({ error: "Invalid 'page' parameter. It must be a positive integer." });
   }
   if (isNaN(pageSizeValue) || pageSizeValue <= 0) {
-    return res.status(400).send({
-      error: "Invalid 'pageSize' parameter. It must be a positive integer.",
-    });
+      return res.status(400).send({ error: "Invalid 'pageSize' parameter. It must be a positive integer." });
   }
 
   const offset = (pageValue - 1) * pageSizeValue;
 
-  // Query to count total rows
+  // Parse source as an array if provided
+  let sourceArray = [];
+  if (source) {
+      try {
+          sourceArray = JSON.parse(source); // Expecting source to be a JSON stringified array
+          if (!Array.isArray(sourceArray)) {
+              return res.status(400).send({ error: "'source' must be an array of strings." });
+          }
+      } catch (err) {
+          return res.status(400).send({ error: "'source' must be a valid JSON stringified array." });
+      }
+  }
+
+  // Initialize query and parameters
   let countSql = `SELECT COUNT(*) AS totalCount FROM covid_journals_data`;
-  const countParams = [];
-
-  // Add WHERE clause if source is provided
-  if (source) {
-    countSql += ` WHERE Source = ?`;
-    countParams.push(source);
-  }
-
-  // Query to fetch paginated data
   let dataSql = `SELECT * FROM covid_journals_data`;
-  const dataParams = [];
+  let queryParams = [];
 
-  if (source) {
-    dataSql += ` WHERE Source = ?`;
-    dataParams.push(source);
+  // Build WHERE clause
+  let whereClauses = [];
+
+  // Add source filter
+  if (sourceArray.length > 0) {
+      const placeholders = sourceArray.map(() => '?').join(', ');
+      whereClauses.push(`Source IN (${placeholders})`);
+      queryParams = queryParams.concat(sourceArray);
   }
 
-  dataSql += ` ORDER BY RANDOM() LIMIT ? OFFSET ?`;
-  dataParams.push(pageSizeValue, offset);
+  // Add title filter
+  if (title) {
+      whereClauses.push(`title LIKE ?`);
+      queryParams.push(`%${title}%`); // Add wildcards for partial matching
+  }
 
-  // Execute the count query first
-  db.get(countSql, countParams, (countErr, countRow) => {
-    if (countErr) {
-      return res.status(500).send({ error: countErr.message });
-    }
+  // Combine WHERE clauses
+  if (whereClauses.length > 0) {
+      countSql += ` WHERE ${whereClauses.join(' AND ')}`;
+      dataSql += ` WHERE ${whereClauses.join(' AND ')}`;
+  }
 
-    const totalCount = countRow.totalCount;
-    const totalPages = Math.ceil(totalCount / pageSizeValue);
+  dataSql += ` LIMIT ? OFFSET ?`;
+  // dataSql += ` ORDER BY RANDOM() LIMIT ? OFFSET ?`;
+  queryParams.push(pageSizeValue, offset);
 
-    // Execute the data query next
-    db.all(dataSql, dataParams, (dataErr, dataRows) => {
-      if (dataErr) {
-        return res.status(500).send({ error: dataErr.message });
+  // Execute the count query
+  db.get(countSql, queryParams.slice(0, queryParams.length - 2), (countErr, countRow) => {
+      if (countErr) {
+          return res.status(500).send({ error: countErr.message });
       }
 
-      res.status(200).send({
-        page: pageValue,
-        pageSize: pageSizeValue,
-        totalPages: totalPages,
-        totalCount: totalCount,
-        data: dataRows,
+      const totalCount = countRow.totalCount;
+      const totalPages = Math.ceil(totalCount / pageSizeValue);
+
+      // Execute the data query
+      db.all(dataSql, queryParams, (dataErr, dataRows) => {
+          if (dataErr) {
+              return res.status(500).send({ error: dataErr.message });
+          }
+
+          res.status(200).send({
+              page: pageValue,
+              pageSize: pageSizeValue,
+              totalPages: totalPages,
+              totalCount: totalCount,
+              data: dataRows,
+          });
       });
-    });
   });
 });
+
 
 // Register a new user
 app.post("/users/register", (req, res) => {

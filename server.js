@@ -47,8 +47,8 @@ app.get('/journals', (req, res) => {
   }
 
   // Initialize query and parameters
-  let countSql = `SELECT COUNT(*) AS totalCount FROM covid_journals_data`;
-  let dataSql = `SELECT * FROM covid_journals_data`;
+  let countSql = `SELECT COUNT(*) AS totalCount FROM covid_research`;
+  let dataSql = `SELECT * FROM covid_research`;
   let queryParams = [];
 
   // Build WHERE clause

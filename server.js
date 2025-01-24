@@ -103,6 +103,89 @@ app.get('/journals', (req, res) => {
   });
 });
 
+// Get keywords
+app.get("/keywords", (req, res) => {
+  const { keyword, article_id } = req.query;
+  let sql = "SELECT * FROM covid_research_keywords WHERE 1=1";
+  const params = [];
+
+  if (keyword) {
+      sql += " AND keyword LIKE ?";
+      params.push(`%${keyword}%`);
+  }
+
+  if (article_id) {
+      sql += " AND article_id = ?";
+      params.push(article_id);
+  }
+
+  db.all(sql, params, (err, rows) => {
+      if (err) {
+          return res.status(500).send({ error: err.message });
+      }
+      res.status(200).send(rows);
+  });
+});
+
+// Add a new keyword
+app.post("/keywords", (req, res) => {
+  const { keyword, article_id } = req.body;
+
+  if (!keyword || !article_id) {
+      return res.status(400).send({ error: "Both 'keyword' and 'article_id' are required." });
+  }
+
+  const sql = "INSERT INTO covid_research_keywords (keyword, article_id) VALUES (?, ?)";
+  const params = [keyword, article_id];
+
+  db.run(sql, params, function (err) {
+      if (err) {
+          return res.status(500).send({ error: err.message });
+      }
+      res.status(201).send({ id: this.lastID, keyword, article_id });
+  });
+});
+
+// Update an existing keyword
+app.put("/keywords/:id", (req, res) => {
+  const { id } = req.params;
+  const { keyword, article_id } = req.body;
+
+  if (!keyword || !article_id) {
+      return res.status(400).send({ error: "Both 'keyword' and 'article_id' are required." });
+  }
+
+  const sql = "UPDATE covid_research_keywords SET keyword = ?, article_id = ? WHERE id = ?";
+  const params = [keyword, article_id, id];
+
+  db.run(sql, params, function (err) {
+      if (err) {
+          return res.status(500).send({ error: err.message });
+      }
+      if (this.changes === 0) {
+          return res.status(404).send({ error: "Keyword not found." });
+      }
+      res.status(200).send({ id, keyword, article_id });
+  });
+});
+
+// Delete a keyword
+app.delete("/keywords/:id", (req, res) => {
+  const { id } = req.params;
+
+  const sql = "DELETE FROM covid_research_keywords WHERE id = ?";
+  const params = [id];
+
+  db.run(sql, params, function (err) {
+      if (err) {
+          return res.status(500).send({ error: err.message });
+      }
+      if (this.changes === 0) {
+          return res.status(404).send({ error: "Keyword not found." });
+      }
+      res.status(200).send({ message: "Keyword deleted successfully.", id });
+  });
+});
 
 // Register a new user
 app.post("/users/register", (req, res) => {

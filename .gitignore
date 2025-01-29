@@ -3,3 +3,4 @@ databases
 package-lock.json
 *.sqlite
 raw_data
+data

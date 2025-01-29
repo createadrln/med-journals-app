@@ -2,3 +2,4 @@ node_modules
 databases
 package-lock.json
 *.sqlite
+raw_data

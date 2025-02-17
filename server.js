@@ -18,71 +18,6 @@ app.use(bodyParser.json());
 
 // Define API endpoints
 
-// Get all journals
-// app.get("/journals", (req, res) => {
-//   const {
-//     page = 1,
-//     pageSize = 10,
-//     source,
-//     title,
-//     sort = "date",
-//     order = "DESC",
-//   } = req.query;
-
-//   let sql = `SELECT * FROM covid_research`;
-//   const params = [];
-
-//   // Filter by Source (Array of Strings)
-//   if (source) {
-//     const sources = JSON.parse(source);
-//     const placeholders = sources.map(() => "?").join(", ");
-//     sql += ` WHERE source IN (${placeholders})`;
-//     params.push(...sources);
-//   }
-
-//   // Filter by Title (Partial Match)
-//   if (title) {
-//     sql += source ? " AND" : " WHERE";
-//     sql += ` title LIKE ?`;
-//     params.push(`%${title}%`);
-//   }
-
-//   // Sorting by Date or Title
-//   const validSortColumns = ["pub_date", "title"];
-//   const sortColumn = validSortColumns.includes(sort) ? sort : "pub_date";
-
-//   const orderDirection = order.toUpperCase() === "ASC" ? "ASC" : "DESC";
-//   sql += ` ORDER BY ${sortColumn} ${orderDirection}`;
-
-//   // Pagination
-//   sql += ` LIMIT ? OFFSET ?`;
-//   params.push(parseInt(pageSize), (parseInt(page) - 1) * parseInt(pageSize));
-
-//   // Execute Query
-//   db.all(sql, params, (err, rows) => {
-//     if (err) {
-//       return res.status(500).send({ error: err.message });
-//     }
-
-//     // Count total records for pagination
-//     db.get(
-//       `SELECT COUNT(*) as total FROM covid_research`,
-//       [],
-//       (err, result) => {
-//         if (err) {
-//           return res.status(500).send({ error: err.message });
-//         }
-
-//         res.status(200).send({
-//           totalRecords: result.total,
-//           totalPages: Math.ceil(result.total / pageSize),
-//           data: rows,
-//         });
-//       }
-//     );
-//   });
-// });
-
 app.get("/journals", (req, res) => {
   const {
     page = 1,
@@ -195,8 +130,8 @@ app.get("/journals", (req, res) => {
 
 // Get all keywords
 app.get("/keywords", (req, res) => {
-  const { keyword, article_id } = req.query;
-  let sql = "SELECT * FROM covid_research_keywords WHERE 1=1";
+  const { keyword, article_id, order_by_count } = req.query;
+  let sql = "SELECT * FROM covid_research_keywords";
   const params = [];
 
   if (keyword) {
@@ -207,6 +142,10 @@ app.get("/keywords", (req, res) => {
   if (article_id) {
     sql += " AND article_id = ?";
     params.push(article_id);
+  }
+
+  if (order_by_count === "true" ? true : false) {
+    sql += " ORDER BY count DESC";
   }
 
   db.all(sql, params, (err, rows) => {

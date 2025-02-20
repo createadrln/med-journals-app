@@ -20,7 +20,7 @@ const JournalModel = {
     }
 
     if (filters.keyword) {
-      whereClauses.push(`keyword LIKE ?`);
+      whereClauses.push(`keywords LIKE ?`);
       queryParams.push(`%${filters.keyword}%`);
     }
 
@@ -49,7 +49,13 @@ const JournalModel = {
         // Fetch journal data
         db.all(sql, queryParams, (err, rows) => {
           if (err) return callback(err, null);
-          callback(null, { totalCount, totalPages, data: rows });
+          callback(null, {
+            page: pagination.page,
+            pageSize: pagination.pageSize,
+            totalCount,
+            totalPages,
+            data: rows,
+          });
         });
       }
     );

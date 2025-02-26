@@ -1,0 +1,8 @@
+# Run the daily script at midnight (UTC)
+0 0 * * * python3 /app/scripts/daily_collector.py >> /app/logs/daily.log 2>&1
+
+# Run the weekly script every Monday at 1 AM (UTC)
+0 1 * * 1 python3 /app/scripts/weekly_collector.py >> /app/logs/weekly.log 2>&1
+
+# Run the monthly script on the 1st of each month at 2 AM (UTC)
+0 2 1 * * python3 /app/scripts/monthly_collector.py >> /app/logs/monthly.log 2>&1

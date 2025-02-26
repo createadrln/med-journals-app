@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  covid_data_collector:
+    build: .
+    container_name: covid_data_collector
+    volumes:
+      - ./scripts:/app/scripts
+      - ./logs:/app/logs
+    restart: always
+    command: ["cron", "-f"]

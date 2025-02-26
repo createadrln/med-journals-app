@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    container_name: node_backend
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - .:/app
+      - /app/node_modules
+    depends_on:
+      - database
+
+  database:
+    image: "sqlite3"
+    container_name: sqlite_db
+    volumes:
+      - ./databases:/data

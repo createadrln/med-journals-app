@@ -2,7 +2,7 @@ const db = require("../config/database");
 
 const KeywordModel = {
   getAll: (filters, callback) => {
-    let sql = "SELECT * FROM covid_research_keywords WHERE 1=1";
+    let sql = "SELECT keyword FROM covid_research_keywords";
     const params = [];
 
     if (filters.keyword) {
@@ -11,12 +11,8 @@ const KeywordModel = {
     }
 
     if (filters.article_id) {
-      sql += " AND article_id = ?";
+      sql += " AND id = ?";
       params.push(filters.article_id);
-    }
-
-    if (filters.order_by_count === "true") {
-      sql += " ORDER BY count DESC";
     }
 
     db.all(sql, params, (err, rows) => {

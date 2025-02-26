@@ -1,12 +1,26 @@
 const KeywordModel = require("../models/KeywordModel");
 
 exports.getKeywords = (req, res) => {
-  const { keyword, article_id, order_by_count } = req.query;
-  const filters = { keyword, article_id, order_by_count };
+  const { keyword, article_id } = req.query;
+  const filters = { keyword, article_id };
 
   KeywordModel.getAll(filters, (err, rows) => {
     if (err) return res.status(500).send({ error: err.message });
-    res.status(200).send(rows);
+
+    const keywords = [];
+    rows.forEach((row) => {
+      keywords.push(row.keyword);
+    });
+
+    const counts = keywords.sort().reduce(
+      (acc, value) => ({
+        ...acc,
+        [value]: (acc[value] || 0) + 1,
+      }),
+      {}
+    );
+
+    res.status(200).send(counts);
   });
 };
 

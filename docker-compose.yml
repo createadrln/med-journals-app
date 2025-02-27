@@ -1,11 +1,50 @@
-version: "3.8"
-
 services:
+  backend:
+    build: ./backend
+    container_name: node_backend
+    restart: always
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+    depends_on:
+      - database
+
+  frontend:
+    build: ./frontend
+    container_name: vite_frontend
+    restart: always
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    depends_on:
+      - backend
+
+  nginx:
+    build: ./nginx
+    container_name: nginx_proxy
+    restart: always
+    ports:
+      - "80:80"
+    depends_on:
+      - backend
+      - frontend
+
+  database:
+    image: sqlite
+    container_name: sqlite_db
+    volumes:
+      - ./data:/data
+
   covid_data_collector:
     build: .
     container_name: covid_data_collector
     volumes:
       - ./scripts:/app/scripts
       - ./logs:/app/logs
+      - ./data:/app/databases
     restart: always
     command: ["cron", "-f"]

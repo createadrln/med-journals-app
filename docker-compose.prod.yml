@@ -1,0 +1,32 @@
+services:
+  backend:
+    build: ./backend
+    container_name: node_backend
+    restart: always
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+      - ./data:/app/data
+    ports:
+      - "3000:3000"
+
+  nginx:
+    build: ./nginx
+    container_name: nginx_proxy
+    restart: always
+    ports:
+      - "8000:8000"
+    depends_on:
+      - backend
+
+  covid_data_collector:
+    build: .
+    container_name: covid_data_collector
+    volumes:
+      - ./scripts:/app/scripts
+      - ./logs:/app/logs
+      - ./data:/app/databases
+    restart: always
+    command: ["cron", "-f"]

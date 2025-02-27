@@ -8,6 +8,9 @@ services:
     volumes:
       - ./backend:/app
       - /app/node_modules
+      - ./data:/app/data
+    ports:
+      - "3000:3000"
     depends_on:
       - database
 
@@ -20,6 +23,8 @@ services:
     volumes:
       - ./frontend:/app
       - /app/node_modules
+    ports:
+      - "5173:5173"
     depends_on:
       - backend
 
@@ -28,7 +33,7 @@ services:
     container_name: nginx_proxy
     restart: always
     ports:
-      - "8000:80"
+      - "8000:8000"
     depends_on:
       - backend
       - frontend

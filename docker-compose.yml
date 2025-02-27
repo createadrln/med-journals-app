@@ -28,13 +28,13 @@ services:
     container_name: nginx_proxy
     restart: always
     ports:
-      - "80:80"
+      - "8000:80"
     depends_on:
       - backend
       - frontend
 
   database:
-    image: sqlite
+    image: mcp/sqlite
     container_name: sqlite_db
     volumes:
       - ./data:/data

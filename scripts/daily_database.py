@@ -2,62 +2,69 @@ import json
 import csv
 import sqlite3
 from datetime import datetime
+import os
 
 # Combine data files
 
 # Open Pubmed JSON data file
-with open('../raw_data/pubmed_full.json', 'r') as json_file:
-    pubmed_full_data = json.load(json_file)
+if os.path.exists('../raw_data/pubmed_full.json'):
+    with open('../raw_data/pubmed_full.json', 'r') as json_file:
+        pubmed_full_data = json.load(json_file)
 
 # Open DOAJ JSON data file
-with open('../raw_data/doaj.json', 'r') as json_file:
-    doaj_full_data = json.load(json_file)
+if os.path.exists('../raw_data/doaj.json'):
+    with open('../raw_data/doaj.json', 'r') as json_file:
+        doaj_full_data = json.load(json_file)
 
 # Open Europe PMC JSON data file
-with open('../raw_data/europe_pmc.json', 'r') as json_file:
-    europe_pmc_full_data = json.load(json_file)
+if os.path.exists('../raw_data/europe_pmc.json'):
+    with open('../raw_data/europe_pmc.json', 'r') as json_file:
+        europe_pmc_full_data = json.load(json_file)
 
 final_pubmed_data = []
-for article in pubmed_full_data['PubmedArticleSet']['PubmedArticle']:
-    final_data_row = {
-        'id': article['MedlineCitation']['PMID']['#text'],
-        'source': 'PubMed',
-        'date': article['MedlineCitation']['DateRevised'],
-        'title': article['MedlineCitation']['Article']['ArticleTitle'],
-        'link': f'https://pubmed.ncbi.nlm.nih.gov/{article["MedlineCitation"]["PMID"]["#text"]}/',
-        'authors': article['MedlineCitation']['Article'].get('AuthorList', {}).get('Author', []),
-        'keywords': article['MedlineCitation'].get('KeywordList', {}).get('Keyword', []),
-        'abstract': article['MedlineCitation'].get('Abstract', {}).get('AbstractText', [])
-    }
-    final_pubmed_data.append(final_data_row)
+if os.path.exists('../raw_data/pubmed_full.json'):
+    for article in pubmed_full_data['PubmedArticleSet']['PubmedArticle']:
+        final_data_row = {
+            'id': article['MedlineCitation']['PMID']['#text'],
+            'source': 'PubMed',
+            'date': article['MedlineCitation']['DateRevised'],
+            'title': article['MedlineCitation']['Article']['ArticleTitle'],
+            'link': f'https://pubmed.ncbi.nlm.nih.gov/{article["MedlineCitation"]["PMID"]["#text"]}/',
+            'authors': article['MedlineCitation']['Article'].get('AuthorList', {}).get('Author', []),
+            'keywords': article['MedlineCitation'].get('KeywordList', {}).get('Keyword', []),
+            'abstract': article['MedlineCitation'].get('Abstract', {}).get('AbstractText', [])
+        }
+        final_pubmed_data.append(final_data_row)
 
 final_doaj_data = []
-for article in doaj_full_data['results']:
-    final_data_row = {
-        'id': article['id'],
-        'source': 'Doaj',
-        'date': article['last_updated'],
-        'title': article['bibjson']['title'],
-        'link': article['bibjson']['link'],
-        'authors': article['bibjson']['author'],
-        'keywords': article['bibjson'].get('keywords', []),
-        'abstract': article['bibjson'].get('abstract', '')
-    }
-    final_doaj_data.append(final_data_row)
+if os.path.exists('../raw_data/doaj.json'):
+    for article in doaj_full_data['results']:
+        final_data_row = {
+            'id': article['id'],
+            'source': 'Doaj',
+            'date': article['last_updated'],
+            'title': article['bibjson']['title'],
+            'link': article['bibjson']['link'],
+            'authors': article['bibjson']['author'],
+            'keywords': article['bibjson'].get('keywords', []),
+            'abstract': article['bibjson'].get('abstract', '')
+        }
+        final_doaj_data.append(final_data_row)
 
 final_europe_pmc_data = []
-for article in europe_pmc_full_data:
-    final_data_row = {
-        'id': article['id'],
-        'source': 'Europe PMC',
-        'date': article['firstIndexDate'],
-        'title': article['title'],
-        'link': f'https://europepmc.org/article/{article["source"]}/{article["id"]}/',
-        'authors': article.get('authorString', ''),
-        'keywords': None,
-        'abstract': None
-    }
-    final_europe_pmc_data.append(final_data_row)
+if os.path.exists('../raw_data/europe_pmc.json'):
+    for article in europe_pmc_full_data:
+        final_data_row = {
+            'id': article['id'],
+            'source': 'Europe PMC',
+            'date': article['firstIndexDate'],
+            'title': article['title'],
+            'link': f'https://europepmc.org/article/{article["source"]}/{article["id"]}/',
+            'authors': article.get('authorString', ''),
+            'keywords': None,
+            'abstract': None
+        }
+        final_europe_pmc_data.append(final_data_row)
 
 from datetime import date
 today = date.today()

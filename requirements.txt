@@ -2,7 +2,4 @@ lxml
 bs4
 xmltodict
 requests
-json
-csv
-sqlite3
 datetime

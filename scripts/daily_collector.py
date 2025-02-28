@@ -3,7 +3,6 @@ import json
 from bs4 import BeautifulSoup
 import xmltodict
 
-
 def fetch_pubmed_data(term, type='full'):
     base_url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
     params = {
@@ -43,7 +42,6 @@ def fetch_pubmed_data(term, type='full'):
         return full_response
     except requests.exceptions.RequestException as e:
         print(f"An error occurred while querying PubMed: {e}")
-
 
 full_data = fetch_pubmed_data('COVID-19')
 detail_data = fetch_pubmed_data('COVID-19', 'detail')

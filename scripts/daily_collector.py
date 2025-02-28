@@ -11,7 +11,7 @@ def fetch_pubmed_data(term, type='full'):
         'sort': 'most_recent',
         'datetype': 'edat',
         'reldate': 2,
-        'retmax': 9999,
+        # 'retmax': 9999,
         'retmode': 'json',
         'apikey': None
     }

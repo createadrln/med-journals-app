@@ -1,0 +1,10 @@
+services:
+  covid_data_collector:
+    build: .
+    container_name: covid_data_collector
+    volumes:
+      - ./scripts:/app/scripts
+      - ./logs:/app/logs
+      - ./data:/app/databases
+    restart: always
+    command: ["cron", "-f"]

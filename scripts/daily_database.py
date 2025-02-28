@@ -78,7 +78,7 @@ with open(f'../raw_data/combined_sources_{today}.json', 'w') as json_file:
 
 # Load to Database
 
-conn = sqlite3.connect('../src/databases/CovidData.db')
+conn = sqlite3.connect('../data/CovidData.db')
 cursor = conn.cursor()
 
 create_research_table_sql = """

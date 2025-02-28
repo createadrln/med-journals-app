@@ -148,14 +148,10 @@ with open('../raw_data/combined_sources.json', 'r') as json_file:
                 author_affiliations_list.append(author.get('affiliation', ""))
 
             keywords_list = []
-            with open('keyword_stopwords.csv', 'r') as file:
-                reader = csv.reader(file, delimiter=',')
-                for row in reader:
-                    for keyword in item['keywords']:
-                        keywords_list.append(keyword)
-                        if keyword.strip().lower().replace('-', '') not in row:
-                            cursor.execute(
-                                "INSERT OR IGNORE INTO covid_research_keywords VALUES(?,?)", (item['id'], keyword))
+            for keyword in item['keywords']:
+                keywords_list.append(keyword)
+                cursor.execute(
+                    "INSERT OR IGNORE INTO covid_research_keywords VALUES(?,?)", (item['id'], keyword))
 
             cursor.execute("INSERT OR IGNORE INTO covid_research VALUES(?,?,?,?,?,?,?,?,?)", (
                 item['id'],
@@ -202,12 +198,8 @@ with open('../raw_data/combined_sources.json', 'r') as json_file:
                     keywords_list.append(keyword['#text'])
 
             for keyword in keywords_list:
-                with open('keyword_stopwords.csv', 'r') as file:
-                    reader = csv.reader(file, delimiter=',')
-                    for row in reader:
-                        if keyword.strip().lower().replace('-', '') not in row:
-                            cursor.execute(
-                                "INSERT OR IGNORE INTO covid_research_keywords VALUES(?,?)", (item['id'], keyword))
+                cursor.execute(
+                    "INSERT OR IGNORE INTO covid_research_keywords VALUES(?,?)", (item['id'], keyword))
 
             title = item['title']
             if isinstance(item['title'], dict):

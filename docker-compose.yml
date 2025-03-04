@@ -4,7 +4,8 @@ services:
     container_name: node_backend
     restart: always
     environment:
-      - NODE_ENV=production
+      - NODE_ENV=${NODE_ENV}
+      - BACKEND_HOST_URL=${BACKEND_HOST_URL}
     volumes:
       - ./backend:/app
       - /app/node_modules
@@ -19,7 +20,8 @@ services:
     container_name: vite_frontend
     restart: always
     environment:
-      - NODE_ENV=production
+      - NODE_ENV=${NODE_ENV}
+      - BACKEND_HOST_URL=${BACKEND_HOST_URL}
     volumes:
       - ./frontend:/app
       - /app/node_modules
@@ -52,4 +54,12 @@ services:
       - ./logs:/app/logs
       - ./data:/app/databases
     restart: always
+    environment:
+      - http_proxy=http://localhost:80
+      - https_proxy=http://localhost:80
+      - no_proxy=localhost,127.0.0.1,api.covid19api.com,www.ebi.ac.uk
+    networks:
+      - backend_network
+    extra_hosts:
+      - "www.ebi.ac.uk:0.0.0.0"
     command: ["cron", "-f"]

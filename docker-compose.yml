@@ -7,13 +7,9 @@ services:
       - NODE_ENV=${NODE_ENV}
       - BACKEND_HOST_URL=${BACKEND_HOST_URL}
     volumes:
-      - ./backend:/app
-      - /app/node_modules
       - ./data:/app/data
     ports:
       - "3000:3000"
-    depends_on:
-      - database
 
   frontend:
     build: ./frontend
@@ -22,29 +18,10 @@ services:
     environment:
       - NODE_ENV=${NODE_ENV}
       - BACKEND_HOST_URL=${BACKEND_HOST_URL}
-    volumes:
-      - ./frontend:/app
-      - /app/node_modules
     ports:
-      - "5173:5173"
+      - "8000:80"
     depends_on:
       - backend
-
-  nginx:
-    build: ./nginx
-    container_name: nginx_proxy
-    restart: always
-    ports:
-      - "8000:8000"
-    depends_on:
-      - backend
-      - frontend
-
-  database:
-    image: mcp/sqlite
-    container_name: sqlite_db
-    volumes:
-      - ./data:/data
 
   covid_data_collector:
     build: .

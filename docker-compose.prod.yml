@@ -34,8 +34,8 @@ services:
       - http_proxy=http://localhost:80
       - https_proxy=http://localhost:80
       - no_proxy=localhost,127.0.0.1,api.covid19api.com,www.ebi.ac.uk
-    networks:
-      - backend_network
+    # networks:
+    #   - backend_network
     extra_hosts:
       - "www.ebi.ac.uk:0.0.0.0"
     command: ["cron", "-f"]

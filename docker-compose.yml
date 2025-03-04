@@ -12,12 +12,15 @@ services:
       - "3000:3000"
 
   frontend:
-    build: ./frontend
+    build:
+      context: ./frontend
+      args:
+        VITE_BACKEND_HOST_URL: ${VITE_BACKEND_HOST_URL}
     container_name: vite_frontend
     restart: always
     environment:
       - NODE_ENV=${NODE_ENV}
-      - BACKEND_HOST_URL=${BACKEND_HOST_URL}
+      - VITE_BACKEND_HOST_URL=${BACKEND_HOST_URL}
     ports:
       - "8000:80"
     depends_on:
@@ -35,8 +38,6 @@ services:
       - http_proxy=http://localhost:80
       - https_proxy=http://localhost:80
       - no_proxy=localhost,127.0.0.1,api.covid19api.com,www.ebi.ac.uk
-    # networks:
-    #   - backend_network
     extra_hosts:
       - "www.ebi.ac.uk:0.0.0.0"
     command: ["cron", "-f"]

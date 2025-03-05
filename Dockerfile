@@ -5,10 +5,6 @@ WORKDIR /app
 COPY scripts/ /app/scripts/
 COPY requirements.txt /app/
 
-ENV http_proxy ""
-ENV https_proxy ""
-ENV no_proxy "localhost,127.0.0.1"
-
 RUN pip install --no-cache-dir -r requirements.txt
 
 RUN apt-get update && apt-get install -y cron

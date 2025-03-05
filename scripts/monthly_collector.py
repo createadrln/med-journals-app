@@ -1,6 +1,11 @@
 import requests
 import json
 from datetime import date
+import os
+
+raw_data_path = '../raw_data'
+if not os.path.exists(raw_data_path):
+    os.makedirs(raw_data_path)
 
 BASE_URL = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
 

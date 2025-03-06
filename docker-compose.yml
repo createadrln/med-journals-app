@@ -34,5 +34,11 @@ services:
       - ./logs:/app/logs
       - ./data:/app/databases
     restart: always
+    environment:
+      - http_proxy=http://localhost:80
+      - https_proxy=https://localhost:80
+      - HTTP_PROXY=http://localhost:80
+      - HTTPS_PROXY=https://localhost:80
+      - no_proxy=localhost,127.0.0.1,api.covid19api.com,www.ebi.ac.uk,eutils.ncbi.nlm.nih.gov,doaj.org
     network_mode: host
     command: [ "cron", "-f" ]

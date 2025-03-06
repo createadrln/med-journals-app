@@ -13,6 +13,5 @@ COPY crontab /etc/cron.d/data_collector_cron
 RUN chmod 0644 /etc/cron.d/data_collector_cron && crontab /etc/cron.d/data_collector_cron
 
 RUN mkdir -p /app/logs
-RUN mkdir -p /app/raw_data
 
 CMD ["cron", "-f"]

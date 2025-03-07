@@ -2,11 +2,6 @@ import requests
 import json
 from bs4 import BeautifulSoup
 import xmltodict
-import os
-
-raw_data_path = '../raw_data'
-if not os.path.exists(raw_data_path):
-    os.makedirs(raw_data_path)
 
 def fetch_pubmed_data(term, type='full'):
     base_url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"

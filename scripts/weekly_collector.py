@@ -1,10 +1,5 @@
 import requests
 import json
-import os
-
-raw_data_path = '../raw_data'
-if not os.path.exists(raw_data_path):
-    os.makedirs(raw_data_path)
 
 def fetch_doaj_data(query, page_size=5):
     base_url = f"https://doaj.org/api/search/articles/{query}"

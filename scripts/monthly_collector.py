@@ -1,11 +1,6 @@
 import requests
 import json
 from datetime import date
-import os
-
-raw_data_path = '../raw_data'
-if not os.path.exists(raw_data_path):
-    os.makedirs(raw_data_path)
 
 BASE_URL = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
 
@@ -46,5 +41,5 @@ while page_count < 5:
         print(f"An error occurred while querying Europe PMC: {e}")
         break
 
-with open("../raw_data/europe_pmc.json", "w", encoding="utf-8") as file:
+with open("/app/raw_data/europe_pmc.json", "w", encoding="utf-8") as file:
     json.dump(all_results, file, indent=4)

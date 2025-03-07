@@ -55,8 +55,8 @@ full_data_dict = {}
 Bs_data = BeautifulSoup(full_data.text, 'xml')
 full_data_dict = json.dumps(xmltodict.parse(Bs_data.prettify()))
 
-with open('../raw_data/pubmed_full.json', 'w') as json_file:
+with open('/app/raw_data/pubmed_full.json', 'w') as json_file:
     json.dump(json.loads(full_data_dict), json_file, indent=4)
 
-with open('../raw_data/pubmed_detail.json', 'w') as json_file:
+with open('/app/raw_data/pubmed_detail.json', 'w') as json_file:
     json.dump(detail_data, json_file, indent=4)

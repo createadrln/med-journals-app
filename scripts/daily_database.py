@@ -1,5 +1,4 @@
 import json
-import csv
 import sqlite3
 from datetime import datetime
 import os
@@ -7,22 +6,22 @@ import os
 # Combine data files
 
 # Open Pubmed JSON data file
-if os.path.exists('../raw_data/pubmed_full.json'):
-    with open('../raw_data/pubmed_full.json', 'r') as json_file:
+if os.path.exists('/app/raw_data/pubmed_full.json'):
+    with open('/app/raw_data/pubmed_full.json', 'r') as json_file:
         pubmed_full_data = json.load(json_file)
 
 # Open DOAJ JSON data file
-if os.path.exists('../raw_data/doaj.json'):
-    with open('../raw_data/doaj.json', 'r') as json_file:
+if os.path.exists('/app/raw_data/doaj.json'):
+    with open('/app/raw_data/doaj.json', 'r') as json_file:
         doaj_full_data = json.load(json_file)
 
 # Open Europe PMC JSON data file
-if os.path.exists('../raw_data/europe_pmc.json'):
-    with open('../raw_data/europe_pmc.json', 'r') as json_file:
+if os.path.exists('/app/raw_data/europe_pmc.json'):
+    with open('/app/raw_data/europe_pmc.json', 'r') as json_file:
         europe_pmc_full_data = json.load(json_file)
 
 final_pubmed_data = []
-if os.path.exists('../raw_data/pubmed_full.json'):
+if os.path.exists('/app/raw_data/pubmed_full.json'):
     for article in pubmed_full_data['PubmedArticleSet']['PubmedArticle']:
         final_data_row = {
             'id': article['MedlineCitation']['PMID']['#text'],
@@ -37,7 +36,7 @@ if os.path.exists('../raw_data/pubmed_full.json'):
         final_pubmed_data.append(final_data_row)
 
 final_doaj_data = []
-if os.path.exists('../raw_data/doaj.json'):
+if os.path.exists('/app/raw_data/doaj.json'):
     for article in doaj_full_data['results']:
         final_data_row = {
             'id': article['id'],
@@ -52,7 +51,7 @@ if os.path.exists('../raw_data/doaj.json'):
         final_doaj_data.append(final_data_row)
 
 final_europe_pmc_data = []
-if os.path.exists('../raw_data/europe_pmc.json'):
+if os.path.exists('/app/raw_data/europe_pmc.json'):
     for article in europe_pmc_full_data:
         final_data_row = {
             'id': article['id'],
@@ -70,15 +69,15 @@ from datetime import date
 today = date.today()
 
 final_all = final_doaj_data + final_pubmed_data + final_europe_pmc_data
-with open('../raw_data/combined_sources.json', 'w') as json_file:
+with open('/app/raw_data/combined_sources.json', 'w') as json_file:
     json.dump(final_all, json_file, indent=4)
 
-with open(f'../raw_data/combined_sources_{today}.json', 'w') as json_file:
+with open(f'/app/raw_data/combined_sources_{today}.json', 'w') as json_file:
     json.dump(final_all, json_file, indent=4)
 
 # Load to Database
 
-conn = sqlite3.connect('./databases/CovidData.db')
+conn = sqlite3.connect('/app/databases/CovidData.db')
 cursor = conn.cursor()
 
 create_research_table_sql = """
@@ -115,7 +114,7 @@ cursor.execute(create_abstracts_table_sql)
 
 list_delimiter = ', '
 
-with open('../raw_data/combined_sources.json', 'r') as json_file:
+with open('/app/raw_data/combined_sources.json', 'r') as json_file:
     data = json.load(json_file)
 
     for item in data:

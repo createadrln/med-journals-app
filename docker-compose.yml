@@ -33,6 +33,7 @@ services:
       - ./logs:/app/logs
       - ./data:/app/databases
       - ./raw_data:/app/raw_data
+      - ./scripts:/app/scripts
     restart: always
     environment:
       - http_proxy=http://localhost:80

@@ -3,3 +3,4 @@ bs4
 xmltodict
 requests
 datetime
+springernature_api_client

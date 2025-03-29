@@ -2,6 +2,8 @@ import requests
 import json
 from bs4 import BeautifulSoup
 import xmltodict
+import springernature_api_client.openaccess as openaccess
+
 
 def fetch_pubmed_data(term, type='full'):
     base_url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
@@ -50,8 +52,8 @@ full_data_dict = {}
 Bs_data = BeautifulSoup(full_data.text, 'xml')
 full_data_dict = json.dumps(xmltodict.parse(Bs_data.prettify()))
 
-with open('/app/raw_data/pubmed_full.json', 'w') as json_file:
+with open('/app/raw_data/pubmed_full.json', 'w', encoding="utf-8") as json_file:
     json.dump(json.loads(full_data_dict), json_file, indent=4)
 
-with open('/app/raw_data/pubmed_detail.json', 'w') as json_file:
+with open('/app/raw_data/pubmed_detail.json', 'w', encoding="utf-8") as json_file:
     json.dump(detail_data, json_file, indent=4)

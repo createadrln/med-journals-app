@@ -274,7 +274,7 @@ with open('/app/raw_data/combined_sources.json', 'r') as json_file:
             ))
 
 cursor.execute(
-    """DELETE FROM covid_research_keywords WHERE keyword IN ('Pandemic', 'pandemic', 'COVID-19', 'SARS-CoV-2', 'covid-19', 'Pandemics', '“COVID-19”', 'covid‐19', 'COVID‐19', 'SARS‐CoV‐2', 'SARS-CoV-2 pandemic', 'COVID-19 or SARS-CoV-2', 'pandemie', 'Coronavirus', 'Covid-19', 'Coronavirus disease 2019 (COVID-19)')""")
+    """DELETE FROM covid_research_keywords WHERE keyword IN ('Pandemic', 'pandemic', 'COVID-19', 'SARS-CoV-2', 'covid-19', 'Pandemics', '“COVID-19”', 'covid‐19', 'COVID‐19', 'SARS‐CoV‐2', 'SARS-CoV-2 pandemic', 'COVID-19 or SARS-CoV-2', 'pandemie', 'Coronavirus', 'Covid-19', 'Coronavirus disease 2019 (COVID-19)', 'COVID', 'COVID-19 Pandemic')""")
 
 conn.commit()
 conn.close()

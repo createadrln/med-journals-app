@@ -53,13 +53,11 @@ with open("/app/raw_data/europe_pmc.json", "w", encoding="utf-8") as file:
 
 def fetch_springer_data():
     API_KEY = "4469bb1a301391b47d98e28d86d95115"
-    BASE_URL = "https://api.springernature.com/openaccess/json"
-
     openaccess_client = openaccess.OpenAccessAPI(API_KEY)
 
     try:
         response = openaccess_client.search(
-            q="COVID-19", p=20, s=1, fetch_all=False, is_premium=False)
+            q="COVID-19", p=20, s=1, fetch_all=True, is_premium=False)
         return response
     except Exception as e:
         print(f"An error occurred while querying Springer Data: {e}")

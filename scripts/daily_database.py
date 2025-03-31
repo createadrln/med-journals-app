@@ -20,6 +20,10 @@ if os.path.exists('/app/raw_data/europe_pmc.json'):
     with open('/app/raw_data/europe_pmc.json', 'r') as json_file:
         europe_pmc_full_data = json.load(json_file)
 
+# Open Springer JSON data file
+with open('/app/raw_data/springer.json', 'r') as json_file:
+    springer_full_data = json.load(json_file)
+
 final_pubmed_data = []
 if os.path.exists('/app/raw_data/pubmed_full.json'):
     for article in pubmed_full_data['PubmedArticleSet']['PubmedArticle']:
@@ -64,6 +68,20 @@ if os.path.exists('/app/raw_data/europe_pmc.json'):
             'abstract': None
         }
         final_europe_pmc_data.append(final_data_row)
+
+final_springer_full_data = []
+for article in springer_full_data['records']:
+    final_data_row = {
+        'id': article['identifier'],
+        'source': 'Springer',
+        'date': article['publicationDate'],
+        'title': article['title'],
+        'link': article['url'][0],
+        'authors': article['creators'],
+        'keywords': article['subjects'],
+        'abstract': article['abstract']
+    }
+    final_springer_full_data.append(final_data_row)
 
 from datetime import date
 today = date.today()
@@ -219,6 +237,40 @@ with open('/app/raw_data/combined_sources.json', 'r') as json_file:
             cursor.execute("INSERT OR IGNORE INTO covid_research_abstracts VALUES(?,?)", (
                 item['id'],
                 list_delimiter.join(item['abstract']),
+            ))
+
+        if item['source'] == 'Springer':
+            datetime_object = datetime.strptime(
+                item['date'], '%Y-%m-%d')
+            datetime_timestamp = datetime.timestamp(datetime_object)
+
+            keywords_list = []
+            for keyword in item.get('keywords', []):
+                keywords_list.append(keyword)
+            for keyword in keywords_list:
+                cursor.execute(
+                    "INSERT OR IGNORE INTO covid_research_keywords VALUES(?,?)", (item['id'], keyword))
+
+            authors_list = []
+            for author in item['authors']:
+                authors_list.append(author.get('creator', ""))
+
+            cursor.execute("INSERT OR IGNORE INTO covid_research VALUES(?,?,?,?,?,?,?,?,?)", (
+                item['id'],
+                item['source'],
+                str(datetime_object),
+                str(datetime_timestamp),
+                item['title'],
+                item['link']['value'],
+                list_delimiter.join(authors_list),
+                None,
+                list_delimiter.join(item['keywords']),
+            ))
+
+            cursor.execute("INSERT OR IGNORE INTO covid_research_abstracts VALUES(?,?)", (
+                item['id'],
+                item['abstract']['p'][0] if isinstance(
+                    item['abstract']['p'], list) else item['abstract']['p']
             ))
 
 cursor.execute(

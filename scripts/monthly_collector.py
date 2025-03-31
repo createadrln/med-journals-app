@@ -1,6 +1,7 @@
 import requests
 import json
 from datetime import date
+import springernature_api_client.openaccess as openaccess
 
 
 def fetch_europepmc_data():
@@ -45,8 +46,10 @@ def fetch_europepmc_data():
             print(f"An error occurred while querying Europe PMC: {e}")
             break
 
+
 with open("/app/raw_data/europe_pmc.json", "w", encoding="utf-8") as file:
     json.dump(fetch_europepmc_data(), file, indent=4)
+
 
 def fetch_springer_data():
     API_KEY = "4469bb1a301391b47d98e28d86d95115"
@@ -59,8 +62,7 @@ def fetch_springer_data():
             q="COVID-19", p=20, s=1, fetch_all=False, is_premium=False)
         return response
     except Exception as e:
-        print(f"An error occurred while querying Springer Nature: {e}")
-
+        print(f"An error occurred while querying Springer Data: {e}")
 
 with open("/app/raw_data/springer.json", "w", encoding="utf-8") as json_file:
     json.dump(fetch_springer_data(), json_file, indent=4)

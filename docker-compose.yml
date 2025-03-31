@@ -40,6 +40,6 @@ services:
       - https_proxy=https://localhost:80
       - HTTP_PROXY=http://localhost:80
       - HTTPS_PROXY=https://localhost:80
-      - no_proxy=localhost,127.0.0.1,api.covid19api.com,www.ebi.ac.uk,eutils.ncbi.nlm.nih.gov,doaj.org
+      - no_proxy=localhost,127.0.0.1,api.covid19api.com,www.ebi.ac.uk,eutils.ncbi.nlm.nih.gov,doaj.org,api.springernature.com
     network_mode: host
     command: [ "cron", "-f" ]

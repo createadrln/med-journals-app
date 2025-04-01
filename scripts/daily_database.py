@@ -21,8 +21,9 @@ if os.path.exists('/app/raw_data/europe_pmc.json'):
         europe_pmc_full_data = json.load(json_file)
 
 # Open Springer JSON data file
-with open('/app/raw_data/springer.json', 'r') as json_file:
-    springer_full_data = json.load(json_file)
+if os.path.exists('/app/raw_data/springer.json'):
+    with open('/app/raw_data/springer.json', 'r') as json_file:
+        springer_full_data = json.load(json_file)
 
 final_pubmed_data = []
 if os.path.exists('/app/raw_data/pubmed_full.json'):

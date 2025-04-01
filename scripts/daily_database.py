@@ -71,18 +71,19 @@ if os.path.exists('/app/raw_data/europe_pmc.json'):
         final_europe_pmc_data.append(final_data_row)
 
 final_springer_full_data = []
-for article in springer_full_data['records']:
-    final_data_row = {
-        'id': article['identifier'],
-        'source': 'Springer',
-        'date': article['publicationDate'],
-        'title': article['title'],
-        'link': article['url'][0],
-        'authors': article['creators'],
-        'keywords': article['subjects'],
-        'abstract': article['abstract']
-    }
-    final_springer_full_data.append(final_data_row)
+if os.path.exists('/app/raw_data/springer.json'):
+    for article in springer_full_data['records']:
+        final_data_row = {
+            'id': article['identifier'],
+            'source': 'Springer',
+            'date': article['publicationDate'],
+            'title': article['title'],
+            'link': article['url'][0],
+            'authors': article['creators'],
+            'keywords': article['subjects'],
+            'abstract': article['abstract']
+        }
+        final_springer_full_data.append(final_data_row)
 
 from datetime import date
 today = date.today()

@@ -57,7 +57,7 @@ def fetch_springer_data():
 
     try:
         response = openaccess_client.search(
-            q="COVID-19", p=10, s=1, fetch_all=True, is_premium=False)
+            q="COVID-19", p=499, s=1, fetch_all=False, is_premium=False)
         return response
     except Exception as e:
         print(f"An error occurred while querying Springer Data: {e}")

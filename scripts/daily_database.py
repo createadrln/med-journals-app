@@ -72,7 +72,7 @@ if os.path.exists('/app/raw_data/europe_pmc.json'):
 
 final_springer_full_data = []
 if os.path.exists('/app/raw_data/springer.json'):
-    for article in springer_full_data['records']:
+    for article in springer_full_data.get('records', []):
         final_data_row = {
             'id': article['identifier'],
             'source': 'Springer',

@@ -77,7 +77,7 @@ if os.path.exists('/app/raw_data/springer.json'):
         final_data_row = {
             'id': article['identifier'],
             'source': 'Springer',
-            'date': article['publicationDate'],
+            'date': article['onlineDate'],
             'title': article['title'],
             'link': article['url'][0],
             'authors': article['creators'],

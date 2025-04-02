@@ -1,3 +1,4 @@
+from datetime import date
 import json
 import sqlite3
 from datetime import datetime
@@ -85,10 +86,10 @@ if os.path.exists('/app/raw_data/springer.json'):
         }
         final_springer_full_data.append(final_data_row)
 
-from datetime import date
 today = date.today()
 
-final_all = final_doaj_data + final_pubmed_data + final_europe_pmc_data
+final_all = final_doaj_data + final_pubmed_data + \
+    final_europe_pmc_data + final_springer_full_data
 with open('/app/raw_data/combined_sources.json', 'w') as json_file:
     json.dump(final_all, json_file, indent=4)
 

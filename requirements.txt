@@ -4,3 +4,4 @@ xmltodict
 requests
 datetime
 springernature_api_client
+dotenv

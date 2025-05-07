@@ -4,10 +4,10 @@ import sqlite3
 from datetime import datetime
 import os
 
-for filename in os.listdir('../raw_data/2025archive'):
+for filename in os.listdir('../raw_data/2024archive'):
     if filename.endswith('.json') and 'pubmed' in filename:
         print(filename)
-        with open(os.path.join('../raw_data/2025archive', filename), 'r') as json_file:
+        with open(os.path.join('../raw_data/2024archive', filename), 'r') as json_file:
             pubmed_data = json.load(json_file)
 
             final_pubmed_data = []
@@ -102,7 +102,7 @@ for filename in os.listdir('../raw_data/2025archive'):
                             keywords_list.append(item['keywords']['#text'])
                         else:
                             for keyword in item.get('keywords', []):
-                                keywords_list.append(keyword['#text'])
+                                keywords_list.append(keyword.get('#text', ''))
 
                         for keyword in keywords_list:
                             cursor.execute(

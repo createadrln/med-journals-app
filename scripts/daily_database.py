@@ -277,7 +277,7 @@ with open('/app/raw_data/combined_sources.json', 'r') as json_file:
             ))
 
 cursor.execute(
-    """DELETE FROM covid_research_keywords WHERE keyword IN ('Pandemic', 'pandemic', 'COVID-19', 'SARS-CoV-2', 'covid-19', 'Pandemics', '“COVID-19”', 'covid‐19', 'COVID‐19', 'SARS‐CoV‐2', 'SARS-CoV-2 pandemic', 'COVID-19 or SARS-CoV-2', 'pandemie', 'Coronavirus', 'Covid-19', 'Coronavirus disease 2019 (COVID-19)', 'COVID', 'COVID-19 Pandemic')""")
+    """DELETE FROM covid_research_keywords WHERE keyword IN ('Pandemic', 'pandemic', 'COVID-19', 'SARS-CoV-2', 'covid-19', 'Pandemics', '“COVID-19”', 'covid‐19', 'COVID‐19', 'SARS‐CoV‐2', 'SARS-CoV-2 pandemic', 'COVID-19 or SARS-CoV-2', 'pandemie', 'Coronavirus', 'Covid-19', 'Coronavirus disease 2019 (COVID-19)', 'COVID', 'COVID-19 Pandemic', '2021', '2022', ' ', '2019 Coronavirus disease', '2019 novel coronavirus', '2019 novel coronavirus disease', '2019-nCoV', '2019-nCoV disease', '2019nCoV', '2019-nCoV infection', '2019-nCoV disease', 'COVID-19 pandemic', 'COVID-19 disease', 'COVID-19 virus', 'COVID-19 virus infection', 'COVID-19 virus disease', 'COVID-19 virus disease 2019', 'COVID-19 virus infection 2019', '2019 rok', '2023-2024 COVID-19 vaccine', 'COVID-19 pandemic')""")
 
 conn.commit()
 conn.close()

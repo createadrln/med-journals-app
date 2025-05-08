@@ -126,7 +126,7 @@ for filename in os.listdir('../raw_data/2024archive'):
 
                         abstracts_list = []
                         if isinstance(item['abstract'], dict):
-                            abstracts_list.append(item['abstract']['#text'])
+                            abstracts_list.append(item['abstract'].get('#text', ''))
                         elif isinstance(item['abstract'], str):
                             abstracts_list.append(item['abstract'])
                         else:

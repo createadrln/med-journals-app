@@ -4,14 +4,14 @@ import sqlite3
 from datetime import datetime
 import os
 
-for filename in os.listdir('../raw_data/2024archive'):
+for filename in os.listdir('../raw_data/2023archive'):
     if filename.endswith('.json') and 'pubmed' in filename:
         print(filename)
-        with open(os.path.join('../raw_data/2024archive', filename), 'r') as json_file:
+        with open(os.path.join('../raw_data/2023archive', filename), 'r') as json_file:
             pubmed_data = json.load(json_file)
 
             final_pubmed_data = []
-            for article in pubmed_data['PubmedArticleSet']['PubmedArticle']:
+            for article in pubmed_data['PubmedArticleSet'].get('PubmedArticle', []):
                 final_data_row = {
                     'id': article['MedlineCitation']['PMID']['#text'],
                     'source': 'PubMed',

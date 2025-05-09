@@ -8,6 +8,7 @@ services:
       - BACKEND_HOST_URL=${BACKEND_HOST_URL}
     volumes:
       - ./data:/app/data
+      - ./backend/subscribers.txt:/app/subscribers.txt
     ports:
       - "3000:3000"
 

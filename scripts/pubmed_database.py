@@ -126,20 +126,19 @@ for filename in os.listdir('../raw_data/2023archive'):
 
                         abstracts_list = []
                         if isinstance(item['abstract'], dict):
-                            abstracts_list.append(item['abstract'].get('#text', ''))
+                            abstracts_list.append(item['abstract'].get('#text', '').strip())
                         elif isinstance(item['abstract'], str):
-                            abstracts_list.append(item['abstract'])
+                            abstracts_list.append(item['abstract'].strip())
                         else:
                             for abstract in item['abstract']:
-                                abstracts_list.append(abstract.get('#text', ''))
+                                abstracts_list.append(abstract.get('#text', '').strip())
 
                         cursor.execute("INSERT OR IGNORE INTO covid_research_abstracts VALUES(?,?)", (
                             item['id'],
                             list_delimiter.join(abstracts_list),
                         ))
 
-            cursor.execute(
-                """DELETE FROM covid_research_keywords WHERE keyword IN ('Pandemic', 'pandemic', 'COVID-19', 'SARS-CoV-2', 'covid-19', 'Pandemics', '“COVID-19”', 'covid‐19', 'COVID‐19', 'SARS‐CoV‐2', 'SARS-CoV-2 pandemic', 'COVID-19 or SARS-CoV-2', 'pandemie', 'Coronavirus', 'Covid-19', 'Coronavirus disease 2019 (COVID-19)', 'COVID', 'COVID-19 Pandemic')""")
+            cursor.execute("DELETE FROM covid_research_abstracts WHERE abstract IS NULL OR TRIM(abstract) = ''")
 
             conn.commit()
             conn.close()

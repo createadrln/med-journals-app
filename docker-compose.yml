@@ -37,6 +37,7 @@ services:
       - ./scripts:/app/scripts
     restart: always
     environment:
+      - SPRINGER_API_KEY=${SPRINGER_API_KEY}
       - http_proxy=http://localhost:80
       - https_proxy=https://localhost:80
       - HTTP_PROXY=http://localhost:80

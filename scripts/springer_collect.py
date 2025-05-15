@@ -7,7 +7,7 @@ load_dotenv()
 
 
 def fetch_springer_data():
-    API_KEY = os.getenv("SPRINGER_API")
+    API_KEY = os.getenv("SPRINGER_API_KEY")
     openaccess_client = openaccess.OpenAccessAPI(API_KEY)
     try:
         response = openaccess_client.search(

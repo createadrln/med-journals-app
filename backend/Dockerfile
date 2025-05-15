@@ -1,9 +1,11 @@
-FROM node:22.13.1
+FROM node:22.14.0
 
 WORKDIR /app
 
-COPY package.json package-lock.json ./
-RUN npm install
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
+RUN npm install --global corepack@latest
+RUN corepack enable pnpm
+RUN pnpm install
 
 COPY . .
 

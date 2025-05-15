@@ -1,4 +1,4 @@
-const subscriptionModel = require("../models/subscriptionModel");
+const subscriptionModel = require("../models/SubscriptionModel");
 
 exports.subscribe = (req, res) => {
   const { email } = req.body;

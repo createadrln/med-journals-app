@@ -1,11 +1,13 @@
 # Run the daily script at midnight (UTC)
-0 0 * * * /usr/local/bin/python /app/scripts/daily_collector.py >> /app/logs/daily.log 2>&1
+0 0 * * * /usr/local/bin/python /app/scripts/pubmed_collect.py >> /app/logs/pubmed.log 2>&1
 
-# Run the database script at 5AM (UTC)
+# Run the database scripts at 5AM (UTC)
 0 5 * * * /usr/local/bin/python /app/scripts/daily_database.py >> /app/logs/database.log 2>&1
+0 5 * * * /usr/local/bin/python /app/scripts/pubmed_database.py >> /app/logs/pubmed_database.log 2>&1
 
 # Run the weekly script every Monday at 1 AM (UTC)
-0 1 * * 1 /usr/local/bin/python /app/scripts/weekly_collector.py >> /app/logs/weekly.log 2>&1
+0 1 * * 1 /usr/local/bin/python /app/scripts/doaj_collect.py >> /app/logs/doaj.log 2>&1
 
-# Run the monthly script on the 1st of each month at 2 AM (UTC)
-0 2 1 * * /usr/local/bin/python /app/scripts/monthly_collector.py >> /app/logs/monthly.log 2>&1
+# Run the monthly scripts on the 1st of each month at 2 AM (UTC)
+0 2 1 * * /usr/local/bin/python /app/scripts/europepmc_collect.py >> /app/logs/europepmc.log 2>&1
+0 2 1 * * /usr/local/bin/python /app/scripts/springer_collect.py >> /app/logs/springer.log 2>&1

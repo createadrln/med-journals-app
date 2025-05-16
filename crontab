@@ -7,6 +7,7 @@
 
 # Run the weekly script every Monday at 1 AM (UTC)
 0 1 * * 1 /usr/local/bin/python /app/scripts/doaj_collect.py >> /app/logs/doaj.log 2>&1
+0 1 * * 1 /usr/local/bin/python /app/scripts/database_optimize.py >> /app/logs/db_optimize.log 2>&1
 
 # Run the monthly scripts on the 1st of each month at 2 AM (UTC)
 0 2 1 * * /usr/local/bin/python /app/scripts/europepmc_collect.py >> /app/logs/europepmc.log 2>&1

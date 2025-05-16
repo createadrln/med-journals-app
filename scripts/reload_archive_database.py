@@ -13,6 +13,7 @@ list_delimiter = ', '
 
 for filename in os.listdir('/app/raw_data/archive'):
     if filename.endswith('.json') and 'combined' in filename:
+        print(filename)
         with open(os.path.join('/app/raw_data/archive', filename), 'r') as json_file:
 
             data = json.load(json_file)

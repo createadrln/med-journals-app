@@ -6,7 +6,6 @@ import os
 
 for filename in os.listdir('/app/raw_data/pubmed'):
     if filename.endswith('.json') and 'pubmed' in filename:
-        print(filename)
         with open(os.path.join('/app/raw_data/pubmed', filename), 'r') as json_file:
             pubmed_data = json.load(json_file)
 

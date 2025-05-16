@@ -2,7 +2,7 @@ const db = require("../config/database");
 
 const JournalModel = {
   getJournals: (filters, pagination, sorting, callback) => {
-    let sql = `SELECT id, source, pub_date, title, link FROM covid_research`;
+    let sql = `SELECT id, source, pub_timestamp, title, link FROM covid_research`;
     let countSql = `SELECT COUNT(*) AS totalCount FROM covid_research`;
     let queryParams = [];
     let whereClauses = [];
